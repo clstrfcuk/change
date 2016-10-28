@@ -1,0 +1,20 @@
+.customize-control-title {
+	font-size: 13px;
+}
+#customize-control-dt_skin {
+	padding-bottom:15px;
+	border-bottom:1px dashed #dddddd;
+}
+#customize-control-dt_footer_title_font_color, #customize-control-dt_h1_font_color, #customize-control-dt_h2_font_color, #customize-control-dt_h3_font_color, #customize-control-dt_h4_font_color, #customize-control-dt_h5_font_color {
+	padding-bottom:10px;
+	border-bottom:1px dashed #dddddd;
+}
+#accordion-section-dt_customizer_settings select, #accordion-section-dt_menu_settings select, #accordion-section-dt_body_settings select, #accordion-section-dt_footer_settings select, #accordion-section-dt_typography_settings select { 
+	padding:5px; 
+	width:100%;
+	height:30px; 
+	border:1px solid #dddddd;
+}
+#customize-control-dt_menu_font_size input[type="text"], #customize-control-dt_body_font_size input[type="text"], #customize-control-dt_footer_title_font_size input[type="text"], #customize-control-dt_footer_content_font_size input[type="text"] {
+	width: 43%;
+}

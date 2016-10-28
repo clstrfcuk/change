@@ -1,0 +1,17 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+## 13.05.2015
+[ADDED] NEW Module "Tiny Compress" which uses the TinyPNG.com API service to compress images (PNG & Jpegs) - a replacement for the Old "Smushit" Module
+
+## 18.03.2015
+[ADDED] Custom Stop Words List for Meta-Keywords. (On Page Optimization -> Mass Optimization -> Settings)
+
+## 14.03.2015
+[ADDED] Module Title & Meta Format, meta tags "title", "description", "keywords", "robots" have a new option "Products" which differentiate them from "Posts"
+
+## 06.03.2015
+[FIX] Sitemap for woocommerce products is printed incorrectly(it prints the product category link). Now it prits the correct product link.
+
+## 23.02.2015
+[FIX] 301 redirect now works even if a 404 template is not present

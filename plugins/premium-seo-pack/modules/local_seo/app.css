@@ -1,0 +1,76 @@
+a.answer-delete-btn {
+	border-bottom-color: #FF0000;
+	color: #FF0000;
+	padding: 2px;
+	position: absolute;
+	top: 33px;
+	left: 0px;
+}
+a.answer-delete-btn:hover {
+	border-bottom-color: #FF0000;
+	color: #FFF;
+	background-color: #FF0000;
+}
+#psp-add-new-answer {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+.psp-form-row-fake {
+	border: 1px solid #dadada;
+	padding: 40px 0 40px 0;
+	background-color: #e8e5d3;
+}
+#psp-panel-content-dom .psp-form-row {
+	width: 100%;
+	background-color: #fff;
+}
+.psp-form-row.ui-sortable-helper {
+	background: #d6f1f9;
+	padding-bottom: 80px;
+	border: 1px solid #dadada;
+}
+
+a.opening-delete-btn {
+	border-bottom-color: #FF0000;
+    color: #FF0000;
+	padding: 2px;
+	position: absolute;
+	top: 33px;
+	left:0px;
+}
+	a.opening-delete-btn:hover {
+		border-bottom-color: #FF0000;
+		color: #FFF;
+		background-color: #FF0000;
+	}
+#psp-add-new-opening {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+.psp-form-row-fake {
+	border: 1px solid #dadada;
+	padding: 40px 0 40px 0;
+	background-color: #e8e5d3;
+}
+#psp-panel-content-dom .psp-form-row {
+	width: 100%;
+	background-color: #fff;
+}
+.psp-form-row.ui-sortable-helper {
+	background: #d6f1f9;
+	padding-bottom: 80px;
+	border: 1px solid #dadada;
+}
+
+#psp-map-canvas {
+	width: 555px;
+	height: 416px;
+	display: none;
+}
+
+/** FIX for Bootstrap and Google Maps Info window styes problem **/
+img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
+	max-width: none;
+}

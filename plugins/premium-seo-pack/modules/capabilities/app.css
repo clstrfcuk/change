@@ -1,0 +1,16 @@
+.psp-panel-content .psp-table-ajax-list .psp-table td.mod-core {
+}
+.psp-panel-content .psp-table-ajax-list .psp-table td.mod-active {
+	background-color: #2ecc71;
+	color: #fff;
+}
+.psp-panel-content .psp-table-ajax-list .psp-table td.mod-inactive {
+	background-color: rgba(52, 73, 94, 0.5);
+	color: #fff;
+}
+.psp-form .psp-form-row {
+	padding: 0px 0px 0px 0px;
+}
+#psp-list-table-posts {
+	background: #fff;
+}

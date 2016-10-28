@@ -1,0 +1,77 @@
+table.psp-table {
+    width: 100%;
+    margin: 0;
+    clear: both;
+}
+
+table.psp-table tr td,table.psp-table tr th {
+    vertical-align: top;
+}
+
+table.psp-table thead tr {
+    background: #ecf0f1;
+}
+
+table.psp-table tr th {
+    padding: 11px 20px;
+    border-bottom: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+}
+
+table.psp-table thead tr {
+}
+
+table.psp-table tr th:last-child {
+    border-right: 0;
+}
+
+table.psp-table tr td {
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #e0e0e0;
+    padding: 7px 20px;
+}
+
+table.psp-table tr td:last-child {
+    border-right: 0;
+}
+
+table.psp-table tr:last-child td {
+    border-bottom: 0;
+}
+
+table.psp-table tr td.psp-icon-column {
+    text-align: center;
+    width: 80px;
+}
+
+table.psp-table tr td.psp-icon-column img {
+    margin: 0 2px;
+}
+
+table.psp-table tr.odd {
+    background-color: #f4f4f4;
+}
+
+table.psp-table tr.even {
+    background-color: #fcfcfc;
+}
+
+@media only screen and (max-width:480px) {
+    table.psp-table thead th {
+        overflow: hidden;
+        padding: 8px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .dataTables_wrapper .dataTables_length,.dataTables_wrapper .dataTables_filter,.dataTables_wrapper .dataTables_info,.dataTables_wrapper .dataTables_paginate {
+        display: block;
+        text-align: center;
+        float: none;
+        padding: 6px;
+    }
+
+    .psp-panel:not(.scrollable) table.psp-table {
+        table-layout: fixed;
+    }
+}

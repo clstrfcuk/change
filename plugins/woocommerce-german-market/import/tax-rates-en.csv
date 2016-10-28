@@ -1,0 +1,3 @@
+Country Code,State Code,ZIP/Postcode,City,Rate %,Tax Name,Priority,Compound,Shipping,Tax Class
+DE,*,*,*,19.0000,VAT,1,no,yes,
+DE,*,*,*,7.0000,reduced VAT,1,no,yes,reduced-rate

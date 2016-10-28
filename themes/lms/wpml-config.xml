@@ -1,0 +1,92 @@
+<wpml-config>
+    <custom-fields>
+		<custom-field action="copy">_dt_post_settings</custom-field>
+		<custom-field action="translate">_portfolio_settings</custom-field>
+		<custom-field action="translate">_teacher_settings</custom-field>
+		<custom-field action="copy">_course_settings</custom-field>
+		<custom-field action="translate">_lesson_settings</custom-field>
+		<custom-field action="translate">_quiz_settings</custom-field>
+        <custom-field action="translate">_seo_title</custom-field>
+        <custom-field action="translate">_seo_keywords</custom-field>
+        <custom-field action="translate">_seo_description</custom-field>
+		<custom-field action="translate">multicorrect-answers</custom-field>
+		<custom-field action="translate">multichoice-answers</custom-field>
+		<custom-field action="translate">boolean-answer</custom-field>
+		<custom-field action="translate">text-before-gap</custom-field>
+		<custom-field action="translate">gap</custom-field>
+		<custom-field action="translate">text-after-gap</custom-field>
+		<custom-field action="translate">singleline-answer</custom-field>
+		<custom-field action="translate">multiline-answer</custom-field>
+		<custom-field action="translate">answer-explanation</custom-field>
+		<custom-field action="translate">assignment-subtitle</custom-field>
+		<custom-field action="copy">_dt_builder_settings</custom-field>
+    </custom-fields>
+	
+    <custom-types>
+        <custom-type translate="1">dt_portfolios</custom-type>
+		<custom-type translate="1">dt_teachers</custom-type>
+		<custom-type translate="1">dt_courses</custom-type>
+		<custom-type translate="1">dt_lessons</custom-type>
+		<custom-type translate="1">dt_gradings</custom-type>
+		<custom-type translate="1">dt_certificates</custom-type>
+		<custom-type translate="1">dt_assignments</custom-type>
+		<custom-type translate="1">dt_payments</custom-type>
+		<custom-type translate="1">dt_questions</custom-type>
+		<custom-type translate="1">dt_quizes</custom-type>
+    </custom-types>    
+
+    <taxonomies>
+        <taxonomy translate="1">portfolio_entries</taxonomy>
+		<taxonomy translate="1">course_category</taxonomy>
+		<taxonomy translate="1">lesson_complexity</taxonomy>
+		<taxonomy translate="0">dt_dummy</taxonomy>
+    </taxonomies>
+
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>    
+        <key name="icl_language_switcher_sidebar">0</key>  
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>    
+    </language-switcher-settings>  
+    <admin-texts>
+        <key name="mytheme">
+            <key name="general">
+                <key name="h4-phoneno"/>
+                <key name="h4-emailid"/>
+                <key name="copyright-text"/>
+            </key>
+            <key name="specialty">
+                <key name="404-message"/>
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>

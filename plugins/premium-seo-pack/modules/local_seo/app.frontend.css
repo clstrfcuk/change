@@ -1,0 +1,13 @@
+/** FIX for Bootstrap and Google Maps Info window styes problem **/
+img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
+	max-width: none;
+}
+.psp-loc-business {
+	float: left;
+	overflow: hidden;
+	width: 100%; 
+}
+	.psp-loc-business .psp-company-logo {
+		float: left;
+		margin: 0px 15px 0px 0px;
+	}

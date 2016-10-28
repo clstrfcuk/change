@@ -1,0 +1,231 @@
+/* =============================================================================
+// GLOBAL.CSS
+// -----------------------------------------------------------------------------
+// Global admin styles needed on all pages.
+// ========================================================================== */
+
+/* =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Addons Menu
+//   02. Notices
+//   03. Confirm
+//   04. Utilities
+// ========================================================================== */
+
+/* Addons Menu
+// ========================================================================== */
+
+@import url(//fonts.googleapis.com/css?family=Lato:300&text=X);
+
+#adminmenu li.menu-top.toplevel_page_x-addons-home > a .wp-menu-image:before {
+  content: "X";
+  padding-top: 6px;
+  font-family: Lato, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+
+#adminmenu li.menu-top.toplevel_page_x-addons-home > .wp-submenu > li:nth-child(6):not(:last-child) {
+  position: relative;
+  margin-bottom: 9px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 6px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+#adminmenu li.menu-top.toplevel_page_x-addons-home > .wp-submenu > li:nth-child(6):not(:last-child) > a:after {
+  content: "\f140";
+  font-family: dashicons;
+  display: block;
+  float: right;
+  width: 19px;
+  height: 15px;
+  font-size: 22px;
+  line-height: 15px;
+  text-align: center;
+  color: #bbb;
+  opacity: 0.25;
+}
+
+
+
+/* Notices
+// ========================================================================== */
+
+/*
+// X.
+*/
+
+div.x-notice {
+  position: relative;
+}
+
+div.x-notice.dismissible {
+  padding-right: 50px;
+}
+
+div.x-notice.warning {
+  border-color: #ffbb00;
+}
+
+div.x-notice a {
+  text-decoration: underline;
+}
+
+div.x-notice a.dismiss {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  line-height: 1.0;
+  text-decoration: none;
+}
+
+.about-wrap div.x-notice.cornerstone {
+  display: block !important;
+  margin: 35px 0;
+}
+
+
+/*
+// TGM.
+*/
+
+div#setting-error-tgmpa {
+  display: none !important;
+}
+
+
+/*
+// Revolution Slider.
+*/
+
+div.rs-update-notice-wrap {
+  display: none !important;
+}
+
+
+
+/* Confirm
+// ========================================================================== */
+
+.x-admin-confirm-outer {
+  display: table;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 999999999;
+}
+
+.x-admin-confirm-inner {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  vertical-align: middle;
+}
+
+.x-admin-confirm-content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.875);
+}
+
+.x-admin-confirm-message {
+  margin: 0;
+  padding: 25px;
+  border-bottom: 1px solid #ddd;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.x-admin-confirm-actions {
+  padding: 15px 25px;
+}
+
+.x-admin-confirm-actions button {
+  min-width: 85px;
+  margin: 0 7px;
+  border: 0;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.085em;
+  line-height: 1;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #777;
+  border-radius: 4px;
+}
+
+.x-admin-confirm-actions button span {
+  letter-spacing: -0.085em;
+}
+
+.x-admin-confirm-actions button.yep {
+  background-color: #e74c3c;
+}
+
+.x-admin-confirm-actions button.yep.success {
+  background-color: #2ecc71;
+}
+
+.x-admin-confirm-actions button:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.x-admin-confirm-actions button:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 782px) {
+  .x-admin-confirm-message {
+    font-size: 16px;
+  }
+}
+
+
+
+/* Utilities
+// ========================================================================== */
+
+/*
+// Clearfix.
+*/
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+/*
+// Form validation.
+*/
+
+.x-input-success {
+  color: #008b1f !important;
+  border-color: #7ad03a !important;
+  background-color: #e2fee5 !important;
+}
+
+
+/*
+// Alignment.
+*/
+
+.text-left   { text-align: left;   }
+.text-right  { text-align: right;  }
+.text-center { text-align: center; }

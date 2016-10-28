@@ -1,0 +1,13 @@
+@media print {
+	
+	.dt-sc-cert-header h2 { font-size:20px; }
+	.dt-sc-cert-header .dt-sc-cert-badge, .dt-sc-cert-header .dt-sc-cert-comp-logo { max-width:90px; }
+	.dt-sc-cert-header .dt-sc-cert-badge { right:-10px; margin-top:0px; }
+	.dt-sc-cert-header .dt-sc-cert-comp-logo { left:-10px; top:10px; }
+	.dt-sc-cert-content .dt-sc-student-name span { margin:35px 0px 0px; }
+	
+	.dt-sc-cert-footer, .dt-sc-cert-date p span { font-size:16px; }
+	
+	.dt-sc-course-certificate-wrapper.type2 .dt-sc-cert-badge { left:40px; }
+	.dt-sc-course-certificate-wrapper.type2 .dt-sc-cert-content .dt-sc-student-name, .dt-sc-course-certificate-wrapper.type3 .dt-sc-cert-content .dt-sc-student-name { min-width:350px; }
+}

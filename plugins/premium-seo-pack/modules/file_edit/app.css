@@ -1,0 +1,10 @@
+#psp-content .psp-container .psp-table #psp-fe-rt-wrap,
+#psp-content .psp-container .psp-table #psp-fe-ht-wrap {
+	display: none;
+}
+	#psp-content .psp-container .psp-table .psp-fe-msg {
+		color: blue;
+	}
+	#psp-content .psp-container .psp-table .psp-fe-err {
+		color: red;
+	}

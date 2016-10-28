@@ -1,0 +1,57 @@
+#psp-lightbox-container .show {
+	display: table;
+}
+#psp-lightbox-container .hide {
+	display: none;
+}
+
+/* details */
+#psp-lightbox-seo-report-response-details {
+	font-weight: bold;
+}
+#psp-lightbox-seo-report-response-details table td:first-child + td {
+	font-weight: normal;
+}
+
+/* add new link form */
+.psp-add-link-form label {
+	font-weight: bold;
+}
+.psp-add-link-form .psp-add-link-field {
+	padding: 6px 8px 6px 8px;
+	width: 100%; 
+}
+.psp-add-link-form select {
+	padding: 4px 6px 4px 6px;
+	height: 28px; 
+}
+.psp-add-link-form .psp-button {
+	margin: 10px 0px 8px 0px;
+}
+
+.psp-add-link-form #psp-builder-text-hits {
+	display: none;
+}
+
+/* update link form */
+.psp-update-link-form label {
+	font-weight: bold;
+}
+.psp-update-link-form .psp-add-link-field {
+	padding: 6px 8px 6px 8px;
+	width: 100%; 
+}
+.psp-update-link-form select {
+	padding: 4px 6px 4px 6px;
+	height: 28px; 
+}
+.psp-update-link-form .psp-button {
+	margin: 10px 0px 8px 0px;
+}
+
+.psp-add-link-form #new_text {
+	width: 300px;
+}
+.psp-update-link-form #new_text2 {
+	width: 300px;
+}

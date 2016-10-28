@@ -1,0 +1,34 @@
+#psp-html-validation .psp-table .status_block {
+		border: 1px solid #fff;
+		padding: 2px 4px;
+	}
+		#psp-html-validation .psp-table .status_block.success {
+			background-color: #E1F1C0;
+		    border-color: #B5D56D;
+		    color: #62A426;
+		}
+			#psp-html-validation .psp-table .status_block.success a {
+				text-decoration: none;
+				color: #62A426;
+			}
+		#psp-html-validation .psp-table .status_block.error {
+			background-color: #FFCBCA;
+		    border-color: #EB979B;
+		    color: #9B4449;
+		}
+			#psp-html-validation .psp-table .status_block.error a {
+				text-decoration: none;
+				color: #9B4449;
+			}
+		#psp-html-validation .psp-table .status_block.warning {
+			background-color: #FEF0B1;
+		    border-color: #DDCA76;
+		    color: #A98B15;
+		}
+			#psp-html-validation .psp-table .status_block.warning a {
+				text-decoration: none;
+				color: #A98B15;
+			}
+			body {
+				border: 1px solid red;
+			}

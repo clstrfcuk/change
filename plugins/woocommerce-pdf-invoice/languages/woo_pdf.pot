@@ -1,0 +1,1046 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoice\n"
+"POT-Creation-Date: 2014-03-16 03:36+0300\n"
+"PO-Revision-Date: 2014-03-16 03:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: psprindys <psprindys@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SearchPath-0: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-"
+"invoice\n"
+"X-Poedit-SearchPath-1: C:\\wamp\\www\\wordpress\\wp-content\\plugins"
+"\\woocommerce-pdf-invoice\n"
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:247
+msgid "WooCommerce PDF Invoices"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:248
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1675
+msgid "PDF Invoices"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:269
+msgid ""
+"Image processing library not found on your server.<br>You must have either "
+"GD or Imagick extension enabled on your server for this module to work "
+"correctly."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:383
+msgid "Batch Invoice Download"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:389
+msgid "Date from"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:395
+msgid "Date to"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:403
+msgid ""
+"Please note that only regular invoices are available for batch download."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:406
+msgid "Download Invoices"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:425
+msgid "Macros"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:426
+msgid ""
+"Footer and all custom blocks support the following macros in both title and "
+"content:"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:467
+msgid ""
+"You can insert any other order field (including custom fields) in the same "
+"way, e.g."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:617
+msgid "Open Library"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:738
+msgid "Your settings have been saved."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:744
+msgid "Reverted to a previous value."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:747
+msgid "must be numeric"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:748
+msgid "must be either 0 or 1"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:749
+msgid "is not allowed"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:750
+msgid "is not a valid email address"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:751
+msgid "is not a valid URL"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:752
+msgid "is not a valid text string"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:758
+msgid "Value of"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:843
+msgid "Invoice #"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1132
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1133
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1713
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:666
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:668
+msgid "Invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1141
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1142
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1730
+msgid "Proforma"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1607
+msgid "Support"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1609
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:12
+msgid "Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1713
+msgid "Download regular invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1715
+msgid "Delete invoice so you can regenerate it if needed"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1715
+msgid "Delete Invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1730
+msgid "Download proforma invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1733
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1746
+msgid "Manually generate regular invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1733
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woocommerce-pdf-invoice.php:1746
+msgid "Generate Invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1598
+msgctxt "separator for numbers 21 through 99 (amount in words)"
+msgid "-"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1600
+msgid "and"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1603
+msgid "zero"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1604
+msgid "one"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1605
+msgid "two"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1606
+msgid "three"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1607
+msgid "four"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1608
+msgid "five"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1609
+msgid "six"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1610
+msgid "seven"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1611
+msgid "eight"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1612
+msgid "nine"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1613
+msgid "ten"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1614
+msgid "eleven"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1615
+msgid "twelve"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1616
+msgid "thirteen"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1617
+msgid "fourteen"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1618
+msgid "fifteen"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1619
+msgid "sixteen"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1620
+msgid "seventeen"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1621
+msgid "eighteen"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1622
+msgid "nineteen"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1623
+msgid "twenty"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1624
+msgid "thirty"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1625
+msgid "fourty"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1626
+msgid "fifty"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1627
+msgid "sixty"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1628
+msgid "seventy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1629
+msgid "eighty"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1630
+msgid "ninety"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1631
+msgid "hundred"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1632
+msgid "thousand"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1633
+msgid "million"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1634
+msgid "billion"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1635
+msgid "trillion"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1636
+msgid "quadrillion"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1637
+msgid "quintillion"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1691
+msgid "dollar"
+msgid_plural "dollars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/woo-pdf-invoice.class.php:1699
+msgid "cent"
+msgid_plural "cents"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:16
+msgid "Regular Invoice Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:19
+msgid "Enable regular invoicing"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:26
+msgid ""
+"<p>Regular invoices are generated as soon as orders are marked as completed."
+"</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:29
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:113
+msgid "Allow download"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:36
+msgid ""
+"<p>If enabled, clients will be able to download invoices from order details "
+"page.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:39
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:123
+msgid "Send by email"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:46
+msgid ""
+"<p>If enabled, PDF invoice will be emailed to the client along with Order "
+"Completed email.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:51
+msgid "Regular Invoice Numbering"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:54
+msgid "Numbering method"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:62
+msgid "Internal sequence plus prefix/suffix"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:63
+msgid "Order numbers plus prefix/suffix"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:64
+msgid "Order numbers"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:66
+msgid ""
+"<p>It is highly recommended that you stick to the standard internal "
+"numbering sequence which ensures there will be no gaps in the sequence "
+"(common problem with order numbers).</p> <p>Only change this value if you "
+"know what you are doing.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:69
+msgid "Next number"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:78
+msgid "Prefix"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:85
+msgid ""
+"<p>Leave blank to use no prefix.</p> <p>The following macros are available: "
+"{{year}}, {{month}}, {{day}}.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:88
+msgid "Suffix"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:95
+msgid ""
+"<p>Leave blank to use no suffix.</p> <p>The following macros are available: "
+"{{year}}, {{month}}, {{day}}.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:100
+msgid "Proforma Invoice Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:103
+msgid "Enable proforma invoicing"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:110
+msgid ""
+"<p>Proforma invoices are generated as soon as order is placed.</p><p>Order "
+"IDs are used for proforma invoice numbering.</p><p>Proforma invoices are not "
+"available after order is marked as completed.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:120
+msgid ""
+"<p>If enabled, clients will be able to download proforma invoices from order "
+"details page.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:130
+msgid ""
+"<p>If enabled, PDF proforma invoice will be emailed to the client along with "
+"Processing Order email.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:137
+msgid "Advanced"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:141
+msgid "Invoice Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:144
+msgid "Display product ID/SKU"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:152
+msgid "Do not display"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:153
+msgid "Display product ID (WP post ID)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:154
+msgid "Display SKU"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:156
+msgid ""
+"<p>If enabled, product ID/SKU will be displayed for each item just before "
+"its name.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:159
+msgid "Display product category"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:166
+msgid ""
+"<p>Controls whether or not to display product category below each order item "
+"on the invoice.</p> <p>If there are multiple categories, they will be "
+"displayed in one line separated by commas.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:169
+msgid "Display short description"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:176
+msgid ""
+"<p>Controls whether or not to display product short description below each "
+"order item on the invoice.</p> <p>This extension attempts to convert HTML to "
+"text but this feature is experimental. Use plain text to be sure that the "
+"final result looks as expected.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:179
+msgid "Display product images"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:186
+msgid ""
+"<p>Controls whether or not to display product images below product name "
+"whenever available.</p> <p>This feature is experimental - use at your own "
+"risk.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:189
+msgid "Display currency symbol"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:196
+msgid ""
+"<p>If enabled, currency symbol (e.g. $) will be displayed next to every "
+"amount on the invoice. Currency code (e.g. USD) is displayed next to total "
+"amount in any way.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:199
+msgid "Display shipping when free"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:206
+msgid ""
+"<p>If enabled, shipping row will be displayed even if shipping is free (zero "
+"value).</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:209
+msgid "Display amount in words"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:216
+msgid ""
+"<p>Depending on your country, you may need to print amount in words on your "
+"invoices.</p><p>Use translation file that comes with this plugin to "
+"translate numbers, set your own currency and plural forms.</p><p>This "
+"feature is experimental - use at your own risk.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:219
+msgid "Reset numbering each year"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:226
+msgid ""
+"<p>If enabled, next invoice number will be reset to 1 when the first invoice "
+"is generated each year.</p> <p>For this to take effect, there must be at "
+"least one invoice generated last year and no invoices generated this year.</"
+"p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:231
+msgid "Tax Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:234
+msgid "Display tax rows"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:242
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:259
+msgid "Never"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:243
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:258
+msgid "Always"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:244
+msgid "When tax is not displayed inline"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:246
+msgid ""
+"<p>If enabled, all applicable taxes will be listed just above (if Subtotal "
+"is exclusive of tax) or below (if Subtotal is inclusive of tax) Total row.</"
+"p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:249
+msgid "Display tax inline"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:257
+msgid "When different rates are present"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:261
+msgid ""
+"<p>You may need to display net amount, tax rate and tax amount individually "
+"for each line item.</p> <p>This is useful when different rates of the same "
+"tax are used for different items on the same invoice, e.g. reduced VAT rate "
+"is applied to specific group of products.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:264
+msgid "Display amounts inclusive of tax"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:271
+msgid ""
+"<p>If enabled, line item price, line subtotal and subtotal will be displayed "
+"inclusive of tax. This plugin always overrides related WooCommerce settings."
+"</p><p>This setting is ignored when tax is displayed inline.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:274
+msgid "Display total excl. tax row"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:281
+msgid ""
+"<p>If enabled, additional line will be added to the totals block that "
+"displays total exclusive of tax.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:286
+msgid "Other Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:289
+msgid "Display order page buttons"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:296
+msgid ""
+"<p>If enabled, download button will be displayed for a customer next to each "
+"order in the orders list.</p> <p>These buttons are optional - if you disable "
+"them, invoice download links will still be displayed on a single order "
+"details page if <strong>Allow download</strong> is enabled.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:299
+msgid "Send proforma invoice to admin"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:306
+msgid ""
+"<p>If enabled, proforma invoices will be attached to New Order email that is "
+"sent to store administrator or manager.</p> <p>Please note that proforma "
+"invoicing must be enabled for this feature to take effect.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:309
+msgid "Allow admins to delete invoices"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:316
+msgid ""
+"<p>You are strongly advised against activating and using this feature as it "
+"may cause more harm than good.</p> <p>When you delete an invoice and "
+"regenerate it, invoice number will be different (if you use internal "
+"numbering sequence).</p> <p>It is against accounting standards to have gaps "
+"in the invoice numbering system - you must account for each number in the "
+"sequence.</p> <p>Use at your own risk.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:323
+msgid "Seller & Buyer"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:327
+msgid "Seller Block"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:330
+msgid "Logo image"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:337
+msgid "<p>Enter URL or select image from Media Library.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:340
+msgid "Logo resize factor (in percent)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:347
+msgid ""
+"<p>Increase this number if you want to make your logo larger on the invoice "
+"and vice versa.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:350
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:383
+msgid "Block title"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:352
+msgid "Seller"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:359
+msgid "Company name"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:368
+msgid "Company details"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:375
+msgid ""
+"<p>Use this field to set up your company details, including address, company "
+"registration number, tax code etc.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:380
+msgid "Buyer Block"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:385
+msgid "Buyer"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:392
+msgid "Buyer details layout"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:399
+#, php-format
+msgid ""
+"<p>Use this field to set up the layout of the buyer details block.</p> "
+"<p>The following macros are available: %s</p> <p>You can use custom fields "
+"in the same way, e.g. {{my_custom_field_key}}.</p> <p>Do not include buyer "
+"first name, last name and company name - these fields are displayed "
+"automatically.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:402
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:432
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:465
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:512
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:559
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:606
+msgid "Remove lines with empty values"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:409
+msgid ""
+"<p>If enabled, all lines that contain macros with empty values only will be "
+"removed.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:416
+msgid "Content Blocks"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:420
+msgid "Page footer"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:423
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:456
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:503
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:550
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:597
+msgid "Content"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:439
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:472
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:519
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:566
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:613
+msgid ""
+"<p>If you are using macros in your content, you may wish to remove lines on "
+"which all macros are empty.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:444
+msgid "Custom Block #1"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:447
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:494
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:541
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:588
+msgid "Title"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:475
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:522
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:569
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:616
+msgid "Displayed on"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:483
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:530
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:577
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:624
+msgid "Both types of invoices"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:484
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:531
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:578
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:625
+msgid "Regular invoices"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:485
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:532
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:579
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:626
+msgid "Proforma invoices"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:491
+msgid "Custom Block #2"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:538
+msgid "Custom Block #3"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:585
+msgid "Custom Block #4"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:634
+msgid "Localization"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:638
+msgid "Date & Time"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:641
+msgid "Date format"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:649
+msgid "mm/dd/yy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:650
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:651
+msgid "dd/mm/yy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:652
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:653
+msgid "yy-mm-dd"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:654
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:655
+msgid "Month dd, yyyy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:656
+msgid "dd.mm.yyyy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:657
+msgid "dd-mm-yyyy"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:663
+msgid "Field Labels"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:675
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:677
+msgid "Proforma Invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:684
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:686
+msgid "Invoice Date"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:693
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:695
+msgid "Order Amount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:702
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:704
+msgid "Product"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:711
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:713
+msgid "Price"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:720
+msgid "Quantity"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:722
+msgid "Qty."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:729
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:731
+msgid "Net"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:736
+msgid ""
+"<p>Used as a column name for a line net amount column when different tax "
+"rates are used for different items.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:739
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:741
+msgid "Tax %"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:746
+msgid ""
+"<p>Used as a column name for a line tax rate column when different tax rates "
+"are used for different items.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:749
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:751
+msgid "Tax"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:756
+msgid ""
+"<p>Used as a column name for a line tax total column when different tax "
+"rates are used for different items.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:759
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:761
+msgid "Line Total"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:768
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:770
+msgid "Shipping"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:777
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:779
+msgid "Shipping Tax"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:784
+msgid ""
+"<p>Only displayed when different tax rates are used for different items. In "
+"this case, all other tax amounts are displayed inline on the main table and "
+"only shipping tax row is displayed on the totals block.</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:787
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:789
+msgid "Subtotal"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:796
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:798
+msgid "Cart Discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:805
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:807
+msgid "Order Discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:814
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:816
+msgid "Total"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:823
+msgid "Total Excluding Tax"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:825
+msgid "Total Excl. Tax"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:832
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:834
+msgid "Category"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:841
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:843
+msgid "Description"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:850
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:852
+msgid "Notes"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:859
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:861
+msgid "Amount in words"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:868
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:870
+msgid "Page"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:877
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:879
+msgid "(additional page)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:886
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:888
+msgid "Download Invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:895
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:897
+msgid "Download Proforma Invoice"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:904
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:906
+msgid "invoice_"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:911
+msgid ""
+"<p>Value of this field is used as a file name prefix for regular invoices (e."
+"g. invoice_ABC_123.pdf).</p>"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/woocommerce-pdf-invoice/includes/woo-pdf-plugin-structure.inc.php:918
+msgid "Batch Download"
+msgstr ""

@@ -1,0 +1,68 @@
+// =============================================================================
+// DEFAULT.SCSS
+// -----------------------------------------------------------------------------
+// Shortcode styles.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. Shortcodes
+//   03. Components
+//   04. Animations
+//   05. Utilities
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "../_scss/inc/functions";
+@import "../_scss/inc/variables";
+@import "../_scss/shortcodes_default/inc/variables";
+@import "../_scss/inc/mixins";
+
+
+
+// Shortcodes
+// =============================================================================
+
+@import "../_scss/shortcodes_default/normalization";
+
+.x-section {
+  @import "../_scss/shortcodes";
+}
+
+@import "../_scss/shortcodes_default/shortcodes";
+
+
+
+// Components
+// =============================================================================
+
+.x-section {
+  @import "../_scss/component-animations";
+  @import "../_scss/shortcodes_default/mejs";
+}
+
+@import "../_scss/font-awesome";
+
+
+
+// Animations
+// =============================================================================
+
+.x-section {
+  @import "../_scss/animate";
+}
+
+
+
+// Utilities
+// =============================================================================
+
+.x-section {
+  @import "../_scss/util/legacy";
+}
+
+@import "../_scss/util/cornerstone";

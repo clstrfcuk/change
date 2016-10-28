@@ -1,0 +1,26 @@
+#psp-lightbox-container .show {
+	display: table;
+}
+#psp-lightbox-container .hide {
+	display: none;
+}
+
+/* update link form */
+.psp-update-link-form label {
+	font-weight: bold;
+}
+.psp-update-link-form .psp-add-link-field {
+	padding: 6px 8px 6px 8px;
+	width: 100%; 
+}
+.psp-update-link-form select {
+	padding: 4px 6px 4px 6px;
+	height: 28px; 
+}
+.psp-update-link-form .psp-button {
+	margin: 10px 0px 8px 0px;
+}
+
+.psp-update-link-form #new_url_redirect2 {
+	width: 300px;
+}

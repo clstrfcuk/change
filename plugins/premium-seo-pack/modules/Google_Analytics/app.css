@@ -1,0 +1,112 @@
+#psp-gAnalytics-container .psp-top-filters #psp-filter-by-date {
+		width: 400px; 
+		position: absolute;
+		top: 5px;
+		right: -10px;
+		
+	}
+		#psp-gAnalytics-container .psp-top-filters #psp-filter-by-date label {
+			float: left;
+			width: auto;
+			margin: 0px 5px 0px 0px;
+			position: relative;
+			bottom: -5px;
+			display: block;
+		}
+		#psp-gAnalytics-container .psp-top-filters #psp-filter-by-date input[type=text] {
+			float: left;
+			width: 110px;
+			margin: 0px 10px 0px 0px;
+			padding: 4px 4px 4px 4px;
+		}
+	
+	#psp-gAnalytics-container #psp-audience-visits-graph {
+		height: 300px;
+		overflow: hidden;
+	}
+	
+	#psp-gAnalytics-container .psp-audience-container {
+		padding: 10px;
+	}
+		#psp-gAnalytics-container .psp-audience-container h2 {
+			margin: 0px 0px 15px 0px;
+			font-weight: normal;
+		}
+		
+		#psp-gAnalytics-container #audience-choose-container {
+			overflow: hidden;
+			margin: 8px 0px 0px 0px;
+		}
+			#psp-gAnalytics-container #audience-choose-container div input {
+				margin: 0px 4px 0px 0px;
+			}
+			#psp-gAnalytics-container #audience-choose-container div {
+				float: right;
+				width: auto;
+				margin: 0px 0px 0px 5px;
+				border-right: 1px solid #dadada; 
+				padding-right: 8px;
+			}
+				#psp-gAnalytics-container #audience-choose-container div:first-child {
+					border: 0px;
+					padding-right: 0px;
+				}
+				
+		#psp-gAnalytics-container .psp-ga-summary-stat {
+			border-top: 1px solid #f5f5f5;
+			overflow: hidden;
+			margin: 10px 0px 0px 0px;
+			padding: 20px 0px 0px 0px;
+		}	
+			#psp-gAnalytics-container .psp-ga-summary-block {
+				float: left;
+				margin: 0px 0px 15px 0px;
+				padding: 5px 15px 5px 15px;
+				border-right: 1px solid #dadada;
+				width: 22%;
+				min-height: 90px;
+			}
+			#psp-gAnalytics-container .psp-ga-summary-block .psp-ga-summery-title {
+				font-size: 14px;
+				width: 100%;
+				text-align: center;
+			}
+				#psp-gAnalytics-container .psp-ga-summary-block .psp-ga-summery-title span {
+					font-weight: bold;
+				}
+				#psp-gAnalytics-container .psp-ga-summary-block .psp-ga-summery-desc {
+					font-size: 11px;
+					color: #484848;
+					margin: 8px 0px 0px 0px;
+					font-style: italic;
+				}
+				
+	#psp-gAnalytics-container .psp-ga-filter {
+		position: absolute;
+		top: 4px;
+		right: 5px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		height: 25px;
+	}
+	
+	#psp-gAnalytics-container .psp-panel-content {
+		min-height: 590px;
+	}
+	#psp-gAnalytics-container .psp-demographics-container table,
+	#psp-gAnalytics-container .psp-system-container table,
+	#psp-gAnalytics-container .psp-mobile-container table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	
+	#psp-gAnalytics-container table.psp-table {
+		display: none;
+	}
+	
+			#psp-gAnalytics-container table.psp-table tr th {
+				padding: 4px 8px;
+			}
+				#psp-gAnalytics-container table.psp-table tr td {
+					padding: 4px 8px;
+				}

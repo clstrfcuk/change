@@ -1,0 +1,225 @@
+/* dashboard */
+.psp-dashboard-status-box h1 {
+	color: #394651;
+	position: relative;
+	font: normal 21px Arial, Helvetica, sans-serif;
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	padding: 0px 0px 8px 0px;
+	margin: 0px 0 10px 0;
+}
+	.psp-dashboard-status-box .psp-dashboard-box-content {
+		margin: 10px 3% 10px 3%;
+		width: 94%;
+	}
+	.psp-dashboard-status-box-row {
+		display: table;
+		width: 100%;
+		min-height: 120px;
+		margin: 0px 0px 10px 0px;
+	}
+		.psp-dashboard-status-box-row .psp-dashboard-status-icon {
+			width: 20px;
+			display: table-cell;
+		}
+		.psp-dashboard-status-box-row h2 {
+			display: table-cell;
+			width: 200px;
+			border-right: 1px solid #ccc;
+			padding: 5px 0px 5px 2px;
+			font: normal 12px Arial, Helvetica, sans-serif;
+		}
+		.psp-dashboard-status-box-row .psp-dashboard-status-box-content {
+			padding-left: 10px;
+			display: table-cell;
+		}
+		.psp-dashboard-status-box-row .psp-dashboard-status-box-content.is_ajax_content {
+			background: url("../../modules/dashboard/assets/ajax-loading.gif") no-repeat;
+			background-position: 20px center;
+			overflow: hidden;
+			text-indent: -1000px;
+		}
+		
+		.psp-cache-info {
+			display: block;
+			text-align: right;
+			color: #999999;
+			width: 300px;
+			bottom: 10px;
+			right: 10px;
+			position: absolute;
+			font-size: 11px;
+			margin: 10px 0px 0px 0px;
+		}
+		
+		.psp-lists-status {
+			display: block;
+			width: 100%;
+			list-style: none;
+			overflow: hidden;
+			margin: 0px 0px -20px 0px;
+		}
+			.psp-lists-status li {
+				display: block;
+				float: left;
+				margin-right: 0.5;
+				/*border-right: 1px solid #f2f2f2;*/
+				width: 201px;
+				height: 50px;
+				margin: 0px 20px 20px 0px;
+				position: relative;
+			}
+				.psp-lists-status li .psp-lists-icon {
+					display: block;
+					position: relative;
+					bottom: -10px;
+					margin-right: 0px;
+					width: 32px; 
+					height: 32px; 
+				}
+				.psp-lists-status li:last-child {
+					border: none;
+				}
+				.psp-lists-status li label {
+					display: block;
+					margin-right: 5px;
+					position: absolute;
+					top: 32px;
+					left: 47px;
+					font-weight: bold;
+					font-size: 15px;
+					cursor: default;
+				}
+				.psp-lists-status li span {
+					position: absolute;
+					display: block;
+					font-weight: bold;
+					font-size: 25px;
+				    font-weight: 700;
+				    top: 10px;
+					left: 45px;
+				}
+					.psp-lists-status li span sup {
+						position: absolute;
+						top: -8px;
+						font-size: 12px;
+						font-weight: bold;
+					}
+.psp-summary-links {
+	margin: 0px 0px -15px 0px;
+}
+	.psp-summary-links li {
+		display: inline-block;
+		width: 75px;
+		height: 80px;
+		margin: 0px 10px 10px 0px;
+		background-color: #ecf0f1;
+		padding: 6px 10px 6px 6px; 
+		position: relative;
+		padding-left: 26px;
+		transition: all 150ms ease-out 0s;
+	}
+		.psp-summary-links li:hover {
+			background-color: #bdc3c7;
+		}
+		.psp-summary-links li img {
+			top: 10px;
+			padding: 2px;
+			left: 50%;
+			margin-left: -17px;
+			position: absolute;
+		}
+		
+		.psp-summary-links li a {
+			color: #484848;
+			text-decoration: none;
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100px; 
+			height: 35px;
+			padding: 50px 5px 0px 5px;
+			text-align: center;
+		}
+			.psp-summary-links li a:hover {
+				color: #fff;
+			}
+			
+.psp-website-preview {
+}
+	.psp-website-preview .psp-borwser-frame {
+		width: 100%;
+		height: 242px;
+		min-height: 100px;
+		position: relative;
+		overflow: hidden;
+	}
+		.psp-website-preview .browser-preview {
+			width: 100%;
+			height: auto;
+			position: absolute;
+			z-index: 10;
+			top: 0;
+			left: 0;
+		}
+		.psp-website-preview .the-website-preview {
+			width: 100%;
+			height: auto;
+			position: relative;
+			z-index: 1;
+			margin-top: 39px;
+		}
+
+.psp-website-preview h4 {
+	margin: 0px 0px 10px 0px;	
+}
+	.psp-website-preview h4:last-child {
+		margin-bottom: 10px;
+	}	
+.psp-website-preview h3 {
+	margin: 20px 0px 10px 0px;	
+}
+.psp-website-preview h3 a,
+.psp-website-preview h4 a {
+	text-decoration: none;
+	background-color: #F0F0F0;
+    color: #484848;
+    display: inline-block;
+    font-weight: bold;
+    padding: 2px 4px 1px;
+    transition: all 150ms ease-out 0s;
+}
+	.psp-website-preview h3 a:hover,
+	.psp-website-preview h4 a:hover {
+		background-color: #F39C12;
+		color: #fff;
+	}
+	
+#psp-audience-visits-graph {
+	height: 220px;
+	overflow: hidden;
+	background: url("../../modules/dashboard/assets/ajax-loading.gif") no-repeat;
+	background-position: center center;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

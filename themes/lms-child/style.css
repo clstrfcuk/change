@@ -1,0 +1,11 @@
+/*
+Theme Name:     LMS Child
+Theme URI: 		http://wedesignthemes.com/themes/lms/
+Author: 		the DesignThemes team
+Author URI: 	http://themeforest.net/user/designthemes
+Description:    Child theme for the LMS theme powered by DesignThemes
+Template:       lms
+Version:        2.0
+*/
+
+@import url("../lms/style.css");

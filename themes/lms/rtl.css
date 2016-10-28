@@ -1,0 +1,3268 @@
+/*
+Theme Name: LMS
+Description: LMS is a clean, flexible and fully responsive design! Built with HTML5 & CSS3, the clean design can be used for any type of website; business, corporate, portfolio, blog, products, photography, education, medical etc.Endless possiblities to modify layout, styling, fonts, colors, skins easily from the backend. 20 Pre-defined skins, Woo-Commerce support to build your shop in minutes, WPML multi language plugin compatiblity, 2 premium touch enabled & responsive 2D, 3D slider show plugins included, Parallax background option with images and video (self-hosted, youtube, vimeo), SEO friendly semantic markup etc.,
+*/
+/* CSS Document */
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General
+	1.1. Body
+   	1.2. Fonts
+	1.3. Headings
+	1.4. Transition
+	1.5. Text Elements
+	1.6. Tables
+	1.7. Definition Lists
+	1.8. Forms
+	1.9. Images
+	1.10. Widgets
+
+2. Layout
+	2.1. Container / .container, .wrapper
+	2.2. Header / #header
+		2.2.1. Header Options
+		2.2.2. Menu / #main-menu
+		2.2.3. Mega Menu / .megamenu-child-container
+		2.2.4. Mobile Menu / #dt-menu-toggle
+
+	2.3. Main Content
+		2.3.1. Slider / #slider
+		2.3.2. Title & Breadcrumb / .main-title-section-wrapper
+		2.3.3. Gallery / .portfolio
+		2.3.4. Blog / .blog-entry
+		2.3.5. 404 / .error404
+		2.3.6. Teachers Profile / .dt-team-member
+		2.3.7. Newsletter	/ #newsletter
+		2.3.8. Contact Form 7	/ .wpcf7-form
+		2.3.9. Events / .tribe-events
+		2.3.10. Custom Course Styles / .dt-sc-custom-course-type
+		2.3.11. S2Member / #ws-plugin--s2member-profile
+	2.4. Footer / #footer
+	
+-------------------------------------------------------------------*/
+/*----*****---- << 1. General >> ----*****----*/
+body { direction:rtl; unicode-bidi: embed; }
+
+.bx-wrapper .bx-viewport{ direction: ltr; }
+
+/*----*****---- << 1.3. Headings >> ----*****----*/
+
+.border-title span { right:0px; }
+
+/*----*****---- << 1.4. Transition >> ----*****----*/
+
+/* Image Load Animation */
+
+to {
+	margin-right:10px;
+	margin-left: auto;
+}
+
+/*----*****---- << 1.5. Text Elements >> ----*****----*/
+
+ul li ul {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+ol {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+pre, code {
+	border-right:3px solid #e2d6c1;
+	border-left: none;
+}
+
+blockquote {
+	clear:right;
+}
+
+blockquote cite {
+	text-align:left;
+}
+
+blockquote.alignright {
+	margin-left:20px;
+	text-align:right;
+	float:right;
+	margin-right: auto;
+}
+
+blockquote.alignleft {
+	margin-right:20px;
+	text-align:right;
+	float:left;
+	margin-left: auto;
+}
+
+.hr {
+	float:right;
+}
+
+.hr-border {
+	float:right;
+}
+
+.hr.top, .hr-border.top {
+	background-position:left center;
+	text-align:left;
+}
+
+.hr.top a, .hr-border.top a {
+	padding-right:5px;
+	left:-21px;
+	right: auto;
+	padding-left: 0;
+}
+
+.hr-border.top a {
+	left:-23px;
+	right: auto;
+}
+
+.float-left {
+	float:left;
+}
+
+.float-right {
+	float:right;
+}
+
+.post-edit-link {
+	float:left;
+}
+
+.page-link {
+	float:right;
+}
+
+.page-link a {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+.page-link span {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+/*----*****---- << 1.6. Tables >> ----*****----*/
+
+/*----*****---- << 1.7. Definition Lists >> ----*****----*/
+
+/*----*****---- << 1.8. Forms >> ----*****----*/
+
+select {
+	background-position:center left;
+	padding:15px 15px 14px 50px;
+}
+
+input[type="submit"], button, input[type="button"] {
+	float:left;
+}
+
+.selection-box:before {
+	left:17px;
+	border-right:7px solid transparent;
+	border-left:7px solid transparent;
+	right: auto;
+}
+
+.selection-box:after {
+	left:0px;
+	border-right:1px solid #e2d6c1;
+	border-left:1px solid #e2d6c1;
+	right: auto;
+}
+
+/*----*****---- << 1.9. Images >> ----*****----*/
+
+.wp-caption {
+	padding:5px 5px 7px 7px;
+}
+
+.alignright, img.alignright {
+	float: right;
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.alignleft, img.alignleft {
+	float: left;
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.shadow {
+	float:right;
+}
+
+/*----*****---- << 1.10. Widgets >> ----*****----*/
+	
+	.widget {
+	float:right;
+}
+
+.widget h3.widgettitle {
+	float:right;
+}
+
+.widget h3.widgettitle span {
+	right:0px;
+	left: auto;
+}
+
+.widget ul {
+	float:right;
+}
+
+.widget ul li {
+	float:right;
+}
+	
+.widget ul li {
+	padding:6px 15px 6px 0px;
+}
+
+.widget ul li:before {
+	right:0px;
+	left: auto;
+}
+
+.widget_categories ul li, .widget.widget_archive ul li {
+	padding:0px 18px 0px 0px;
+	width:100%;
+}
+
+.widget_categories ul li a, .widget.widget_archive ul li a {
+	padding:10px 0px 10px 45px;
+}
+
+.widget_categories ul li a span, .widget.widget_archive ul li a span {
+	left:0px;
+	right: auto;
+}
+
+.widget_categories ul li a:before, .widget_archive ul li a:before {
+	right:0px;
+	left: auto;
+}
+
+.widget .recent-posts-widget ul li .entry-meta {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+.widget .recent-posts-widget ul li .entry-details {
+	padding-right:65px;
+	padding-left: 0;
+}
+
+.widget .recent-posts-widget ul li .entry-body {
+	float:right;
+}
+
+.widget .recent-posts-widget ul li .entry-details .entry-metadata p a span {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.widget.widget_popular_entries .recent-course-widget ul li img {
+	float:right;
+	margin:0px 0px 0px 15px;
+}
+
+.widget .mailchimp-form {
+	float:right;
+}
+
+.widget ul.tweet_list li .tweet-thumb {
+	float:right;
+	margin:5px 0px 10px 10px;
+}
+
+.widget.widget_recent_comments ul li, .widget.widget_ratings-widget ul li, .widget.widget_sensei_lesson_component ul li, .widget.widget_meta ul li {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+.widget.widget_archive ul li {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+.widget.widget_text .textwidget .dt-sc-contact-info .icon {
+	margin:5px 0px 0px 17px;
+}
+
+.widget.widget_text .textwidget .dt-sc-contact-info .icon i {
+	right:0px;
+	left: auto;
+}
+
+.widget .search-form input[type="text"], .widget .search-form input[type="search"], .widget .mailchimp-form input[type="email"] {
+	float:right;
+}
+
+.widget .tagcloud a {
+	float:right;
+	margin:0px 0px 5px 5px;
+}
+
+.widget.flickrbox .flickr-widget div {
+	float:right;
+	margin:0px 0px 7px 7px;
+}
+
+.widget .recent-portfolio-widget li .thumb {
+	float:right;
+	margin:0px 0px 10px 15px;
+}
+
+/* Safari only override */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+/* Safari only override */
+
+}
+
+.widget #searchform input[type="text"], #primary #searchform input[type="text"] {
+	padding-left:60px;
+	padding-right: 0;
+}
+
+.widget #searchform input[type="submit"], #primary #searchform input[type="submit"] {
+	left:0px;
+	right: auto;
+}
+
+/*----*****---- << 2. Layout >> ----*****----*/
+/*----*****---- << 2.1. Container >> ----*****----*/
+
+.wrapper {
+	float:right;
+}
+
+.inner-wrapper {
+	float:right;
+}
+
+/*----*****---- << Top Bar >> ----*****----*/
+	.top-bar {
+	float:right;
+}
+
+.top-menu {
+	float:right;
+}
+
+.top-menu li {
+	float:right;
+	margin:0px 0px 0px 20px;
+}
+
+.top-left {
+	float:left;
+}
+
+.top-left ul li {
+	float:right;
+	margin:0px 20px 0px 0px;
+}
+
+.top-left .fa {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.user-account, .contact-number {
+	float:right;
+	margin:0px 20px 0px 0px;
+}
+
+.user-account img {
+	float:right;
+	margin:0px 0px 0px 8px;
+}
+
+/*----*****---- << 2.2. Header >> ----*****----*/
+	#header-wrapper {
+	float:right;
+}
+
+#header {
+	float:right;
+}
+
+#logo {
+	float:right;
+}
+
+.header-register {
+	float:left;
+	margin:45px 10px 15px 0px;
+}
+
+.header-register ul li {
+	float:right;
+}
+
+.header-register ul li a i {
+	margin:0px 0px 0px 10px;
+}
+
+/*----*****---- << 2.2.1. Header Options >> ----*****----*/
+
+#header.header2 #logo {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+#header.header2 .top-bar {
+	padding-right:2%;
+	padding-left:2%;
+}
+
+#header.header2 .header-register {
+	margin-left:20px;
+	margin-right: auto;
+}
+
+#header.header2 #main-menu > ul.menu > li > a {
+	padding-right:34px;
+	padding-left:14px;
+}
+
+#header.header2 #main-menu > ul.menu > li > a i {
+	right:13px;
+	left: auto;
+}
+
+#header.header3 #logo {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+#header.header3 #main-menu, #header.header4 #main-menu {
+	float:right;
+}
+
+#header.header3 #main-menu > ul.menu, #header.header4 #main-menu > ul.menu {
+	float:right;
+}
+
+#header.header3 #main-menu > ul.menu > li > a, #header.header4 #main-menu > ul.menu > li > a {
+	padding:13px 39px 11px 18px;
+}
+
+#header.header3 .header-register, #header.header4 .header-register {
+	margin:14px 10px 10px 0;
+}
+
+#header.header4 #main-menu > ul.menu > li li {
+	text-align:right;
+}
+
+#main-menu > ul.menu > li > a i {
+	right:16px;
+	margin:0px 0px 0px 5px;
+	left: auto;
+}
+
+#header .contact-details {
+	float:left;
+}
+
+#header .contact-details p span {
+	float:right;
+	margin:0px 0px 0px 10px;
+}
+
+#header .sociable-details {
+	float:left;
+}
+
+/*----*****---- << Sticky Header >> ----*****----*/
+
+.sticky-wrapper { float:none !important; }
+
+.is-sticky #header:before {
+	right:0px;
+	left: auto;
+}
+
+/************* 2.2.2. Menu ************/
+	
+	.main-menu-wrapper {
+	float:right;
+}
+
+#main-menu {
+	float:left;
+}
+
+#main-menu > ul.menu {
+	float:left;
+}
+
+#main-menu > ul.menu > li {
+	float:right;
+}
+
+#header.header1 #main-menu > ul.menu > li:before, #header.header2 #main-menu > ul.menu > li:before {
+	right:0px;
+	left:0px;
+	border-right:7px solid transparent;
+	border-left:7px solid transparent;
+}
+
+/****** Simple Drop Down Menu *****/
+
+/*#main-menu ul li.menu-item-simple-parent ul {
+	right:0px;
+	float:right;
+	left: auto;
+}
+
+#main-menu ul li.menu-item-simple-parent ul li ul {
+	right:220px;
+	left: auto;
+}
+
+#main-menu ul li.menu-item-simple-parent:last-child ul, #main-menu ul li.menu-item-simple-parent:nth-child(6) ul, #main-menu ul li.menu-item-simple-parent:nth-child(7) ul {
+	left:0px;
+	right:inherit;
+}
+
+#main-menu ul li.menu-item-simple-parent:last-child ul li ul, #main-menu ul li.menu-item-simple-parent:nth-child(6) ul li ul, #main-menu ul li.menu-item-simple-parent:nth-child(7) ul li ul {
+	left:220px;
+	right:inherit;
+}*/
+
+/****** 2.2.3. Mega Menu *****/
+
+.megamenu-child-container > ul.sub-menu > li > a:before, .megamenu-child-container > ul.sub-menu > li > .nolink-menu:before { right:0px; }
+
+
+/****** Mega Menu Widgets *****/
+
+.menu-item-widget-area-container .wpcf7-form span.wpcf7-not-valid-tip {
+	left:10px;
+	right: auto;
+}
+
+#main-menu ul.menu li .menu-item-widget-area-container ul.menu {
+	text-align:right;
+}
+
+@media (min-width: 768px) {
+
+}
+
+/* New Mega Menu Widget area styles */
+
+/****** 2.2.4. Mobile Menu *****/
+
+.dt-menu-toggle-icon {
+	float:left;
+	text-align:right;
+}
+
+.dt-menu-toggle-icon:before, .dt-menu-toggle-icon:after {
+	right:0px;
+	left: auto;
+}
+
+.dt-menu-expand {
+	left:0px;
+	right: auto;
+}
+
+/*----*****---- << 2.3. Main Content >> ----*****----*/
+
+.page-with-slider #main:before {
+	right:0px;
+	background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,rgba(253,246,234,1)), color-stop(100%,rgba(255,255,255,0)));
+	left: auto;
+}
+
+#main {
+	float:right;
+}
+
+#primary {
+	float:right;
+}
+
+#primary.with-right-sidebar {
+	float:left;
+	margin-right:20px;
+	margin-left: auto;
+}
+
+#primary.with-left-sidebar {
+	float:right;
+	margin-left:20px;
+	margin-right: auto;
+}
+
+#primary.page-with-both-sidebar {
+	float:right;
+}
+
+#secondary, #secondary-left, #secondary-right {
+	float:right;
+}
+
+#secondary-left.secondary-has-left-sidebar {
+	float:left;
+}
+
+#secondary-right.secondary-has-right-sidebar {
+	float:right;
+}
+
+.side-navigation {
+	float:right;
+	margin:0px 0px 0px 2%;
+}
+
+.side-navigation-content {
+	float:right;
+}
+
+/*----*****---- << 2.3.1. Slider >> ----*****----*/	
+		#slider {
+	float:right;
+}
+
+#slider-container {
+	float:right;
+}
+
+#slider-search-container {
+	right:0px;
+	left:0px;
+}
+
+.courses-search {
+	float:right;
+}
+
+.courses-search input[type="submit"] {
+	margin:0px -4px 0px 0px;
+}
+
+.slider-search {
+	float:right;
+}
+
+.slider-search a span {
+	margin-right:5px;
+	margin-left: auto;
+}
+
+/*----*****---- << 2.3.2. Title & Breadcrumb >> ----*****----*/
+
+.fullwidth-section {
+	float:right;
+}
+
+.main-title-section-wrapper {
+	float:right;
+}
+
+.main-title-section {
+	float:right;
+}
+
+.header-search {
+	float:left;
+}
+
+.header-search form {
+	float:left;
+}
+
+.header-search input[type="submit"] {
+	margin:0px -4px 0px 0px;
+	border-radius:3px 0px 0px 3px;
+}
+.header-search input[type="text"], .courses-search input[type="text"] { border-radius:0px 3px 3px 0px; }
+.courses-search input[type="submit"] { border-radius:3px 0px 0px 3px; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+
+.breadcrumb {
+	float:right;
+}
+
+.breadcrumb .fa.default {
+	margin:0px 4px 0px 5px;
+}
+
+/*----*****---- << 2.3.3. Gallery >> ----*****----*/
+
+.dt-sc-portfolio-container {
+	float:right;
+}
+
+.dt-sc-portfolio-container .portfolio {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.dt-sc-sorting-container a {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+
+
+.portfolio img { width: -webkit-calc(100% + 60px); width: -moz-calc(100% + 60px); width: calc(100% + 60px); -webkit-transform: translate3d(50px,0,0); transform: translate3d(50px,0,0); max-width:140% !important; }
+
+.portfolio .image-overlay {
+	right:0;
+	left:0;
+}
+
+.portfolio:hover .image-overlay {
+	right:0px;
+	left:0px;
+}
+
+.portfolio .image-overlay .links a {
+	margin:0px 0px 0px 5px;
+}
+
+.portfolio a.close-overlay {
+	left:0;
+	right: auto;
+}
+
+.portfolio-details {
+	float:right;
+	
+}
+
+.page-with-sidebar .portfolio.dt-sc-one-third figure .image-overlay::before, .page-with-sidebar .portfolio.dt-sc-one-fourth figure .image-overlay::before {
+	right:10px;
+	left:10px;
+}
+
+.ajax-portfolio-details {
+	float:right;
+}
+
+.project-details {
+	float:right;
+}
+
+/* Portfolio Hover Effects */
+
+.portfolio figure .image-overlay {
+	right: 0;
+	left: auto;
+}
+
+.portfolio figure .image-overlay::before {
+	left: 20px;
+	right: 20px;
+}
+
+/* Portfolio Hover Effects */
+
+.isotope .isotope-item {
+	-o-transition-property:         top, right, opacity;
+}
+
+/* Portfolio Single */
+.portfolio-single {
+	float:right;
+}
+
+.portfolio-slider-container {
+	float:right;
+}
+
+.portfolio-slider {
+	float:right;
+}
+
+.portfolio-slider li {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+.portfolio-slider-container .bx-controls-direction {
+	float:right;
+}
+
+.portfolio-slider-container .bx-controls-direction a {
+	float:right;
+}
+
+.portfolio-slider-container .bx-controls-direction a.bx-prev {
+	right:10px;
+	left: auto;
+}
+
+.portfolio-slider-container .bx-controls-direction a.bx-next {
+	left:10px;
+	right: auto;
+}
+
+.portfolio-share {
+	float:right;
+}
+
+.post-nav-container {
+	float:right;
+}
+
+.post-nav-container .post-prev-link {
+	float:right;
+}
+
+.post-nav-container .post-next-link {
+	float:left;
+}
+
+.portfolio-single .left-gallery.dt-sc-two-third {
+	margin-right:2%;
+	float:left;
+	margin-left:0px;
+}
+
+.portfolio-single .dt-sc-one-third.last {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.portfolio-single .dt-sc-two-third {
+	margin-left:2%;
+	margin-right: auto;
+}
+
+/* Two column */
+
+/* Three column */
+
+/* four column */
+
+.page-with-both-sidebar .portfolio.dt-sc-one-fourth .fig-overlay a {
+	margin-left:-4px;
+	margin-right: auto;
+}
+
+/*----*****---- << 2.3.4. Blog >> ----*****----*/
+		
+		.blog-entry {
+	float:right;
+}
+
+.blog-single-entry .entry-body {
+	float:right;
+}
+
+.blog-thumb .entry-thumb {
+	float:right;
+	margin:0px 0px 0px 2%;
+}
+
+.blog-thumb .entry-details {
+	float:right;
+}
+
+.blog-thumb .entry-meta {
+	float:right;
+}
+
+.blog-thumb .entry-title {
+	padding-right:94px;
+	padding-left: 0;
+}
+
+.blog-thumb .entry-details .entry-metadata {
+	padding-right:24px;
+	padding-left: 0;
+}
+
+.entry-details-desc {
+	float:right;
+}
+
+.entry-meta {
+	right:0;
+	left: auto;
+}
+
+.entry-thumb .entry-thumb-desc {
+	right:0;
+	background:-webkit-gradient(linear, right top, right bottom, color-stop(0%,rgba(0, 0, 0,0)), color-stop(100%,rgba(0, 0, 0, 0.7)));
+	left: auto;
+}
+
+.entry-thumb p {
+	right:0;
+	left:0;
+}
+
+.entry-details {
+	padding:0px 94px 0px 0px;
+}
+
+.entry-details .read-more {
+	float:left;
+}
+
+.entry-details .read-more.dt-sc-button.small .fa {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.entry-details .entry-metadata {
+	float:right;
+}
+
+.entry-details .entry-metadata p i {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.entry-metadata p {
+	float:right;
+	margin:0px 0px 0px 15px;
+}
+
+.sticky .featured-post, .featured-post {
+	margin:0px 0px 10px 10px;
+	float:right;
+	padding:0px 33px 0px 15px;
+}
+
+.featured-post span.fa {
+	right:0px;
+	left: auto;
+}
+
+.tpl-blog-holder .column {
+	margin-right:0px;
+	margin-left:0px;
+}
+
+.page-with-both-sidebar .blog-thumb .entry-thumb {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.dt-sc-one-third .featured-post, .page-with-both-sidebar .tpl-blog-holder .dt-sc-one-half .featured-post {
+	padding-left:0px;
+	padding-right: 0;
+}
+
+/*----*****---- << Blog Comment Entries >> ----*****----*/	
+		
+		.commententries {
+	float:right;
+}
+
+ul.commentlist {
+	float:right;
+}
+
+ul.commentlist li {
+	padding:0px 115px 0px 0px;
+}
+
+ul.commentlist li ul.children {
+	float:right;
+}
+
+ul.commentlist li .respond {
+	margin-right:69px;
+	margin-left: auto;
+}
+
+ul.commentlist li .comment-author {
+	right:0px;
+	left: auto;
+}
+
+ul.commentlist li .comment-author img {
+	float:right;
+}
+
+.social-share-icons {
+	float:right;
+}
+
+.social-share-icons li {
+	margin:0px 0px 0px 10px;
+}
+
+.comment-body ul li, .comment-body ol li {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+/*----*****---- << Pagination >> ----*****----*/
+		
+		.pagination {
+	float:right;
+}
+
+.pagination ul {
+	float:right;
+}
+
+.pagination ul li {
+	float:right;
+}
+
+.pagination ul li.dot {
+	margin:10px -10px 0px 0px;
+}
+
+.pagination ul li a, .pagination .next-post a, .pagination .prev-post a {
+	margin:10px 0px 0px 10px;
+	float:right;
+}
+
+.pagination ul li.active-page {
+	margin:10px 0px 0px 10px;
+	float:right;
+}
+
+.pagination .next-post {
+	float:right;
+	margin-right:4px;
+	margin-left: auto;
+}
+
+.pagination .prev-post {
+	float:right;
+	margin-left:4px;
+	margin-right: auto;
+}
+
+/*----*****---- << 2.3.5. 404 >> ----*****----*/
+	.error-info {
+	float:right;
+}
+
+/*----*****---- << 2.3.6. Teachers Profile >> ----*****----*/
+	.dt-team-entry-right {
+	float: right;
+	margin-left:4%;
+	margin-right: auto;
+}
+
+.post-ratings-text {
+	right:0px;
+	left:0px;
+}
+
+.dt-team-entry-content {
+	float: right;
+}
+
+ul.teachers-details li {
+	padding:10px 25px 10px 0px;
+}
+
+ul.teachers-details li:before {
+	right:0px;
+	left: auto;
+}
+
+.dt-team-entry-content ul li strong {
+	float:right;
+}
+
+.dt-team-entry-content .dt-sc-button.small {
+	float:right;
+}
+
+.teachers-desc {
+	float:right;
+}
+
+.dt_teachers .column.dt-sc-three-fourth {
+	margin-right:3%;
+	margin-left: auto;
+}
+
+.dt_teachers ul.dt-sc-fancy-list li {
+	padding-right:22px;
+	padding-left: 0;
+}
+
+/*----*****---- << Goto Top >> ----*****----*/
+	
+	#toTop {
+	left:20px;
+	right: auto;
+}
+
+#toTopHover {
+	float:right;
+}
+
+/*----*****---- << 2.3.7. Newsletter >> ----*****----*/
+	
+	#newsletter {
+	float:right;
+}
+
+.newsletter-wrapper {
+	float:right;
+}
+
+.newsletter-wrapper #newsletter {
+	float:right;
+}
+
+#newsletter form input[type="submit"] {
+	margin:0px -4px 0px 0px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+
+#newsletter form .dt_sc_mc_result {
+	right:10px;
+	left: auto;
+}
+
+#newsletter ul.social-icons {
+	float:right;
+}
+
+/*----*****---- << 2.3.8. Contact Form 7 >> ----*****----*/
+
+#contact-form p .fa, .mailchimp-form .fa {
+	border-left:1px solid #e2d6c1;
+	border-right: none;
+}
+
+#contact-form p input, #contact-form p textarea, .mailchimp-form p input, .mailchimp-form p textarea {
+	padding:13px 2% 12px 0;
+}
+
+#contact-form p.textarea-field .fa {
+	float:right;
+}
+
+.wpcf7-form span.wpcf7-not-valid-tip {
+	left:0px;
+	right: auto;
+}
+
+.wpcf7-form div.wpcf7-validation-errors, .wpcf7-form div.wpcf7-mail-sent-ok {
+	padding:15px 35px 15px 15px;
+	float:right;
+}
+
+.wpcf7-form div.wpcf7-validation-errors:before, .wpcf7-form div.wpcf7-mail-sent-ok:before {
+	right:10px;
+	left: auto;
+}
+
+.wpcf7-form span.wpcf7-list-item {
+	margin-left:25px;
+	margin-right: auto;
+}
+
+.wpcf7-form input[type="radio"] {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+#contact-form p, .mailchimp-form p { text-align:right; }
+#contact-form p .fa, .mailchimp-form .fa { float:right; }
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, input[type="search"] { text-align:right; }
+
+/*----*****---- << Blank Pages >> ----*****----*/
+
+.blank-template-container {
+	right:0;
+	left: auto;
+}
+
+.blank-template-wrapper {
+	float:right;
+}
+
+/*----*****---- << Side Navigation >> ----*****----*/
+	.side-navigation {
+	float:right;
+	margin:0px 0px 0px 2%;
+}
+
+.side-navigation-content {
+	float:right;
+}
+
+.side-nav-container {
+	float:right;
+}
+
+ul.side-nav {
+	float:right;
+}
+
+ul.side-nav li {
+	float:right;
+}
+
+ul.side-nav li a {
+	padding:14px 60px 13px 0px;
+}
+
+ul.side-nav li a:before {
+	right:0;
+	left: auto;
+}
+
+ul.side-nav > li.current_page_item > a:after, ul.side-nav > li > ul > li.current_page_item > a:after {
+	left:-11px;
+	right: auto;
+}
+
+ul.side-nav li ul {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+ul.side-nav li ul li a {
+	padding-right:85px;
+	padding-left: 0;
+}
+
+ul.side-nav ul ul li a {
+	padding-right:120px;
+	padding-left: 0;
+}
+
+/*----*****---- << IE9 Styles >> ----*****----*/
+
+/*----*****---- << 2.3.9. Events >> ----*****----*/
+
+#tribe-bar-form .tribe-bar-submit input[type="submit"] {
+	float:right;
+}
+
+#tribe-events-header .tribe-events-sub-nav, #tribe-events-footer .tribe-events-sub-nav {
+	float:right;
+}
+
+#tribe-events-content .tribe-events-calendar td {
+	text-align:right;
+}
+
+.tribe-events-tooltip .tribe-events-event-thumb {
+	padding-left:10px;
+	padding-right: 0;
+}
+
+.tribe-events-list .tribe-events-event-image {
+	margin-left:2%;
+	margin-right: auto;
+	float:right;
+}
+
+.tribe-events-single-section .tribe-events-meta-group {
+	margin-left:2%;
+	margin-right: auto;
+}
+
+.tribe-events-single-section .tribe-events-meta-group.tribe-events-meta-group-organizer {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.tribe-events-single-section .tribe-events-venue-map {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.widget.tribe-events-list-widget ol {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+.secondary-sidebar .tribe-venue-widget-list li, #footer .tribe-venue-widget-list li, #primary .tribe-venue-widget-list li {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+.widget.tribe-events-adv-list-widget ol {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+.widget.tribe-events-adv-list-widget .tribe-events-widget-link {
+	float:right;
+}
+
+/*----*****---- << 2.3.10. Custom Course Styles >> ----*****----*/
+	/* Course Search */
+	.dt-sc-course-searchform-container {
+	float:right;
+}
+
+.dt-sc-course-searchform {
+	float:right;
+}
+
+.dt-sc-course-searchform header {
+	float:right;
+}
+
+.dt-sc-course-searchform header h2 span {
+	float:right;
+	margin-left:15px;
+	margin-right: auto;
+}
+
+.dt-sc-searchbox-container {
+	float:right;
+}
+
+.dt-sc-searchbox-container form .course-type-module, .dt-sc-searchbox-container form .sub-course-type-module, .dt-sc-searchbox-container form  .search-text-module, .dt-sc-searchbox-container form .course-price-module {
+	float:right;
+	margin-left:2%;
+	margin-right: auto;
+}
+
+.dt-sc-searchbox-container form .sub-course-type-module {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.dt-sc-searchbox-container form .search-text-module {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.dt-sc-searchbox-container form .webinar-module {
+	float:right;
+}
+
+.dt-sc-searchbox-container form .webinar-module input[type="checkbox"] {
+	margin-left:8px;
+	margin-right: auto;
+}
+
+.courses-table-list th, .courses-table-list td {
+	text-align:right;
+}
+
+.courses-table-list th:before {
+	left:15px;
+	right: auto;
+}
+
+/*----*****---- << Custom Course Single >> ----*****----*/
+	.dt-sc-course-single, .dt-sc-course-single .dt-sc-course-details {
+	float:right;
+}
+
+.dt-sc-course-single .dt-sc-course-image {
+	float:right;
+	margin:0px 0px 0px 2%;
+}
+
+.dt-sc-course-single .dt-sc-course-details-inner {
+	float:right;
+}
+
+.dt-sc-course-single .dt-sc-course-details-inner .post-ratings img {
+	margin:0px 0px 0px 2px;
+}
+
+.dt-sc-course-single .entry-metadata p {
+	margin:0px 0px 0px 15px;
+}
+
+.dt-sc-course-single .entry-metadata p i {
+	margin:0px 0px 0px 5px;
+}
+
+.dt-lesson-wrapper {
+	float:right;
+}
+
+.dt-sc-course-single .entry-metadata .dt-sc-button {
+	float:left;
+	margin:-13px 0px 0px 3px;
+}
+
+.dt-sc-course-single .entry-metadata .dt-sc-meta-container {
+	float:right;
+}
+
+.menu-item-widget-area-container .special-offers {
+	float:right;
+}
+
+.menu-item-widget-area-container .widget.widget_text ul.quick-links {
+	float:right;
+}
+
+.widget.widget_text ul.quick-links li, .widget.widget_text ul.quick-links li:last-child {
+	padding:8px 20px 8px 0px;
+	border-right:1px solid #e2d6c1;
+	border-left: none;
+}
+
+.menu-item-fullwidth #text-9.widget {
+	margin-right:0px;
+	margin-left:20px;
+}
+
+.menu-item-fullwidth #text-10.widget {
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.menu-item-fullwidth #text-11.widget {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.courses-share {
+	float:right;
+}
+
+/*----*****---- << 2.3.11. S2Member >> ----*****----*/
+
+#ws-plugin--s2member-profile {
+	float:right;
+}
+
+#ws-plugin--s2member-profile table td {
+	text-align:right;
+}
+
+/*----*****---- << 2.4. Footer >> ----*****----*/
+	
+	#footer {
+	float:right;
+}
+
+.footer-logo {
+	right:0;
+	left:0;
+}
+
+.footer-logo img {
+	right:0px;
+	left:0px;
+}
+
+#footer .footer-widgets-wrapper {
+	float:right;
+}
+
+#footer .copyleft {
+	float:right;
+}
+
+#footer .copyleft .copyleft-info {
+	float:right;
+}
+
+#footer ul.social-icons {
+	float:left;
+}
+
+#footer ul.social-icons li {
+	float:right;
+}
+
+#footer .footer-links {
+	float:left;
+}
+
+#footer .footer-links ul, #footer .copyright .copyright-info {
+	float:right;
+}
+
+#footer .footer-links ul li {
+	background:url(images/footer-splitter.png) left no-repeat;
+}
+
+#footer .footer-links ul li a {
+	padding:0px 5px 0px 11px;
+}
+
+#footer .footer-links ul li:last-child a {
+	padding-left:0px;
+	padding-right: 0;
+}
+
+#footer .widget .dt-sc-social-icons li {
+	margin:0px 0px -1px -1px;
+}
+
+/*----*****---- << Style Picker >> ----*****----*/
+		
+.dt-style-picker-wrapper {
+	right:0px;
+	left: auto;
+}
+
+#dt-style-picker {
+	float:right;
+}
+
+#dt-style-picker ul {
+	float:right;
+}
+
+#dt-style-picker .hr {
+	float:right;
+}
+
+.style-picker-ico {
+	right:225px;
+	left: auto;
+}
+
+.dt-sc-custom-course-type .post-ratings-loading {
+	float:right;
+	left:0px;
+	text-align:left;
+	right: auto;
+}
+
+.dt-sc-custom-course-type .post-ratings-loading img {
+	right:-2px;
+	left: auto;
+}
+
+/*----*****---- << Retina Images >> ----*****----*/
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), 
+only screen and (-o-min-device-pixel-ratio: 3/2), 
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min-devicepixel-ratio: 1.5), 
+only screen and (min-resolution: 1.5dppx) {
+
+}
+
+/*----*****---- << Shortcodes >> ----*****----*/
+
+	.dt-sc-hr {
+	float:right;
+}
+
+.dt-sc-hr-medium {
+	float:right;
+}
+
+.dt-sc-hr-large {
+	float:right;
+}
+
+.dt-sc-hr-border {
+	float:right;
+}
+
+.dt-sc-hr-invisible {
+	float:right;
+}
+
+.dt-sc-hr-invisible-small {
+	float:right;
+}
+
+.dt-sc-hr-invisible-medium {
+	float:right;
+}
+
+.dt-sc-hr-invisible-large {
+	float:right;
+}
+
+.dt-sc-hr.top {
+	background-position:left center;
+	text-align:left;
+}
+
+.dt-sc-hr.top a {
+	padding-right:5px;
+	left:-4%;
+	right: auto;
+	padding-left: 0;
+}
+
+.dt-sc-hr.top a span {
+	margin-left:2px;
+	margin-right: auto;
+}
+
+/*----*****---- << Columns >> ----*****----*/
+	
+	.column {
+	margin:0px 2% 0px 0px;
+	float:right;
+}
+
+.column.first {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.column.dt-sc-full-width, .column.dt-sc-one-column {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.column.no-space {
+	margin-right:0px;
+	margin-left:0px;
+}
+
+/*----*****---- << Buttons >> ----*****----*/
+
+.dt-sc-button .fa {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+/*----*****---- << Icon Box >> ----*****----*/
+
+.dt-sc-ico-content .icon img {
+	right:0px;
+	left:0px;
+}
+
+.dt-sc-ico-content.type1 {
+	padding:0px 80px 0px 0px;
+}
+
+.dt-sc-ico-content.type1 .icon {
+	right:0;
+	left: auto;
+}
+
+.dt-sc-ico-content.type2 {
+	padding:0px 110px 0px 0px;
+}
+
+.dt-sc-ico-content.type2 .icon {
+	right:0;
+	left: auto;
+}
+
+.dt-sc-ico-content.type4 .icon {
+	float:right;
+}
+
+.dt-sc-ico-content.type5 .icon:after {
+	right: -2px;
+	left: auto;
+}
+
+.dt-sc-ico-content.type7 {
+	padding:0px 70px 0px 0px;
+}
+
+.dt-sc-ico-content.type7 .icon {
+	right:0;
+	left: auto;
+}
+
+.dt-sc-ico-content.type9 .icon:after {
+	right: -2px;
+	left: auto;
+}
+
+.dt-sc-ico-content.type10 {
+	padding:0px 50px 0px 0px;
+}
+
+.dt-sc-ico-content.type10 .icon {
+	right:0;
+	left: auto;
+}
+
+.dt-sc-ico-content.type11 .icon {
+	float:right;
+	margin-left:15px;
+	margin-right: auto;
+}
+
+/*----*****---- << Number Counter **Updated** >> ----*****----*/
+	
+	.dt-sc-counter {
+	float:right;
+}
+
+/*----*****---- << Team >> ----*****----*/
+	
+	.dt-sc-team {
+	float:right;
+}
+
+
+/*----*****---- << Blockquote >> ----*****----*/
+	
+	blockquote.type2 {
+	border-right:0px;
+	border-left: none;
+}
+
+blockquote.type4 {
+	border-right:2px solid;
+	border-left: none;
+}
+
+/*----*****---- << Pullquotes >> ----*****----*/
+	.dt-sc-pullquote1, .dt-sc-pullquote2, .dt-sc-pullquote3, .dt-sc-pullquote4, .dt-sc-pullquote5, .dt-sc-pullquote6 {
+	margin-left:4%;
+	margin-right: auto;
+}
+
+.dt-sc-pullquote1 {
+	border-right:3px solid #e2d6c1;
+	border-left: none;
+}
+
+.dt-sc-pullquote5 {
+	padding:5px 15px 5px 5px;
+}
+
+.dt-sc-pullquote1.alignright, .dt-sc-pullquote1.aligncenter {
+	margin-right:2px;
+	margin-left: auto;
+}
+
+.dt-sc-pullquote1.alignleft, .dt-sc-pullquote1.aligncenter {
+	margin-left:2px;
+	margin-right: auto;
+}
+
+/*----*****---- << Pricing Table >> ----*****----*/
+	
+	.dt-sc-pricing-table {
+	float:right;
+}
+
+/* Type 2 */
+
+.dark-bg .dt-sc-pr-tb-col.type2 {
+	border-right:0px;
+	border-left: none;
+}
+
+.dark-bg .first .dt-sc-pr-tb-col.type2 {
+	border-right:1px solid rgba(255, 255, 255, 0.2);
+	border-left: none;
+}
+
+.dt-sc-pricing-table.no-space .column {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+/*----*****---- << Horizontal Tabs >> ----*****----*/
+	
+	.dt-sc-tabs-container {
+	float:right;
+}
+
+ul.dt-sc-tabs-frame {
+	float:right;
+}
+
+ul.dt-sc-tabs-frame li {
+	float:right;
+}
+
+ul.dt-sc-tabs-frame li:first-child {
+	margin-right:15px;
+	margin-left: auto;
+}
+
+ul.dt-sc-tabs-frame li a {
+	float:right;
+	margin:0px 0px -2px -2px;
+}
+
+.dt-sc-tabs-frame-content {
+	float:right;
+}
+
+/*----*****---- << Vertical Tabs >> ----*****----*/
+	
+	.dt-sc-tabs-vertical-container {
+	float:right;
+}
+
+ul.dt-sc-tabs-vertical-frame {
+	float:right;
+}
+
+ul.dt-sc-tabs-vertical-frame li {
+	float:right;
+}
+
+ul.dt-sc-tabs-vertical-frame li a {
+	border-left:2px solid transparent;
+	margin:0px 0px -2px -2px;
+	border-right: none;
+}
+
+ul.dt-sc-tabs-vertical-frame li a.current {
+	border-left-color:#fdf6ea;
+}
+
+.dt-sc-tabs-vertical-frame-content {
+	float:right;
+	padding:0px 4% 30px 0px;
+	border-right:2px solid #201c1d;
+	border-left: none;
+}
+
+/*----*****---- << Tooltip >> ----*****----*/
+
+#tiptip_holder {
+	right:0;
+	left: auto;
+}
+
+#tiptip_holder.tip_left {
+	padding-right:5px;
+	padding-left: 0;
+}
+
+#tiptip_holder.tip_right {
+	padding-left:5px;
+	padding-right: 0;
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color:#fff;
+	border-left-color:#000000;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color:#fff;
+	border-right-color:#000000;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-right:-6px;
+	margin-left: auto;
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-right:-6px;
+	margin-left: auto;
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-right:-5px;
+	margin-left: auto;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-right:-7px;
+	margin-left: auto;
+}
+
+/*----*****---- << Toggle & Accordion >> ----*****----*/
+	
+	.dt-sc-toggle-frame-set {
+	float:right;
+}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle-accordion a, .dt-sc-toggle-frame h5.dt-sc-toggle a {
+	padding:0px 60px 0px 15px;
+}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle:before, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:before {
+	border-left:2px solid #201c1d;
+	border-right: none;
+}
+
+h5.dt-sc-toggle, h5.dt-sc-toggle-accordion {
+	padding:9px 55px 10px 0px;
+}
+
+h5.dt-sc-toggle:before, h5.dt-sc-toggle-accordion:before {
+	right:0px;
+	left: auto;
+}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle a, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion a {
+	padding:9px 55px 8px 15px;
+}
+
+/*----*****---- << Lists >> ----*****----*/
+
+ul.dt-sc-fancy-list li {
+	padding:5px 23px 5px 0px;
+}
+
+ul.dt-sc-fancy-list li ul {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+ul.dt-sc-fancy-list.arrow li {
+	padding-right:15px;
+	padding-left: 0;
+}
+
+ul.dt-sc-fancy-list li:before {
+	right:0px;
+	left: auto;
+}
+
+/*----*****---- << Titled Boxes >> ----*****----*/
+
+.dt-sc-titled-box h6.dt-sc-titled-box-title span {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+/*----*****---- << Alert Boxes >> ----*****----*/
+	
+	.dt-sc-error-box, .dt-sc-warning-box, .dt-sc-success-box, .dt-sc-info-box {
+	padding:15px 37px 15px 15px;
+}
+
+.dt-sc-error-box:before, .dt-sc-warning-box:before, .dt-sc-success-box:before, .dt-sc-info-box:before {
+	right:10px;
+	left: auto;
+}
+
+/*----*****---- << Progress Bar >> ----*****----*/
+	
+	.dt-sc-dropcap {
+	float:right;
+}
+
+.dt-sc-dropcap.dt-sc-dropcap-circle {
+	margin:5px 0px 0px 10px;
+}
+
+.dt-sc-dropcap.dt-sc-dropcap-bordered-circle {
+	margin:5px 0 0 10px;
+}
+
+.dt-sc-dropcap.dt-sc-dropcap-square {
+	margin:5px 0px 0px 10px;
+}
+
+.dt-sc-dropcap.dt-sc-dropcap-bordered-square {
+	margin:5px 0px 0px 10px;
+}
+
+/*----*****---- << Donutchart >> ----*****----*/
+
+/*----*****---- << Progress Bar >> ----*****----*/
+
+.dt-sc-progress .dt-sc-bar-text > span {
+	float:left;
+}
+
+.dt-sc-progress .dt-sc-bar {
+	float: right;
+}
+
+/*----*****---- << Infographic >> ----*****----*/
+	
+	.dt-sc-infographic-bar {
+	padding:0px 120px 0px 0px;
+}
+
+.dt-sc-infographic-bar .fa {
+	right:0;
+	left:0;
+}
+
+.dt-sc-infographic-bar .dt-sc-bar-percentage span {
+	right:0px;
+	padding-left:5px;
+	left: auto;
+	padding-right: 0;
+}
+
+/*----*****---- << Colored Box >> ----*****----*/
+	
+	.dt-sc-colored-box {
+	float:right;
+}
+
+.dt-sc-colored-box h5 span {
+	margin-left:10px;
+	margin-right: auto;
+}
+
+/*----*****---- << Numbered List >> ----*****----*/
+
+.dt-sc-numbered-list li span {
+	margin:0px 0px 0px 10px;
+}
+
+.dt-sc-numbered-list-type2 li span {
+	margin:0px 5px 0px 10px;
+}
+
+/*----*****---- << Numbered List >> ----*****----*/
+	
+	.dt-sc-callout-box {
+	float:right;
+}
+
+.dt-sc-callout-box .dt-sc-button {
+	float:left;
+}
+
+.dt-sc-callout-box .icon {
+	float:right;
+	margin:-5px 0px 0px 20px;
+}
+
+.dt-sc-callout-box.with-icon {
+	padding:25px 2% 25px 3%;
+}
+
+.dt-sc-callout-box.type3 {
+	border-right:1px solid;
+	border-left: none;
+}
+
+/*----*****---- << Testimonials >> ----*****----*/
+
+.carousel-arrows {
+	left:0px;
+	right: auto;
+}
+
+.carousel-arrows a {
+	margin-right:10px;
+	margin-left: auto;
+}
+
+.dt-sc-testimonial {
+	padding:0px 110px 0px 0px;
+	float:right;
+}
+
+.dt-sc-testimonial .author {
+	right:0px;
+	float:right;
+	left: auto;
+}
+
+.dt-sc-testimonial blockquote {
+	float:right;
+}
+
+.dt-sc-testimonial blockquote q {
+	float:right;
+}
+
+.dt-sc-testimonial blockquote:before {
+	right:-18px;
+	left: auto;
+	-moz-transform: scale(1) rotate(180deg) translate(0px); -webkit-transform: scale(1) rotate(180deg) translate(0px); -o-transform: scale(1) rotate(180deg) translate(0px); transform: scale(1) rotate(180deg) translate(0px);
+}
+
+ul.side-nav > li.current_page_item > a:after, ul.side-nav > li > ul > li.current_page_item > a:after { -moz-transform: scale(1) rotate(180deg) translate(0px); -webkit-transform: scale(1) rotate(180deg) translate(0px); -o-transform: scale(1) rotate(180deg) translate(0px); transform: scale(1) rotate(180deg) translate(0px); }
+ul.side-nav li a:before { content:"\f0d9"; }
+
+.dt-sc-testimonial .author-detail {
+	float:left;
+	text-align:left;
+}
+
+.dt-sc-testimonial.type2 {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+.dt-sc-testimonial.type2 .author-detail {
+	right:95px;
+	text-align:right;
+	left: auto;
+}
+
+.dt-sc-testimonial.type2 blockquote:before {
+	right:25px;
+	left: auto;
+}
+
+.dt-sc-testimonial.type2.alignleft .author {
+	float:left;
+}
+
+.dt-sc-testimonial.type2.alignleft .author-detail {
+	left:95px;
+	right:inherit;
+	text-align:left;
+}
+
+.dt-sc-testimonial.type2.alignleft blockquote:before {
+	left:25px;
+	right:inherit;
+}
+
+/*----*****---- << Course >> ----*****----*/
+
+#main article.course img { float:right; margin-right:0px; margin-left:20px; }
+	
+.dt-sc-course .dt-sc-course-details .dt-sc-tags, .dt-sc-course .dt-sc-course-details h5, .dt-sc-course .dt-sc-course-details .dt-sc-course-meta { text-align:right; }
+#main .course.has-post-thumbnail .sensei-course-meta .course-price, #main .course-container.has-post-thumbnail .sensei-course-meta .course-price { right:-10px; left:inherit; }
+#my-courses ul.ui-tabs-nav li { float:right; }
+
+.dt-sc-course-carousel li, .dt-sc-coursesensei-carousel li {
+	margin:0px 20px 0px 0px;
+}
+
+.dt-sc-course {
+	float:right;
+}
+
+.dt-sc-course .dt-sc-course-price {
+	right:-10px;
+	left: auto;
+}
+
+.dt-sc-course .dt-sc-course-details .featured-post {
+	margin-right:20px;
+	margin-left: auto;
+}
+
+.dt-sc-course .dt-sc-course-details .dt-sc-course-meta span {
+	margin-left:12px;
+	margin-right: auto;
+	display:inline-block;
+	text-align:right;
+}
+
+.dt-sc-course .dt-sc-course-details .dt-sc-course-meta span i {
+	margin-left:8px;
+	margin-right: auto;
+}
+
+.dt-sc-course-list {
+	float:right;
+}
+
+.dt-sc-course-list li {
+	float:right;
+}
+
+.dt-sc-course .dt-sc-course-details .post-ratings {
+	float:right;
+}
+
+.dt-sc-course .post-ratings img, .dt-sc-course .post-ratings-loading img, .dt-sc-course .post-ratings-image img {
+	margin:0px 0px 0px 2px;
+}
+
+.dt-sc-course .dt-sc-course-details .featured-post {
+	padding:0px 27px 0px 11px;
+}
+
+.dt-sc-one-third .dt-sc-course .dt-sc-course-details .featured-post {
+	padding-left:2px;
+	padding-right: 0;
+}
+
+/*Custom Post type */
+
+.dt-sc-course.custom-course-type .dt-sc-course-thumb {
+	float:right;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-details {
+	float:right;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-details-inner {
+	padding:20px 85px 19px 20px;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-duration {
+	right:20px;
+	left: auto;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-duration .duration-icon {
+	float:right;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-duration .duration-icon:before {
+	right:0px;
+	left:0px;
+	border-right:5px solid transparent;
+	border-left:5px solid transparent;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-duration .duration-icon img {
+	right:0px;
+	left:0px;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-meta p {
+	padding:0px 0px 0px 10px;
+	border-left:1px solid #b5b5b5;
+	border-right: none;
+}
+
+.dt-sc-course.custom-course-type .dt-sc-course-meta p:last-child {
+	border-left:0px;
+	padding-left:0px;
+	padding-right:10px;
+	border-right: none;
+}
+
+/* Property View Type */
+.courses-view-type { float:left; }
+
+.courses-sorting {
+	float:right;
+}
+
+.courses-sorting .courses-popular-type {
+	float:right;
+	margin:0px 0px 0px 15px;
+}
+
+.courses-sorting .courses-popular-type label {
+	float:right;
+	margin:0px 0px 0px 10px;
+}
+
+.courses-sorting .courses-popular-type .selection-box {
+	margin-right:90px;
+	margin-left: auto;
+}
+
+.courses-price-type {
+	float:right;
+}
+
+.courses-price-type a {
+	float:right;
+}
+
+/* New Styles */
+	.dt-sc-custom-course-type {
+	float:right;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-thumb {
+	float:right;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-overlay {
+	right:0px;
+	left: auto;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-overlay a {
+	right:0px;
+	left:0px;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-details {
+	float:right;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-price, .dt-sc-one-half .dt-sc-custom-course-type .dt-sc-course-details h5, .dt-sc-custom-course-type .dt-sc-course-meta {
+	float:right;
+	text-align:right;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-meta p {
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 0px 10px;
+	border-left:1px solid #808080;
+	border-right: none;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-meta p:last-child {
+	margin-left:0px;
+	padding-left:0px;
+	padding-right: 0;
+	margin-right: auto;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-data {
+	float:right;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-duration {
+	float:right;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-duration i {
+	float:right;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-duration span {
+	margin:0px 15px 0px 0px;
+}
+
+.dt-sc-custom-course-type .dt-sc-course-data .post-ratings {
+	float:left;
+	text-align:left;
+}
+
+/*  Course thumb animation and hover */
+
+.dt-sc-custom-course-type .dt-sc-course-overlay {
+	right: 0;
+	left: auto;
+}
+
+/* Course List View Option */
+	
+	.dt-sc-custom-course-type.course-list-view .dt-sc-course-thumb {
+	float:right;
+	margin:0px 0px 0px 2%;
+}
+
+.dt-sc-custom-course-type.course-list-view .dt-sc-course-details {
+	float:right;
+}
+
+.dt-sc-custom-course-type.course-list-view .dt-sc-course-price {
+	float:right;
+	margin:0px 0px 0px 10px;
+}
+
+.dt-sc-custom-course-type.course-list-view .dt-sc-course-desc {
+	float:right;
+}
+
+.dt-sc-one-half .dt-sc-custom-course-type.course-list-view .dt-sc-course-thumb {
+	margin-left:3%;
+	margin-right: auto;
+}
+
+.page-with-both-sidebar .dt-sc-one-third .dt-sc-custom-course-type .dt-sc-course-completed {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.page-with-both-sidebar .dt-sc-one-third .dt-sc-custom-course-type .dt-sc-course-data .post-ratings {
+	text-align:right;
+}
+
+.page-with-both-sidebar .dt-sc-status-container {
+	float:right;
+}
+
+.page-with-both-sidebar .dt-sc-status-container .dt-sc-course-completed {
+	float:right;
+	margin:0px 0px 0px 10px;
+}
+
+.page-with-both-sidebar .dt-sc-status-container .dt-sc-purchased {
+	float:left;
+}
+
+.page-with-both-sidebar .dt-sc-course-single .entry-metadata .dt-sc-status-container .dt-sc-button {
+	float:right;
+}
+
+/*----*****---- << Events >> ----*****----*/
+
+.dt-sc-event-container .dt-sc-event-content h2 { text-align:right; }
+
+.dt-sc-event-container {
+	float:right;
+}
+
+.dt-sc-event-container .dt-sc-event-thumb {
+	margin:0px 0px 20px 4%;
+	float:right;
+}
+
+.dt-sc-event-container .dt-sc-event-content {
+	float:right;
+}
+
+.dt-sc-events-list {
+	float:right;
+}
+
+.dt-sc-events-list li {
+	float:right;
+}
+
+.dt-sc-event-meta {
+	float:right;
+}
+
+.dt-sc-event-meta p {
+	float:right;
+}
+
+.dt-sc-event-meta p i {
+	margin-left:4px;
+	margin-right: auto;
+}
+
+.dt-sc-event-container .dt-sc-event-thumb .event-price {
+	right:-8px;
+	float:right;
+	left: auto;
+}
+
+.dt-sc-event-container .dt-sc-event-thumb .event-price:before {
+	right:1px;
+	border-right:7px solid transparent;
+	left: auto;
+	border-left: none;
+}
+
+/*----*****---- << Contact >> ----*****----*/
+	
+	.dt-sc-contact-info {
+	float:right;
+}
+
+.dt-sc-contact-info .icon {
+	float:right;
+	margin:0px 0px 0px 20px;
+}
+
+.dt-sc-contact-info p {
+	float:right;
+}
+
+.dt-sc-contact-info span {
+	right:0px;
+	left: auto;
+}
+
+/*----*****---- << Social Icons >> ----*****----*/
+	
+.dt-sc-social-icons li {
+	margin:0px 0px 10px -2px;
+}
+
+.dt-sc-social-icons li:last-child {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.dt-sc-social-icons li img {
+	right:0px;
+	left:0;
+}
+
+.dt-sc-social-icons li:after {
+	right:0;
+	left: auto;
+}
+
+/*----*****---- << Video Section >> ----*****----*/
+
+.dt-sc-fullwidth-video-section {
+	float:right;
+}
+
+.dt-sc-video-container {
+	right:0px;
+	left: auto;
+}
+
+.dt-sc-video-content-wrapper {
+	float:right;
+}
+
+/*----*****---- << Timeline >> ----*****----*/
+
+.dt-sc-timeline-section:before, .dt-sc-timeline-section:after, .dt-sc-timeline-section .dt-sc-timeline.right .dt-sc-timeline-content h2:after, .dt-sc-timeline-section .dt-sc-timeline.left .dt-sc-timeline-content h2:after {
+	right:0;
+	left:0;
+}
+
+.dt-sc-timeline-section .dt-sc-timeline.right .dt-sc-timeline-content h2 span {
+	left:0;
+	right: auto;
+}
+
+.dt-sc-timeline-section .dt-sc-timeline.left .dt-sc-timeline-content h2 span {
+	right:0;
+	left: auto;
+}
+
+.dt-sc-timeline.left > .column.first {
+	float:left;
+}
+
+.dt-sc-timeline.right img {
+	margin-right:20%;
+	margin-left: auto;
+}
+
+.dt-sc-timeline.left img {
+	margin-left:23%;
+	float:left;
+	margin-right: auto;
+}
+
+.dt-sc-timeline.right .dt-sc-timeline-content {
+	text-align:left;
+	margin-left:30px;
+	margin-right: auto;
+}
+
+.dt-sc-timeline.left .dt-sc-timeline-content {
+	margin-right:30px;
+	margin-left: auto;
+}
+
+.dt-sc-timeline-section .dt-sc-timeline.left .dt-sc-timeline-content h2:after {
+	right:-56px;
+	margin-right:0;
+	left: auto;
+	margin-left: auto;
+}
+
+.dt-sc-timeline-section .dt-sc-timeline.right .dt-sc-timeline-content h2:after {
+	margin-left:0;
+	left:-57px;
+	right: auto;
+	margin-right: auto;
+}
+
+.dt-sc-timeline.right .dt-sc-timeline-content img, .dt-sc-timeline.right .dt-sc-timeline-content i {
+	float:left;
+	margin:5px 25px 10px 0px;
+}
+
+.dt-sc-timeline.left .dt-sc-timeline-content img, .dt-sc-timeline.left .dt-sc-timeline-content i {
+	float:right;
+	margin:5px 0px 10px 25px;
+}
+
+.timeline-button {
+	float:right;
+}
+
+.timeline-button:before {
+	right:0px;
+	border-right:7px solid #ffffff;
+	left: auto;
+	border-left: none;
+}
+
+.dt-sc-timeline.left .timeline-button {
+	margin-right:20px;
+	margin-left: auto;
+}
+
+.dt-sc-timeline.right .timeline-button {
+	float:left;
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.dt-sc-timeline.right .timeline-button:before {
+	right:inherit;
+	left:0px;
+	border-left:7px solid #ffffff;
+	border-right:0px;
+}
+
+/*----*****---- << Plan a Visit - Subscribe Form >> ----*****----*/
+
+.dt-sc-subscription-frm-container {
+	float:right;
+}
+
+.dt-sc-subscription-frm-container h2 {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+.dt-sc-subscription-frm-container h2 i {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.dt-sc-subscription-frm .selection-box {
+	float:right;
+}
+
+.dt-sc-subscription-frm .selection-box select {
+	padding-right:9px;
+	padding-left: 0;
+}
+
+.dt-sc-subscription-frm .dt-sc-check-box {
+	float:right;
+}
+
+.dt-sc-subscription-frm .dt-sc-check-box label.checkbox-label {
+	margin:0px -23px 0px 0px;
+}
+
+.dt-sc-subscription-frm .dt-sc-check-box input[type="checkbox"] + label.checkbox-label span {
+	margin:-1px 0 0 8px;
+}
+
+.dt-sc-subscription-frm .dt-sc-check-box input[type="checkbox"]:checked + label.checkbox-label span:before {
+	right:5px;
+	left: auto;
+}
+
+.dt-sc-subscription-enquiry {
+	float:right;
+	right:20px;
+	left: auto;
+}
+
+.dt-sc-subscription-enquiry i {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.dt-sc-subscription-enquiry span {
+	margin-left:10px;
+	margin-right: auto;
+}
+
+.ui-datepicker-next {
+	left:15px;
+	right: auto;
+}
+
+.ui-datepicker-prev {
+	right:15px;
+	left: auto;
+}
+
+.ui-timepicker-div dt {
+	float:right;
+	margin-left:15px;
+	margin-right: auto;
+}
+
+.ui-timepicker-div dd {
+	float:right;
+	margin-left:17px;
+	margin-right: auto;
+}
+
+.ui-timepicker-div dd.ui_tpicker_minute {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.ui-datepicker-buttonpane .ui-datepicker-current {
+	margin-right:10px;
+	margin-left: auto;
+}
+
+.ui_tpicker_hour_slider:before, .ui_tpicker_minute_slider:before {
+	left:13px;
+	border-right:7px solid transparent;
+	border-left:7px solid transparent;
+	right: auto;
+}
+
+.ui_tpicker_hour_slider:after, .ui_tpicker_minute_slider:after {
+	left:0px;
+	border-right:1px solid #e2d6c1;
+	border-left:1px solid #e2d6c1;
+	right: auto;
+}
+
+.ui_tpicker_hour_slider select, .ui_tpicker_minute_slider select {
+	padding:10px 15px 10px 40px;
+}
+
+/*----*****---- << Lessons List >> ----*****----*/
+ol.dt-sc-lessons-list {
+	float:right;
+}
+
+ol.dt-sc-lessons-list > li {
+	float:right;
+	padding:0px 60px 0px 0px;
+}
+
+ol.dt-sc-lessons-list > li:before {
+	right:0px;
+	left: auto;
+}
+
+ol.dt-sc-lessons-list li .lesson-metadata p, .dt-sc-lesson-single .lesson-metadata p {
+	margin:0px 0px 0px 15px;
+}
+
+ol.dt-sc-lessons-list li .lesson-metadata p i, .dt-sc-lesson-single .lesson-metadata p i {
+	margin:0px 0px 0px 5px;
+}
+
+ol.dt-sc-lessons-list li .lesson-details {
+	float:right;
+}
+
+.dt-sc-lesson-single .lesson-metadata {
+	float:right;
+}
+
+ol.dt-sc-lessons-list.dt-sc-user-subscribed-courses > li:after {
+	right:11px;
+	left: auto;
+}
+
+ol.dt-sc-lessons-list.dt-sc-user-subscribed-courses > li {
+	padding-right:45px;
+	padding-left: 0;
+}
+
+ol.dt-sc-lessons-list > li.dt-hidden-lesson > .hidden-lesson-overlay {
+	right:0px;
+	left: auto;
+}
+
+/*----*****---- << Updates >> ----*****----*/
+	
+.dt-sc-purchased-details {
+	float:right;
+}
+
+.dt-sc-purchased, .dt-sc-course-completed, .dt-sc-course-pending, .dt-sc-course-notgraded, .dt-sc-assignment-completed, .dt-sc-lesson-completed {
+	float:right;
+}
+
+.dt-sc-course-completed, .dt-sc-assignment-completed, .dt-sc-lesson-completed {
+	margin:0px 10px 0px 0px;
+}
+
+.dt-sc-course-completed span, .dt-sc-course-pending span, .dt-sc-course-notgraded span, .dt-sc-assignment-completed span, .dt-sc-lesson-completed span {
+	margin-left:3px;
+	margin-right: auto;
+}
+
+.dt-sc-assignment-completed, .dt-sc-lesson-completed {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.dt-sc-course-details-inner .dt-sc-purchased {
+	float:left;
+}
+
+.dt-sc-course-details-inner .dt-sc-course-completed {
+	float:left;
+	margin:-5px 0px 5px 15px;
+}
+
+.dt-sc-media-attachments {
+	float:right;
+}
+
+.dt-sc-media-attachments li {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+
+.dt_lessons .lesson-title .dt-sc-lesson-completed {
+	float:right;
+	margin:1px 0px 0px 20px;
+}
+
+.dt_lessons .lesson-title .dt-sc-lesson-completed span {
+	margin-left:3px;
+	margin-right: auto;
+}
+
+ol.dt-sc-lessons-list > li:after {
+	right: 21px;
+	left: auto;
+}
+
+ol.dt-sc-lessons-list li ol li .dt_lessons:before {
+	right: -38px;
+	left: auto;
+}
+
+/* User Dashboard */
+
+.dt-sc-user-details {
+	float:right;
+}
+
+.dt-sc-user-details img {
+	float:right;
+	margin:0px 0px 0px 15px;
+}
+
+.dt-sc-user-dashboard-details .dt-sc-course-name, .dt-sc-user-dashboard-details .dt-sc-lesson-name, .dt-sc-user-dashboard-details .dt-sc-assignment-name, .dt-sc-user-dashboard-details .dt-sc-align-right, .dt-sc-user-dashboard-details .dt-sc-teachers-name {
+	text-align:right;
+}
+
+.dt-sc-user-dashboard-details .dt-sc-course-name .dt-sc-not-purchased {
+	margin:0px 5px 0px 0px;
+}
+
+.dt-sc-dashboard-menus {
+	float:right;
+}
+
+.dt-sc-dashboard-menus li {
+	float:right;
+}
+
+.dt-sc-dashboard-menus li a span {
+	margin-left:10px;
+	margin-right: auto;
+}
+
+.dt-sc-dashboard-menus li a {
+	float:right;
+}
+
+.dashboard-content .teachers-details {
+	float:right;
+}
+
+.dt-sc-course-badges {
+	float:right;
+}
+
+.dt-sc-course-badges li {
+	float:right;
+	margin:0px 0px 10px 2%;
+}
+
+.dt-sc-course-badges li:nth-child(3n+3) {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.dt-sc-course-badges li .dt-sc-warning-box {
+	padding:10px 37px 10px 15px;
+}
+
+.dt-sc-user-dashboard-details .dashboard-content .dt-sc-course-completed span, .dt-sc-user-dashboard-details .dashboard-content .dt-sc-course-pending span, .dt-sc-user-dashboard-details .dashboard-content .dt-sc-course-notgraded span {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+/* Lessons Menu */
+.dt-sc-lessons-menu {
+	float:right;
+}
+
+.dt-sc-lessons-menu h4 {
+	float:right;
+}
+
+.dt-sc-lessons-menu ul {
+	float:right;
+}
+
+.dt-sc-lessons-menu ul li {
+	float:right;
+	padding:10px 30px 15px 0px;
+}
+
+.dt-sc-lessons-menu ul li:before {
+	right:-2px;
+	left: auto;
+}
+
+.dt-sc-lessons-menu ul li:after {
+	border-left:5px solid #e2d6c1;
+	right:-1px;
+	left: auto;
+	border-right: none;
+}
+
+.dt-sc-lessons-menu ul li a.dt-sc-lesson-menu-name {
+	float:right;
+}
+
+.dt-sc-lessons-menu ul li .dt-sc-lesson-menu-duration {
+	float:right;
+}
+
+.dt-sc-lessons-menu ul li .dt-sc-lesson-menu-duration i {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.dt-sc-lessons-menu ul li.dt-lesson-complete a.dt-sc-lesson-menu-name:before {
+	right:-28px;
+	left: auto;
+}
+
+.dt-sc-lesson-single .lesson-metadata .dt-sc-lesson-completed {
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.page-template-single-dt_lessons-php #tiptip_holder.tip_left {
+	padding-right:10px;
+	padding-left: 0;
+}
+
+/* Lesson Staff */
+.dt-sc-lesson-staff {
+	float:right;
+}
+
+.dt-sc-lesson-staff .lesson-staff-details .team-thumb {
+	float:right;
+	margin:0px 0px 0px 5%;
+}
+
+.dt-sc-lesson-staff .lesson-staff-details .team-meta {
+	float:right;
+}
+
+.dt-sc-lesson-staff .lesson-staff-details ul.teachers-details {
+	float:right;
+}
+
+.frmCompleteLesson input[type="submit"] {
+	float:right;
+}
+
+.frmStartQuiz input[type="submit"], .frmQuiz input[type="submit"] {
+	float:right;
+	margin:10px 0px 0px 20px;
+}
+
+.dt_quizes #dt-start-quiz {
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.page-with-both-sidebar .dt-sc-lesson-staff .lesson-staff-details .team-thumb {
+	margin-left:5%;
+	margin-right: auto;
+}
+
+.page-with-both-sidebar .dt-sc-lesson-staff .lesson-staff-details .team-meta {
+	text-align:right;
+}
+
+.page-with-both-sidebar .dt-sc-lesson-staff .lesson-staff-details {
+	text-align:right;
+}
+
+/* Quizes */
+.dt-sc-quiz-sidebar {
+	float:right;
+}
+
+.dt-sc-timer-container {
+	float:right;
+}
+
+.dt-sc-timer-container h4 {
+	float:right;
+}
+
+.dt-sc-timer-container h4 span {
+	margin-left:8px;
+	margin-right: auto;
+}
+
+.dt-quiz-timer {
+	float:right;
+}
+
+.dt-quiz-timer .dt-countdown {
+	right:0;
+	left:0;
+}
+
+.dt-quiz-timer .dt-mins, .dt-quiz-timer .dt-secs {
+	right:-38px;
+	left:0;
+	right:-40px;
+	left: auto;
+}
+
+.dt-quiz-timer .dt-secs {
+	right:21px;
+	left: auto;
+}
+
+.dt-quiz-container, #dt-question-list {
+	float:right;
+}
+
+#dt-question-list .dt-question {
+	float:right;
+}
+
+#dt-question-list .dt-question:before {
+	right:0px;
+	left: auto;
+}
+
+#dt-question-list .dt-title {
+	float:right;
+}
+
+#dt-question-list .dt-question-options {
+	float:right;
+}
+
+.dt-question-options input[type="radio"], .dt-question-options input[type="checkbox"] {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.dt-mark {
+	left:0px;
+	right: auto;
+}
+
+.dt-question-options .dt-boolean label {
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.dt-answer-explanation {
+	float:right;
+}
+
+.dt_quizes #dt-sc-ajax-load-image {
+	right:0;
+	left: auto;
+}
+
+.dt-sc-post-quiz-msg {
+	float:right;
+}
+
+#dt-question-list .dt-question.dt-correct:after, #dt-question-list .dt-question.dt-wrong:after {
+	left:20px;
+	right: auto;
+}
+
+#dt-question-list .dt-question.dt-correct .dt-title, #dt-question-list .dt-question.dt-wrong .dt-title {
+	padding-left:50px;
+	padding-right: 0;
+}
+
+/* Quizes */
+.dt-sc-assignment-file-types, .dt-sc-assignment-file-size {
+	float:right;
+}
+
+.dt-sc-assignment-file-types h6, .dt-sc-assignment-file-size h6 {
+	float:right;
+}
+
+.dt-sc-assignment-file-types ul.assignment-file-types {
+	float:right;
+	margin:-2px 10px 0px 0px;
+}
+
+.dt-sc-assignment-file-types ul.assignment-file-types li {
+	float:right;
+	margin:0px 0px 0px 10px;
+}
+
+.dt-sc-assignment-file-types ul.assignment-file-types li span {
+	margin-left:2px;
+	margin-right: auto;
+}
+
+.dt-sc-assignment-file-size h6 span {
+	margin:0px 5px 0px 0px;
+}
+
+.frmAssignment {
+	float:right;
+}
+
+.frmAssignment .upload-assignment h6 {
+	float:right;
+}
+
+.frmAssignment .upload-assignment input[type="file"] {
+	margin:-5px 10px 0px 0px;
+}
+
+.dt-sc-assignment-submission {
+	float:right;
+}
+
+.dt-sc-assignment-submission li {
+	float:right;
+}
+
+.dt-sc-assignment-submission li .column {
+	border-right:1px solid #e2d6c1;
+	margin-right:0px;
+	padding-right:2%;
+	padding-left: 0;
+	margin-left: auto;
+	border-left: none;
+}
+
+.dt-sc-assignment-submission li .first {
+	border-right:0px;
+	margin-left:-1px;
+	margin-right:0px;
+	padding-right:0px;
+	padding-left: 0;
+	border-left: none;
+}
+
+.dt-sc-resubmit-assignment {
+	margin:0px 0px 0px 20px;
+}
+
+.dt-sc-assignment-upload #dt_submit_assignment {
+	float:right;
+}
+
+/*----*****---- << Course Certificate >> ----*****----*/
+.dt-sc-course-certificate-wrapper {
+	float:right;
+}
+
+.dt-sc-course-certificate {
+	float:right;
+}
+
+.dt-sc-cert-header {
+	float:right;
+}
+
+.dt-sc-cert-header .dt-sc-cert-comp-logo {
+	right:10px;
+	left: auto;
+}
+
+.dt-sc-cert-header .dt-sc-cert-badge {
+	left:10px;
+	right: auto;
+}
+
+.dt-sc-cert-content {
+	float:right;
+}
+
+.dt-sc-cert-footer {
+	float:right;
+}
+
+.dt-sc-cert-date {
+	float:right;
+	margin:20px 0px 0px 5%;
+}
+
+.dt-sc-cert-logo {
+	float:right;
+	margin-left:5%;
+	margin-right: auto;
+}
+
+.dt-sc-cert-sign {
+	float:right;
+}
+
+.dt_print_certificate {
+	text-align:left;
+}
+
+.dt_print_certificate span {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.dt-sc-course-certificate-wrapper.type2, .dt-sc-course-certificate-wrapper.type3 {
+	padding:0px 40px 0px 0px;
+}
+
+.dt-sc-course-certificate-wrapper.type2 .dt-sc-course-certificate, .dt-sc-course-certificate-wrapper.type3 .dt-sc-course-certificate {
+	border-right:140px solid #71c6ef;
+	padding:52px 50px 30px 30px;
+	border-left: none;
+}
+
+.dt-sc-course-certificate-wrapper.type2 .dt-sc-cert-badge {
+	right:59px;
+	left: auto;
+}
+
+.dt-sc-course-certificate-wrapper.type2 .dt-sc-cert-header, .dt-sc-course-certificate-wrapper.type3 .dt-sc-cert-header {
+	text-align:right;
+}
+
+.dt-sc-course-certificate-wrapper.type2 .dt-sc-cert-content, .dt-sc-course-certificate-wrapper.type3 .dt-sc-cert-content {
+	text-align:right;
+}
+
+.dt-sc-course-certificate-wrapper.type2 .dt-sc-cert-sign, .dt-sc-course-certificate-wrapper.type3 .dt-sc-cert-sign {
+	float:left;
+}
+
+/*----*****---- << Woo >> ----*****----*/
+
+.woocommerce ul.cart_list li img, .woocommerce-page ul.cart_list li img, .woocommerce ul.product_list_widget li img, .woocommerce-page ul.product_list_widget li img { margin-left:0px; margin-right:15px; }
+ul.products li .product-details-hover .yith-wcwl-add-button.show { margin-right:5px; }
+table.shop_table .quantity .plus { border-radius:3px 0px 0px 3px; }
+.woocommerce .quantity .minus, .woocommerce-page .quantity .minus { border-radius:0px 3px 3px 0px; }
+.payment_method_paypal a.about_paypal { float:left; left:auto; line-height:111px; margin-left:11px; position:relative; right:10px; }
+
+/*----*****---- << Buddypress >> ----*****----*/
+
+#search-members-form #members_search_submit, #search-groups-form #groups_search_submit { left:0px; right:inherit; }
+
+#buddypress #item-nav div.item-list-tabs ul li { float:right; }
+
+#buddypress div#item-header img.avatar { float:right; margin-right:0px; margin-left:15px; }
+
+#buddypress ul.item-list li img.avatar { float:right; margin-left:10px; margin-right:0px; }
+#buddypress .activity-list .activity-avatar, #buddypress div.activity-meta, #item-buttons { float:right; }
+#buddypress div.item-list-tabs ul li.last select { text-align:right; padding-left:34px; padding-right:10px; }
+
+#buddypress .activity-list .activity-content .activity-inner, #buddypress .activity-list .activity-content blockquote { border-left:0px;}
+
+#buddypress ul.item-list li div.action { left:0px; right:auto; }
+#buddypress ul#groups-list.item-list li .item, #buddypress ul#groups-list.item-list li .item-avatar { float:right;  }
+#buddypress form#whats-new-form #whats-new-submit { float:left; }
+
+@media only screen and (min-width:768px) and (max-width:959px) { 
+	.dt-sc-one-third .entry-details { padding-left:0px; padding-right:65px; }
+}
+
+@media only screen and (max-width: 767px) { 
+	.header-register, .header-register ul li { float:none; margin:0; }
+	#main-menu ul.menu li, #main-menu ul.menu > li, #main-menu ul.menu > li > ul.sub-menu > li, #main-menu ul.menu .megamenu-child-container > ul.sub-menu > li { text-align:right; }
+}

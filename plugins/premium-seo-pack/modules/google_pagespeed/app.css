@@ -1,0 +1,233 @@
+.psp-sub-panel-content {
+	padding: 15px 10px 15px 10px;
+}
+#psp-pagespeed-detail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	background: rgba(255,255,255, 0.9); 
+	z-index: 999;
+	display: none;
+}
+	#psp-pagespeed-detail .psp-pagespeed-header {
+		background: #ecf0f1;
+		width: 100%; 
+		border-bottom: 1px solid #CCCCCC;
+    	height: 45px;
+	}
+		#psp-pagespeed-detail .psp-pagespeed-header .psp-close-page-detail {
+			position: absolute;
+			right: 13px;
+   			top: 10px;
+		}
+	#psp-pagespeed-detail .psp-pagespeed-header .psp-tab-item {
+		width: 260px;
+		height: 45px;
+		position: relative;
+		display: inline-block;
+		padding: 0px 10px 0px 10px;
+		border: 1px solid #CCCCCC;
+		border-top: 1px solid #CCCCCC;
+		border-bottom: none;
+		z-index: 100;
+		opacity: 0.6;
+		margin-left: -4px;
+		cursor: pointer;
+	}
+		#psp-pagespeed-detail .psp-pagespeed-header .psp-tab-item:first-child {
+			margin-left: 20px;
+		}
+		#psp-pagespeed-detail .psp-pagespeed-header .psp-tab-item.on {
+			background: #fff;
+			border-top: 1px solid #fff;
+			opacity: 1;
+			cursor: default;
+		}
+		#psp-pagespeed-detail .psp-pagespeed-header .psp-tab-item table {
+			width: 100%;
+			margin-top: 5px;
+		}
+			#psp-pagespeed-detail .psp-pagespeed-header .psp-tab-item table .psp-tab-title {
+				font-size: 18px;
+				font-family: Arial, Helvetica, sans-serif;
+				padding-left: 5px;
+				width: 80px; 
+			}
+	#psp-pagespeed-detail .psp-pagespeed-page-content {
+		background: #fff;
+		margin: 0px 0.6% 0px 0.6%;
+		width: 98.6%;
+		height: 100%;
+		border: 1px solid #CCCCCC;
+		position: relative;
+		top: -1px;
+		left: 0px;
+		z-index: 10;
+	}
+		#psp-pagespeed-detail .psp-pagespeed-page-content .psp-pagespeed-tab {
+			width: 100%;
+			height: 100%;
+			display: table;
+		}
+			#psp-pagespeed-detail .psp-pagespeed-page-content .psp-pagespeed-tab .left {
+				display: table-cell;
+				padding: 15px 0px 0px 15px;
+				vertical-align: top;
+			}
+			#psp-pagespeed-detail .psp-pagespeed-page-content .psp-pagespeed-tab .right {
+				display: table-cell;
+				width: 380px;
+				padding: 15px 15px 0px 15px;
+				vertical-align: top;
+			}
+			
+			#psp-pagespeed-detail .psp-pagespeed-page-content .desktop-display {
+				width: 345px;
+				height: 324px;
+				position: relative;
+				margin: 0px auto 20px auto;
+			}
+				#psp-pagespeed-detail .psp-pagespeed-page-content .desktop-display img {
+					margin-top: 0px;
+					margin-left: 13px;
+				}
+				#psp-pagespeed-detail .psp-pagespeed-page-content .desktop-display .php-the-mask {
+					width: inherit;
+					height: inherit;
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 10;
+					background: url("assets/desktop.png") no-repeat top left;
+				}
+				
+			#psp-pagespeed-detail .psp-pagespeed-page-content .mobile-display {
+				width: 172px;
+				height: 355px;
+				position: relative;
+				margin: 0px auto 20px auto;
+			}
+				#psp-pagespeed-detail .psp-pagespeed-page-content .mobile-display img {
+					margin-top: 50px;
+					margin-left: 10px;
+					width: 155px; 
+				}
+				#psp-pagespeed-detail .psp-pagespeed-page-content .mobile-display .php-the-mask {
+					width: inherit;
+					height: inherit;
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 10;
+					background: url("assets/mobile.png") no-repeat top left;
+				}
+	#psp-pagespeed-detail .psp-pagespeed-page-content .psp-panel-title {
+		margin-right: 10px;
+	}
+	#psp-pagespeed-detail .psp-pagespeed-page-content .psp-panel-title .psp-progress {
+		width: 202px;
+		background: #fff;
+		margin: 4px 58px 4px 4px;
+		position: absolute;
+		top: 2px;
+		right: 10px;
+	}
+	#psp-pagespeed-detail .psp-pagespeed-header .psp-tab-item table .psp-progress {
+		margin: 4px 70px 4px 4px;
+	}
+		#psp-pagespeed-detail .psp-pagespeed-header .psp-tab-item table .psp-progress .psp-progress-score,
+		#psp-pagespeed-detail .psp-pagespeed-page-content .psp-panel-title .psp-progress .psp-progress-score {
+			width: 56px; 
+			right: -62px;
+		}		
+	#psp-pagespeed-detail .psp-pagespeed-page-content .psp-identity-box h1 {
+		margin: 0px 0px 10px 0px;
+		font-size: 16px;
+	}
+	#psp-pagespeed-detail .psp-pagespeed-page-content .psp-identity-box h2 {
+		margin: 0px 0px 10px 0px;
+		font-size: 12px;
+	}
+	
+	.psp-statistics-box .psp-sub-panel-content {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#psp-pagespeed-detail .psp-pagespeed-page-content .psp-statistics-box .psp-table {
+		border-spacing:0; 
+		border-collapse:collapse; 
+	}
+		#psp-pagespeed-detail .psp-pagespeed-page-content .psp-statistics-box .psp-table td:nth-child(2)
+		{
+			font-weight: bold;
+		}
+	
+	.psp-report-rules .psp-what-to-do {
+		width: 100%; 
+	}
+		.psp-report-rules .psp-what-to-do a.psp-criteria {
+			display: block;
+			width: 100%;
+			padding: 5px 0px 5px 0px;
+			text-indent: 20px;
+			background: #95a5a6 url("assets/arrow_right.png") 8px 10px no-repeat;
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+			.psp-report-rules .psp-what-to-do a.psp-criteria:hover {
+				background-color: #7f8c8d;
+			}
+			.psp-report-rules .psp-what-to-do a.psp-criteria.open {
+				background-image: url("assets/arrow_down.png") !important;
+			}
+			
+			.psp-report-rules .psp-what-to-do .psp-desc-summary {
+				color: #7f8c8d;
+			}
+			.psp-report-rules .psp-what-to-do ul {
+				margin-left: 15px;
+				color: #777777;
+			}
+				.psp-report-rules .psp-what-to-do .can-do li {
+					line-height: 1.2em;
+				    list-style-type: square;
+				    margin-top: 0.4em;
+			    }
+			.psp-report-rules .psp-desc-complete {
+				width: 100%;
+				display: none;
+				margin: 0px 0px 0px 0px;
+				position: relative;
+			}
+	
+	.psp-report-rules td.psp-icon-status {
+		width: 16px; 
+		padding: 0px 5px 0px 5px;
+		vertical-align: top;
+	}
+	.psp-report-rules .psp-table tr td.psp-icon-status {
+		width: 16px; 
+		padding: 0px 5px 0px 5px;
+	}
+	
+
+i.psp-status-icon {
+    background: url("assets/icon-status.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    margin: 5px auto;
+    margin-bottom: 0px;
+    width: 18px;
+}
+		i.psp-status-icon.is_success {
+			background-position: 0px 0;
+		}
+		i.psp-status-icon.is_error {
+			background-position: -18px 0;
+		}
+		i.psp-status-icon.is_warning {
+			background-position: -36px 0;
+		}

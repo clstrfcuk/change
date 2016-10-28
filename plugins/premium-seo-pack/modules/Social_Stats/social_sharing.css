@@ -1,0 +1,298 @@
+/* psp social sharing box */
+
+/* toolbars */
+.psp-sshare-wrapper {
+	background-color: #ecf0f1;
+	text-align: center;
+	z-index: 19998;
+	padding: 7px;
+}
+.psp-sshare-wrapper.large {
+	padding: 12px;
+}
+	.psp-sshare-wrapper .psp-socialbox-content {
+		float:left;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+	}
+	
+/* toolbar type: content panel horizontal */
+.psp-sshare-wrapper.box-panel {
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+/* toolbar type: floating */
+.psp-sshare-wrapper.box-floating {
+	position: fixed;
+}
+	
+/* toolbar type: content panel vertical */
+.psp-sshare-wrapper.box-panel-vertical {
+	position: absolute;
+}
+
+/* vertical toolbars */
+.psp-sshare-wrapper.box-floating, .psp-sshare-wrapper.box-panel-vertical {
+	width: 30px;
+}
+.psp-sshare-wrapper.box-floating.large, .psp-sshare-wrapper.box-panel-vertical.large {
+	width: 50px;
+}
+.psp-sshare-wrapper.box-floating.viewcount, .psp-sshare-wrapper.box-panel-vertical.viewcount {
+	width: 90px;
+}
+.psp-sshare-wrapper.box-floating.large.viewcount, .psp-sshare-wrapper.box-panel-vertical.large.viewcount {
+	width: 127px;
+}
+
+		/* toolbar buttons */
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn, .psp-sshare-wrapper .psp-socialbox-content .social-btn.viewcount,
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn.large, .psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount,
+		.psp-sshare-wrapper .psp-socialbox-content .more-list, .psp-sshare-wrapper .psp-socialbox-content .more-list.viewcount,
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.large, .psp-sshare-wrapper .psp-socialbox-content .more-list.large.viewcount {
+			float: left;
+			width: 30px;
+			margin-right: 7px;
+			overflow: hidden;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn.large, .psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount,
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.large, .psp-sshare-wrapper .psp-socialbox-content .more-list.large.viewcount {
+			width: 50px;
+			margin-right: 12px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn.viewcount,
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.viewcount {
+			width: 76px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount,
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.large.viewcount {
+			width: 127px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .more-list, .psp-sshare-wrapper .psp-socialbox-content .more-list.viewcount,
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.large, .psp-sshare-wrapper .psp-socialbox-content .more-list.large.viewcount {
+			width: 44px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.large, .psp-sshare-wrapper .psp-socialbox-content .more-list.large.viewcount {
+			width: 74px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.viewcount {
+			width: 90px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.large.viewcount {
+			width: 151px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .more-list {
+			padding: 7px;
+			border: 0px solid blue;
+			background-color: #e8e8e8;
+			display: none;
+			z-index: 19999;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .more-list.large {
+			padding: 12px;
+		}
+		.psp-sshare-wrapper.box-panel .psp-socialbox-content .more-list {
+			padding-bottom: 0px;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn > span.count, .psp-sshare-wrapper .psp-socialbox-content .social-btn.large >  span.count {
+			float: left;
+			text-align: center;
+			font-family: "Arial";
+			color: #a8a8a8;
+			overflow: hidden;
+			white-space: nowrap;
+			/*text-overflow: ellipsis;*/
+			background-position: 0 0;
+			background-repeat: no-repeat;
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn > span.count {
+			font-size: 11px;
+			text-indent: 5px;
+			line-height: 30px;
+			width: 41px;
+			height: 30px;
+			margin-left: 5px;
+			background-image:url(assets-sharing/social-count-box-normal.png);
+		}
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn.large > span.count {
+			font-size: 18px;
+			text-indent: 8px;
+			line-height: 50px;
+			width: 69px;
+			height: 50px;
+			margin-left: 8px;
+			background-image:url(assets-sharing/social-count-box-large.png);
+		}
+		
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn > a.icon, .psp-sshare-wrapper .psp-socialbox-content .social-btn.large > a.icon {
+			float: left;
+			width: 30px;
+			height: 30px;
+			background-image: url(assets-sharing/icons-sprite-normal.png);
+			background-position: 0 0;
+			background-repeat: no-repeat;
+		}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.viewcount.print > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.viewcount.email > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.viewcount.more > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.print > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.email > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.more > span.text {
+				float: left;
+				text-align: left;
+				font-family: "Arial";
+				color: #fff;
+				overflow: hidden;
+				font-size: 11px;
+				text-indent: 0px;
+				line-height: 30px;
+				width: 46px;
+				height: 30px;
+				background-color: #2c3e50;
+				cursor: pointer; cursor: hand;
+				text-indent: 6px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.viewcount.email > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.email > span.text {
+				background-color: #444444;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.viewcount.more > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.more > span.text {
+				background-color: #9b9b9b;
+				
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.print > a.icon {
+				background-position: 0px 0px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.email > a.icon {
+				background-position: 0px -30px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.more > a.icon {
+				background-position: 0px -450px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.facebook > a.icon {
+				background-position: 0px -60px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.twitter > a.icon {
+				background-position: 0px -90px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.plusone > a.icon {
+				background-position: 0px -120px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.linkedin > a.icon {
+				background-position: 0px -150px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.pinterest > a.icon {
+				background-position: 0px -180px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.flattr > a.icon {
+				background-position: 0px -210px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.reddit > a.icon {
+				background-position: 0px -240px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.tumblr > a.icon {
+				background-position: 0px -270px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.xing > a.icon {
+				background-position: 0px -300px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.stumbleupon > a.icon {
+				background-position: 0px -330px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.buffer > a.icon {
+				background-position: 0px -360px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.digg > a.icon {
+				background-position: 0px -390px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.delicious > a.icon {
+				background-position: 0px -420px;
+			}
+		.psp-sshare-wrapper .psp-socialbox-content .social-btn.large > a.icon {
+			width: 50px;
+			height: 50px;
+			background-image: url(assets-sharing/icons-sprite-large.png);
+		}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.print > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.email > span.text,
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.viewcount.more > span.text {
+				font-size: 18px;
+				line-height: 50px;
+				width: 77px;
+				height: 50px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.print > a.icon {
+				background-position: 0px 0px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.email > a.icon {
+				background-position: 0px -50px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.more > a.icon {
+				background-position: 0px -750px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.facebook > a.icon {
+				background-position: 0px -100px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.twitter > a.icon {
+				background-position: 0px -150px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.plusone > a.icon {
+				background-position: 0px -200px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.linkedin > a.icon {
+				background-position: 0px -250px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.pinterest > a.icon {
+				background-position: 0px -300px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.flattr > a.icon {
+				background-position: 0px -350px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.reddit > a.icon {
+				background-position: 0px -400px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.tumblr > a.icon {
+				background-position: 0px -450px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.xing > a.icon {
+				background-position: 0px -500px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.stumbleupon > a.icon {
+				background-position: 0px -550px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.buffer > a.icon {
+				background-position: 0px -600px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.digg > a.icon {
+				background-position: 0px -650px;
+			}
+			.psp-sshare-wrapper .psp-socialbox-content .social-btn.large.delicious > a.icon {
+				background-position: 0px -700px;
+			}
+
+		/* toolbars fixes */
+		.psp-sshare-wrapper.box-floating > .psp-socialbox-content .social-btn,
+		.psp-sshare-wrapper.box-panel-vertical > .psp-socialbox-content .social-btn {
+			margin-top: 7px;
+		}
+		.psp-sshare-wrapper.box-floating > .psp-socialbox-content .social-btn.large,
+		.psp-sshare-wrapper.box-panel-vertical > .psp-socialbox-content .social-btn.large {
+			margin-top: 12px;
+		}
+		.psp-sshare-wrapper.box-panel-vertical > .psp-socialbox-content .social-btn,
+		.psp-sshare-wrapper.box-panel-vertical > .psp-socialbox-content .social-btn.large {
+			margin-right: 0;
+		}
+		.psp-sshare-wrapper.box-floating > .psp-socialbox-content .social-btn:first-child,
+		.psp-sshare-wrapper.box-panel-vertical > .psp-socialbox-content .social-btn:first-child {
+			margin-top: 0;
+		}
+		.psp-sshare-wrapper.box-panel > .psp-socialbox-content .social-btn {
+			margin-bottom: 7px;
+		}
+		.psp-sshare-wrapper.box-panel > .psp-socialbox-content .social-btn.large {
+			margin-bottom: 12px;
+		}

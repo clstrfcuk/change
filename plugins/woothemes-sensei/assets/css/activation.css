@@ -1,0 +1,18 @@
+
+#message.sensei-message .squeezer
+{
+	margin:0;
+	max-width:960px;
+	overflow:hidden;
+	padding:0 10px;
+	text-align:left;
+}
+
+#message.sensei-message li
+{
+	list-style:none outside;
+}
+
+#message.sensei-message .submit a.skip {
+	opacity:0.6;
+}

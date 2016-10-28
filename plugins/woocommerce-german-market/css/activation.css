@@ -1,0 +1,145 @@
+.wrap div.woocommerce-de-message {
+	position: relative;
+	z-index: 100;
+	border-color: #a8c254;
+	overflow: hidden;
+    padding: 17px;
+    background: #F5FFE0;
+    background: #e5ffaf; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #e5ffaf 0%, #f5ffe0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e5ffaf), color-stop(100%,#f5ffe0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #e5ffaf 0%,#f5ffe0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #e5ffaf 0%,#f5ffe0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #e5ffaf 0%,#f5ffe0 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #e5ffaf 0%,#f5ffe0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5ffaf', endColorstr='#f5ffe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.wrap div.woocommerce-de-message.warning {
+    border-color: #e5e5e5;
+    background: #fffdea;
+    background: #fffdea; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #fffdea 0%, #fffff9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#fffdea), color-stop(100%,#fffff9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #fffdea 0%,#fffff9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #fffdea 0%,#fffff9 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #fffdea 0%,#fffff9 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #fffdea 0%,#fffff9 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdea', endColorstr='#fffff9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.wrap div.woocommerce-de-message .logo{
+    position:absolute;
+    bottom:0;
+    right: 0;
+    height: 65px;
+    width: 186px;
+    background: url( ../images/logo.png ) no-repeat;
+}
+
+.wrap div.woocommerce-de-message h4 {
+    font-size: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+    font-weight: bold;
+    color: #77990B;
+    text-shadow: 0px 1px 1px #ffffff;
+    line-height: 36px;
+    margin-top:0;
+    margin-bottom: 8px;
+}
+
+.wrap div.woocommerce-de-message.warning h4,
+.wrap div.woocommerce-de-message.warning h5 {
+    color: #444;
+}
+
+.woocommerce-de-message h4.narrow {
+	width: 75%;
+}
+
+.woocommerce-de-message h5 {
+	margin: 0 0 15px 0;
+	font-size: 16px;
+	line-height: 36px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+	font-weight: normal;
+	color: #77990B;
+	text-shadow: 0px 1px 1px #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	vertical-align: middle;
+    width: 100%
+}
+
+.wrap div.woocommerce-de-message.single-line h5{
+   margin: 0 0 2px 0;
+   font-weight: bold;
+}
+
+.wrap div.woocommerce-de-message.single-line .logo{
+    height: 51px;
+}
+    
+.woocommerce-de-message div {
+	margin: 2px !important;
+	padding: 2px 0 !important;
+	float: left !important;
+	vertical-align: middle;
+}
+
+.wrap div.woocommerce-de-message .button-primary {
+	font-size: 14px;
+    height: 30px;
+    padding-top: 3px;
+    margin-bottom: 14px;
+    background-color: #6e8502;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#8db500),to(#6e8502));
+    background-image: -webkit-linear-gradient(top,#8db500,#6e8502);
+    background-image: -moz-linear-gradient(top,#8db500,#6e8502);
+    background-image: -ms-linear-gradient(top,#8db500,#6e8502);
+    background-image: -o-linear-gradient(top,#8db500,#6e8502);
+    background-image: linear-gradient(to bottom,#8db500,#6e8502);
+    border-color: #576901;
+    -webkit-box-shadow: inset 0 1px 0 rgba(177, 230, 120, 0.6);
+    box-shadow: inset 0 1px 0 #B3D805;
+    color: white;
+    text-shadow: 0 -1px 0 #010200;
+ }
+ 
+
+.wrap div.woocommerce-de-message .button-primary:hover, a.button-primary:active {
+	background-color: #6e8502;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#9ac401),to(#6e8502));
+    background-image: -webkit-linear-gradient(top,#9ac401,#6e8502);
+    background-image: -moz-linear-gradient(top,#9ac401,#6e8502);
+    background-image: -ms-linear-gradient(top,#9ac401,#6e8502);
+    background-image: -o-linear-gradient(top,#9ac401,#6e8502);
+    background-image: linear-gradient(to bottom,#9ac401,#6e8502);
+ }
+
+.woocommerce-de-message div a.skip, a.docs {
+	opacity: 0.5;
+}
+
+.woocommerce-de-message .description{
+    padding-left:15px;
+}
+
+.wrap div.woocommerce-de-message .error-label {
+padding: 4px 8px;
+margin-right: 8px;
+font-weight: normal;
+font-size: 12px;
+color: white;
+background: #E00;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#E00),to(#A00));
+background-image: -webkit-linear-gradient(top,#E00,#A00);
+background-image: -moz-linear-gradient(top,#E00,#A00);
+background-image: -o-linear-gradient(top,#E00,#A00);
+background-image: linear-gradient(to bottom,#E00,#A00);
+border-radius: 3px;
+}
+

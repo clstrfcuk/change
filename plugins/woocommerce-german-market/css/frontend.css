@@ -1,0 +1,164 @@
+@CHARSET "UTF-8";
+
+.woocommerce_de_scrollable_textarea {
+	height: 150px !important;
+	width: 98% !important;
+	overflow: auto !important;
+	border: 1px solid #DDD !important;
+	background-color: whiteSmoke !important;
+	padding: 8px !important;
+	display: block !important;
+	color: #000 !important;
+}
+
+.products .woocommerce-de_price_taxrate {
+	display: block;
+}
+
+.woocommerce-de_price_taxrate {
+	font-size: 0.8em;
+}
+
+.woocommerce-de_price_shipping_rate {
+	font-size: 12px;
+}
+
+.widerruf {
+	clear: both;
+}
+
+.wgm-second-checkout input.wgm-place-order {
+	float: right;
+}
+
+.checkout_productdesc {
+	font-size: smaller;
+	margin-left: 10px;
+}
+
+.form-row .terms {
+	float: left;
+}
+
+.price-per-unit {
+	display: block;
+}
+
+.woocommerce_de_versandkosten {
+	font-size: 0.8em;
+	display: block;
+}
+
+.product-tax {
+	font-weight: normal;
+}
+
+.product-total .amount {
+	font-weight: bold;
+	text-align: left;
+}
+
+.product-total .product-tax {
+	display: block;
+	text-align: left;
+}
+
+.product-total .product-tax .amount {
+	font-weight: normal;
+}
+
+.wgm-tax,
+.product-total .product-tax {
+	font-size: smaller;
+}
+
+.total .includes_tax,
+.order-total .includes_tax {
+	display: block;
+}
+
+.shipping_de.shipping_de_string {
+	margin-bottom: 15px;
+}
+
+.wgm-break {
+	display:block;
+}
+
+.wgm-order-table-tr {
+	text-align:left; border: 1px solid #eee;
+}
+
+.wgm-order-table-tr-cond {
+	border-top-width: 4px;
+}
+
+.wgm-kleinunternehmerregelung {
+	font-size: 0.8em;
+	display: block;
+}
+
+.wgm-kur-notice {
+	font-size: 0.8em;
+	margin-bottom: 10px;
+}
+
+.wgm-kur-notice-review {
+	font-size: 0.8em;
+}
+
+.wgm-virtual-notice {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+.wgm-digital-checkout-notice {
+    color: #ff0000;
+    display: block;
+    font-size: smaller;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.wgm-digital-variation-notice {
+	display: block;
+	font-size: smaller;
+    margin-top: 1em;
+}
+
+.wgm-digital-attribute-list {
+	font-size: smaller;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.wgm-digital-attribute-list li {
+	background: #f0f0f0;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding: 0 10px;
+}
+
+.wgm-product-prerequisites-label {
+	display: block;
+	font-size: smaller;
+    margin-top: 1em;
+}
+
+.wgm-product-prerequisites {
+	background: #f0f0f0;
+	display: block;
+	margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 10px;
+}
+
+.single-product .wgm-product-prerequisites {
+	font-size: smaller;
+}
+
+.wgm-extra-costs-eu {
+	display: block;
+	margin-bottom: 1em;
+}

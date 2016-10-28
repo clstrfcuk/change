@@ -1,0 +1,1503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce German Market v2.4.10-beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-11 08:50+0100\n"
+"PO-Revision-Date: 2015-02-18 10:53:50+0000\n"
+"Last-Translator: Caspar Huebinger <c.huebinger@inpsyde.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/WGM_Defaults.php:150
+#: inc/WGM_Email.php:35
+#: inc/WGM_Settings.php:124
+#: inc/WGM_Settings.php:427
+#@ WooCommerce-German-Market
+msgid "Impressum"
+msgstr "Imprint"
+
+#: inc/WGM_Template.php:1381
+#@ WooCommerce-German-Market
+msgid "Versandkosten"
+msgstr "Shipping costs"
+
+#: inc/WGM_Defaults.php:152
+#: inc/WGM_Settings.php:142
+#@ WooCommerce-German-Market
+msgid "Widerruf"
+msgstr "Revocation"
+
+#: inc/WGM_Defaults.php:154
+#: inc/WGM_Settings.php:160
+#@ WooCommerce-German-Market
+msgid "Datenschutz"
+msgstr "Privacy"
+
+#: inc/WGM_Defaults.php:155
+#: inc/WGM_Settings.php:169
+#@ WooCommerce-German-Market
+msgid "Bestellvorgang"
+msgstr "Order transaction"
+
+#: inc/WGM_Defaults.php:156
+#: inc/WGM_Email.php:107
+#: inc/WGM_Settings.php:178
+#: inc/WGM_Template.php:1389
+#@ WooCommerce-German-Market
+msgid "Zahlungsarten"
+msgstr "Method of payment"
+
+#: inc/WGM_Defaults.php:157
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Bestellung prüfen %s Bezahlen"
+msgstr "Check order %s pay"
+
+#: inc/WGM_Defaults.php:158
+#@ WooCommerce-German-Market
+msgid "AGB"
+msgstr "Terms"
+
+#: inc/WGM_Defaults.php:266
+#: inc/WGM_Helper.php:286
+#@ WooCommerce-German-Market
+msgid "Sofort lieferbar"
+msgstr "available for immediate delivery"
+
+#: inc/WGM_Defaults.php:275
+#@ WooCommerce-German-Market
+msgid "keine Lieferzeit ( z.B.: Download )"
+msgstr "no delivery time (e.g. download)"
+
+#: inc/WGM_Defaults.php:363
+#: inc/WGM_Defaults.php:370
+#@ WooCommerce-German-Market
+msgid "MwSt."
+msgstr "VAT"
+
+#: inc/WGM_Defaults.php:394
+#@ WooCommerce-German-Market
+msgid "Kilogramm"
+msgstr "Kilogram"
+
+#: inc/WGM_Defaults.php:395
+#@ WooCommerce-German-Market
+msgid "Gramm"
+msgstr "Gram"
+
+#: inc/WGM_Defaults.php:396
+#@ WooCommerce-German-Market
+msgid "Milligramm"
+msgstr "Milligram"
+
+#: inc/WGM_Defaults.php:397
+#@ WooCommerce-German-Market
+msgid "Liter"
+msgstr "Liter"
+
+#: inc/WGM_Defaults.php:398
+#@ WooCommerce-German-Market
+msgid "Milliliter"
+msgstr "Milliliter"
+
+#: inc/WGM_Defaults.php:399
+#@ WooCommerce-German-Market
+msgid "Meter"
+msgstr "Meter"
+
+#: inc/WGM_Defaults.php:400
+#@ WooCommerce-German-Market
+msgid "Zentimeter"
+msgstr "Centimeter"
+
+#: inc/WGM_Defaults.php:405
+#: inc/WGM_Defaults.php:406
+#, fuzzy
+#@ WooCommerce-German-Market
+msgid "Maßeinheit"
+msgstr "Measurements and Weights"
+
+#: inc/WGM_Settings.php:69
+#@ WooCommerce-German-Market
+msgid "Geben Sie bitte hier den Text für das Impressum an, wenn Sie nicht den Text von der Webseite verwenden wollen."
+msgstr "Please entere here the impress text if you don't wont to use the site default text."
+
+#: inc/WGM_Settings.php:72
+#@ WooCommerce-German-Market
+msgid "E-Mail Footer Text verwenden"
+msgstr "Use E-Mail footer text"
+
+#: inc/WGM_Settings.php:73
+#@ WooCommerce-German-Market
+msgid "Den E-Mail-Footer statt des Textes auf der Impressumsseite verwenden"
+msgstr "Use the E-Mail footer rather than the text on the impress site"
+
+#: inc/WGM_Installation.php:25
+#@ WooCommerce-German-Market
+msgid "Entschuldigung, dieses Plugin benötigt Wordpress 3.0+ um zu funktionieren"
+msgstr "Sorry, This plugin requires WordPress 3.0+"
+
+#: inc/WGM_Installation.php:38
+#, fuzzy, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format
+#@ WooCommerce-German-Market
+msgid "Entschuldigung, dieses Plugin benötigt PHP 5.0+ um ordnungsgemäß zu funktionieren. Ihre aktuelle PHP Version ist %1s, bitte fragen beten Sie ihren Hoster eine aktuellere, nicht so fehleranfällige PHP Version zu installieren. <strong>Über 80% der Wordpress installationen benutzen PHP 5.2+</strong>."
+msgstr "Sorry, This plugin has taken a bold step in requiring PHP 5.0+, Your server is currently running PHP %1s, Please bug your host to upgrade to a recent version of PHP which is less bug-prone. At last count, <strong>over 80%% of WordPress installs are using PHP 5.2+</strong>."
+
+#: inc/WGM_Installation.php:109
+#@ WooCommerce-German-Market
+msgid "Herzlichen Glückwunsch, WooCommerce für den deutschsprachigen Raum ist fertig eingerichtet."
+msgstr "Congratulations, you successfully installed the WooCommerce extension for the german market."
+
+#: inc/WGM_Installation.php:343
+#@ woocommerce
+msgid "Search"
+msgstr ""
+
+#: inc/WGM_Installation.php:344
+#@ woocommerce
+msgid "All"
+msgstr ""
+
+#: inc/WGM_Installation.php:345
+#: inc/WGM_Installation.php:346
+#@ woocommerce
+msgid "Parent"
+msgstr ""
+
+#: inc/WGM_Installation.php:347
+#@ woocommerce
+msgid "Edit"
+msgstr ""
+
+#: inc/WGM_Installation.php:348
+#@ woocommerce
+msgid "Update"
+msgstr ""
+
+#: inc/WGM_Installation.php:349
+#@ woocommerce
+msgid "Add New"
+msgstr ""
+
+#: inc/WGM_Installation.php:350
+#@ woocommerce
+msgid "New"
+msgstr ""
+
+#: inc/WGM_Settings.php:96
+#@ WooCommerce-German-Market
+msgid "Einstellungen DE"
+msgstr "German Settings"
+
+#: inc/WGM_Settings.php:112
+#@ WooCommerce-German-Market
+msgid "Bitte erstellen Sie die Seite über den Menüpunkt \"Seiten\" von WordPress, wenn das Plugin sie nicht anlegen konnte, und wählen Sie diese hier aus. Sie enthält alle notwendigen Informationen zum Vorgang."
+msgstr "Please create the page over the \"Page\" Wordpress menu if this plugin couldn't create it for you and select it here. It holds all relevant information for this process."
+
+#: inc/WGM_Settings.php:118
+#@ WooCommerce-German-Market
+msgid "Pflicht-Seiten"
+msgstr "Required Pages"
+
+#: inc/WGM_Settings.php:125
+#@ WooCommerce-German-Market
+msgid "Geben Sie eine Seite für das Impressum an"
+msgstr "Enter a site for the impress"
+
+#: inc/WGM_Settings.php:143
+#@ WooCommerce-German-Market
+msgid "Geben Sie eine Seite für das Widerrufsrecht an"
+msgstr "Enter a site for the cancellation policy"
+
+#: inc/WGM_Settings.php:161
+#@ WooCommerce-German-Market
+msgid "Geben Sie eine Seite für den Datenschutz an"
+msgstr "Enter a site for the privacy terms"
+
+#: inc/WGM_Settings.php:170
+#@ WooCommerce-German-Market
+msgid "Geben Sie ein Seite für den Bestellvorgang an"
+msgstr "Enter a site for the order process"
+
+#: inc/WGM_Settings.php:179
+#@ WooCommerce-German-Market
+msgid "Geben Sie eine Seite für die Zahlungsarten an"
+msgstr "Enter a site for the payment methods"
+
+#: inc/WGM_Settings.php:187
+#@ WooCommerce-German-Market
+msgid "Bestellung prüfen"
+msgstr "Check order"
+
+#: inc/WGM_Settings.php:188
+#@ WooCommerce-German-Market
+msgid "Geben Sie eine Seite für das Prüfen der Bestellung an. Diese Seite muss den Shortcode [woocommerce_de_check] und nutzt die Seite 'Zur Kasse' Seite (Checkout) als Eltern-Seite."
+msgstr "Enter a site for the order check. This page must contain the  [woocommerce_de_check] shortcode and uses the 'Checkout' page as parent."
+
+#: inc/WGM_Settings.php:197
+#@ WooCommerce-German-Market
+msgid "Angaben zur Widerrufsseite"
+msgstr "Details for the cancellation policy page"
+
+#: inc/WGM_Settings.php:204
+#@ WooCommerce-German-Market
+msgid "Widerrufsfrist"
+msgstr "Cancellation period"
+
+#: inc/WGM_Settings.php:214
+#@ WooCommerce-German-Market
+msgid "Widerruf Addressdaten"
+msgstr "Cancellation adrress"
+
+#: inc/WGM_Settings.php:215
+#@ WooCommerce-German-Market
+msgid "Geben Sie Namen/Firma und ladungsfähige Anschrift des Widerrufsadressaten an."
+msgstr "Enter the Name/Company and a summonable adress for the cancellation process"
+
+#: inc/WGM_Settings.php:216
+#@ WooCommerce-German-Market
+msgid "Namen/Firma und ladungsfähige Anschrift des Widerrufsadressaten. (Zusätzlich können angegeben werden Telefaxnummer, E-Mail-Adresse und/oder, wenn der Verbraucher eine Bestätigung seiner Widerrufserklärung an den Unternehmer erhält, auch eine Internetadresse."
+msgstr "Name/Company and summonable Adress of the cancellation recipient.  "
+
+#: inc/WGM_Settings.php:28
+#: inc/WGM_Settings.php:30
+#: inc/WGM_Settings.php:225
+#: inc/WGM_Settings.php:463
+#@ WooCommerce-German-Market
+msgid "Lieferzeiten"
+msgstr "Delivery Times"
+
+#: inc/WGM_Settings.php:31
+#: inc/WGM_Settings.php:231
+#: inc/WGM_Settings.php:599
+#@ WooCommerce-German-Market
+msgid "Lieferzeit"
+msgstr "Delivery time"
+
+#: inc/WGM_Settings.php:233
+#@ WooCommerce-German-Market
+msgid "Dieser Wert kann am Produkt individuell überschrieben werden"
+msgstr "This value can be overwritten for each product"
+
+#: inc/WGM_Settings.php:268
+#@ WooCommerce-German-Market
+msgid "Anzeige"
+msgstr "Display"
+
+#: inc/WGM_Settings.php:274
+#@ WooCommerce-German-Market
+msgid "Lieferzeiten in Übersicht"
+msgstr "Delivery times overview"
+
+#: inc/WGM_Settings.php:275
+#: inc/WGM_Settings.php:276
+#@ WooCommerce-German-Market
+msgid "Zeige die Lieferzeiten in der Übersicht unter jedem Produkt"
+msgstr "Display the delivery times in the product overview under the product."
+
+#: inc/WGM_Settings.php:259
+#: inc/WGM_Settings.php:282
+#: inc/WGM_Settings.php:296
+#: inc/WGM_Settings.php:310
+#: inc/WGM_Settings.php:324
+#: inc/WGM_Settings.php:338
+#: inc/WGM_Settings.php:352
+#: inc/WGM_Settings.php:366
+#: inc/WGM_Settings.php:380
+#: inc/WGM_Settings.php:394
+#: inc/WGM_Settings.php:477
+#@ WooCommerce-German-Market
+msgid "Ja"
+msgstr "Yes"
+
+#: inc/WGM_Settings.php:260
+#: inc/WGM_Settings.php:283
+#: inc/WGM_Settings.php:297
+#: inc/WGM_Settings.php:311
+#: inc/WGM_Settings.php:325
+#: inc/WGM_Settings.php:339
+#: inc/WGM_Settings.php:353
+#: inc/WGM_Settings.php:367
+#: inc/WGM_Settings.php:381
+#: inc/WGM_Settings.php:395
+#: inc/WGM_Settings.php:478
+#@ WooCommerce-German-Market
+msgid "Nein"
+msgstr "No"
+
+#: inc/WGM_Settings.php:409
+#@ WooCommerce-German-Market
+msgid "Hinweise"
+msgstr "Notices"
+
+#: inc/WGM_Settings.php:428
+#@ WooCommerce-German-Market
+msgid "Hinterlegen Sie eine Seite Impressum mit den Daten: Name der Firma, Geschäftsführer bzw. Inhaber, Adresse, Telefonnummer, Faxnummer falls vorhanden, Webseitenadresse, E-Mail-Adresse, Zuständiges Finanzamt, Steuernummer, Umsatzsteuer-Id Nummer, Zuständiges Gericht, HRB Nummer (falls vorhanden), Kontoinhaber, Kontonummer, BLZ, Bankname, SWIFT, IBAN."
+msgstr "Add a page 'Imprint\\\" with the following data: company name, CEO, Adress, phone, fax if available, Website adress, E-Mail Adress, finance authority in charge, tax number, sales-tax id (Umsatzsteuer-Id Nummer), court in charge, HRB Number if available, account owner, account number, bank code, bank name, SWIFT, IBAN."
+
+#: inc/WGM_Settings.php:433
+#: inc/WGM_Template.php:1008
+#@ WooCommerce-German-Market
+msgid "Widerrufsbelehrung"
+msgstr "Cancellation policy"
+
+#: inc/WGM_Settings.php:439
+#@ WooCommerce-German-Market
+msgid "Zusatzinhalte"
+msgstr "Additional content"
+
+#: inc/WGM_Settings.php:440
+#@ WooCommerce-German-Market
+msgid "Prüfen Sie, ob die Seiten Impressum, Versandkosten, Widerruf, AGB, Datenschutz, Bestellvorgang und Zahlungsarten vorhanden sind und pflegen Sie die Inhalte, in dem Sie die Platzhalter ersetzen. (Das Plugin versucht beim Aktivieren diese Seiten anzulegen.) Diese Seiten informieren den Besucher zu den jeweiligen Themen und sollten entsprechend verlinkt sein. Sollten die Seiten mit ihren Mustertexten nicht angelegt sein, so können Sie die Mustertexte auf <a href=\"http://xxx.de/mustertexte/\">xxx</a> einsehen und nutzen."
+msgstr "Check if the pages imprint, shipping costs, withdrawl, TOS, privacy, order process and payment methods are created and insert your content by replacing the template. (This plugin tries to create this pages on activation.) This pages informing the users for respective topics and should be linked probably."
+
+#: inc/WGM_Settings.php:445
+#@ WooCommerce-German-Market
+msgid "Bestimmte Berufsgruppen"
+msgstr "Certain profession group"
+
+#: inc/WGM_Settings.php:446
+#@ WooCommerce-German-Market
+msgid "Bitte beachten: Für bestimmte Berufsgruppen, beispielsweise Apotheker und Ärzte, Architekten, Rechtsanwälte und Optiker, gelten weitere Pflichtangaben. Je nach Berufsgruppe kann dies variieren und sollte zwingend geprüft werden. Diese Seiten informieren den Besucher zu den jeweiligen Themen und sollten entsprechend verlinkt sein. Sollten die Seiten mit ihren Mustertexten nicht angelegt sein, so können Sie die Mustertexte auf <a href=\"http://xxx.de/mustertexte/\">xxx</a> einsehen und nutzen."
+msgstr "Please note: For certain profession groups, at example pharmacist, architect, lawyer and optican, additonal data is needed. This can be different for each group and should double checked. This sites informs the users about each topic and should be linked probably. "
+
+#: inc/WGM_Settings.php:451
+#@ WooCommerce-German-Market
+msgid "Links im Footer"
+msgstr "Links in footer"
+
+#: inc/WGM_Settings.php:452
+#@ WooCommerce-German-Market
+msgid "Hinterlegen Sie die Seiten mit Ihren Links zum Datenschutz, Bestellvorgang, Zahlungsarten, Impressum, Lieferung, Widerruf und AGB im Footer des Frontends."
+msgstr "Add pages with your links for privacy, order process, payment methods, imprint, delivery, cancellation, and terms of use to the frontend footer."
+
+#: inc/WGM_Settings.php:457
+#@ WooCommerce-German-Market
+msgid "Links im Bestellvorgang"
+msgstr "Order process links"
+
+#: inc/WGM_Settings.php:458
+#@ WooCommerce-German-Market
+msgid "Links im Bestellvorgang müssen eindeutig als sprechende Links gekennzeichnet werden, sie müssen sehr gut als Links erkennbar sein. z.B. mit Hilfe einer Unterstreichung."
+msgstr "Links for the order process have to be marked as recognizable links, e.g. with a underline."
+
+#: inc/WGM_Settings.php:464
+#@ WooCommerce-German-Market
+msgid "Zu jeder Kategorie und jedem Produkt können eigenen Lieferzeiten hinterlegt werden. Alternativ wird der gesetzte Standard gezogen. Werden neue Kategorien angelegt, dann können Sie über diese Einstellungen die Lieferzeiten aktuallisieren."
+msgstr "You can add for each category and each product a delivery time. Otherwise the default will be used. If new categories are added you can update your delivery times"
+
+#: inc/WGM_Settings.php:469
+#@ WooCommerce-German-Market
+msgid "Standard-CSS"
+msgstr "Default CSS"
+
+#: inc/WGM_Settings.php:470
+#: inc/WGM_Settings.php:471
+#@ WooCommerce-German-Market
+msgid "L&auml;dt das Standard-CSS"
+msgstr "Load default CSS"
+
+#: inc/WGM_Email.php:58
+#: inc/WGM_Template.php:1385
+#@ WooCommerce-German-Market
+msgid "Widerrufsrecht"
+msgstr "Cancellation rights"
+
+#: inc/WGM_Template.php:1392
+#@ WooCommerce-German-Market
+msgid "Hier finden Sie"
+msgstr "Here you find"
+
+#: inc/WGM_Helper.php:287
+#: inc/WGM_Settings.php:672
+#: inc/WGM_Template.php:795
+#: inc/WGM_Template.php:1110
+#@ WooCommerce-German-Market
+msgid "Lieferzeit:"
+msgstr "Delivery time: "
+
+#: inc/WGM_Settings.php:600
+#@ WooCommerce-German-Market
+msgid "Versandoptionen"
+msgstr "Shipping options"
+
+#: inc/WGM_Settings.php:601
+#@ WooCommerce-German-Market
+msgid "Preis pro Einheit"
+msgstr "Price per unit"
+
+#: inc/WGM_Settings.php:663
+#@ WooCommerce-German-Market
+msgid "kein Versandkostenhinweis"
+msgstr "no shipping cost notice"
+
+#: inc/WGM_Settings.php:665
+#@ WooCommerce-German-Market
+msgid "Den Versandkostenhinweis nur für dieses Produkt im Frontend und Mails nicht anzeigen (z.B.: bei Downloads )"
+msgstr "Don't display  the shipping cost notice for this product only in frontend and Mails (e.g. Downloads)"
+
+#: inc/WGM_Settings.php:686
+#@ WooCommerce-German-Market
+msgid "inkl. MwSt"
+msgstr "included VAT"
+
+#: inc/WGM_Settings.php:695
+#@ WooCommerce-German-Market
+msgid "Regulärer Preis"
+msgstr "Default price"
+
+#: inc/WGM_Settings.php:709
+#@ WooCommerce-German-Market
+msgid "Angebotspreis"
+msgstr "advertising price"
+
+#: inc/WGM_Template.php:1006
+#: inc/WGM_Template.php:1021
+#@ WooCommerce-German-Market
+msgid "Gelesen und zur Kenntnis genommen: "
+msgstr "Read and accepted: "
+
+#: inc/WGM_Shortcodes.php:21
+#@ WooCommerce-German-Market
+msgid "Tage"
+msgstr "Days"
+
+#: inc/WGM_Shortcodes.php:21
+#@ WooCommerce-German-Market
+msgid "Tag"
+msgstr "Day"
+
+#: inc/WGM_Template.php:819
+#: inc/WGM_Template.php:844
+#@ woocommerce
+msgid "Fax"
+msgstr ""
+
+#: inc/WGM_Template.php:799
+#@ WooCommerce-German-Market
+msgid "jeweils"
+msgstr "each"
+
+#: inc/WGM_Helper.php:374
+#: inc/WGM_Template.php:749
+#@ WooCommerce-German-Market
+msgid "weiter"
+msgstr "next"
+
+#: inc/WGM_Template.php:670
+#@ woocommerce
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: inc/WGM_Template.php:672
+#@ woocommerce
+msgid "Billing Address"
+msgstr ""
+
+#: inc/WGM_Template.php:594
+#@ woocommerce
+msgid "Shipping Address"
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2.php:80
+#@ woocommerce
+msgid "Order Notes"
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2.php:81
+#@ woocommerce
+msgid "Notes about your order."
+msgstr ""
+
+#: inc/WGM_Email.php:46
+#@ WooCommerce-German-Market
+msgid "Allgemeine Geschäftsbedingungen"
+msgstr "Terms of Use"
+
+#: inc/WGM_Template.php:239
+#: inc/WGM_Template.php:281
+#: inc/WGM_Template.php:480
+#: inc/WGM_Template.php:563
+#: inc/WGM_Template.php:1231
+#@ WooCommerce-German-Market
+msgid "zzgl."
+msgstr "plus"
+
+#: inc/WGM_Template.php:241
+#: inc/WGM_Template.php:283
+#: inc/WGM_Template.php:481
+#: inc/WGM_Template.php:565
+#@ WooCommerce-German-Market
+msgid "Versand"
+msgstr "Shipping"
+
+#: inc/WGM_Template.php:1231
+#@ WooCommerce-German-Market
+msgid "inkl."
+msgstr "including"
+
+#: templates/woocommerce-german-market/install_notice.php:3
+#@ WooCommerce-German-Market
+msgid "Herzlichen Glückwunsch, Sie haben WooCommerce für den deutschsprachigen Raum erfolgreich installiert. "
+msgstr "Congratulations, you successfully installed WooCommerce for the german market."
+
+#: templates/woocommerce-german-market/install_notice.php:5
+#@ WooCommerce-German-Market
+msgid "Bevor Sie loslegen können, müssen noch ein paar Einstellungen vorgenommen werden"
+msgstr "Before you can start, you need to adjust some settings"
+
+#: templates/woocommerce-german-market/install_notice.php:15
+#@ WooCommerce-German-Market
+msgid "Soll der Shop automatisch auf deutsche Standardwerte eingestellt werden? (Kann jederzeit wieder geändert werden )"
+msgstr "Should the Shop automatically be configured for the german market? (You can reverse this any time)"
+
+#: templates/woocommerce-german-market/install_notice.php:18
+#@ WooCommerce-German-Market
+msgid "Währung: &euro;,"
+msgstr "Currency: &euro;,"
+
+#: templates/woocommerce-german-market/install_notice.php:19
+#@ WooCommerce-German-Market
+msgid "Land: Deutschland,"
+msgstr "Country: Germany,"
+
+#: templates/woocommerce-german-market/install_notice.php:20
+#@ WooCommerce-German-Market
+msgid "Zeige Warenkorbpreise inklusive MwSt.,"
+msgstr "Show basket prices include VAT,"
+
+#: templates/woocommerce-german-market/install_notice.php:21
+#@ WooCommerce-German-Market
+msgid "Zeige Summe inklusive MwSt.,"
+msgstr "Showing amount including VAT,"
+
+#: templates/woocommerce-german-market/install_notice.php:22
+#@ WooCommerce-German-Market
+msgid "Zeige Preise inklusive MwSt.,"
+msgstr "Showing price including VAT,"
+
+#: templates/woocommerce-german-market/install_notice.php:25
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Stelle den MwSt. Satz auf %s%%"
+msgstr "Setup VAT to %s%%"
+
+#: templates/woocommerce-german-market/install_notice.php:30
+#, php-format
+#@ WooCommerce-German-Market
+msgid "und den reduzierten MwSt. Satz auf %s%%"
+msgstr "and the reduced VAT rate on %s%%"
+
+#: templates/woocommerce-german-market/install_notice.php:35
+#@ WooCommerce-German-Market
+msgid "Maße und Gewichte"
+msgstr "Measurements and Weights"
+
+#: templates/woocommerce-german-market/install_notice.php:65
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Sollen die zusätzlichen Seiten %1$s angelegt werden?"
+msgstr "Should the additional pages %1$s be created for you?"
+
+#: templates/woocommerce-german-market/install_notice.php:68
+#@ WooCommerce-German-Market
+msgid "Die Seiten sind Wichtig für einen rechtskonformen Shop in Deutschland."
+msgstr "This pages are required for a legal shop in germany."
+
+#: templates/woocommerce-german-market/install_notice.php:76
+#@ WooCommerce-German-Market
+msgid "Sollen schon existierende Seiten überschrieben werden?"
+msgstr "Should existing pages be overwritten? "
+
+#: templates/woocommerce-german-market/install_notice.php:79
+#@ WooCommerce-German-Market
+msgid "Die Seiten werden durch den Titel identifiziert."
+msgstr "The pages going to be identified though their title."
+
+#: templates/woocommerce-german-market/install_notice.php:87
+#@ WooCommerce-German-Market
+msgid "Installiere"
+msgstr "Install"
+
+#: templates/woocommerce-german-market/second-checkout2.php:26
+#@ WooCommerce-German-Market
+msgid "Es wurden keine Daten übergeben. Prüfen Sie den Warenkorb."
+msgstr "No data transmitted. Please check your shopping cart."
+
+#: templates/woocommerce-german-market/second-checkout2.php:105
+#@ WooCommerce-German-Market
+msgid "Zahlungsmethode"
+msgstr "Payment method"
+
+#: templates/woocommerce-german-market/second-checkout2.php:144
+#@ woocommerce
+msgid "Your order"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:30
+#: templates/woocommerce-german-market/second-checkout2.php:178
+#@ woocommerce
+msgid "Product"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:31
+#@ woocommerce
+msgid "Price"
+msgstr ""
+
+#: inc/WGM_Tax.php:66
+#: inc/WGM_Template.php:122
+#: inc/WGM_Template.php:192
+#: templates/woocommerce/cart/cart.php:44
+#@ WooCommerce-German-Market
+msgid "enthaltene MwSt."
+msgstr "included VAT"
+
+#: templates/woocommerce/cart/cart-totals.php:21
+#: templates/woocommerce-german-market/second-checkout2.php:184
+#@ woocommerce
+msgid "Cart Subtotal"
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2-shipping-methods.php:67
+#@ woocommerce
+msgid "Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: templates/woocommerce/cart/cart-totals.php:70
+#: templates/woocommerce-german-market/second-checkout2.php:280
+#@ woocommerce
+msgid "Order Total"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:32
+#@ woocommerce
+msgid "Quantity"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:65
+#@ woocommerce
+msgid "Remove this item"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:92
+#@ woocommerce
+msgid "Available on backorder"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:150
+#@ woocommerce
+msgid "Coupon"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:150
+#@ woocommerce
+msgid "Apply Coupon"
+msgstr ""
+
+#: templates/woocommerce/cart/cart.php:157
+#@ woocommerce
+msgid "Update Cart"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:24
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:52
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:88
+#@ woocommerce
+msgid "Cash on Delivery"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:53
+#@ woocommerce
+msgid "Have your customers pay with cash (or by other means) upon delivery."
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:78
+#@ woocommerce
+msgid "Enable COD"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:85
+#@ woocommerce
+msgid "Title"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:87
+#@ woocommerce
+msgid "Payment method title that the customer will see on your website."
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:92
+#@ woocommerce
+msgid "Description"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:94
+#@ woocommerce
+msgid "Payment method description that the customer will see on your website."
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:98
+#@ woocommerce
+msgid "Instructions"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:100
+#@ woocommerce
+msgid "Instructions that will be added to the thank you page."
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:104
+#@ WooCommerce-German-Market
+msgid "Gebühr"
+msgstr "Fee"
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:107
+#@ WooCommerce-German-Market
+msgid "Gebühr für das Zahlen per Nachnahme."
+msgstr "Fee for cash on delivery"
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:219
+#@ woocommerce
+msgid "Payment to be made upon delivery."
+msgstr ""
+
+#: inc/WGM_Settings.php:358
+#@ WooCommerce-German-Market
+msgid "Widerrufsbelehrung anzeigen"
+msgstr "Show cancellation policy"
+
+#: inc/WGM_Settings.php:359
+#: inc/WGM_Settings.php:360
+#@ WooCommerce-German-Market
+msgid "Die Widerrufsbelehrung auf der 1. Checkoutseite anzeigen?"
+msgstr "Show cancellation policy on the first checkout page?"
+
+#. translators: plugin header field 'Name'
+#: WooCommerce-German-Market.php:0
+#@ WooCommerce-German-Market
+msgid "WooCommerce German Market"
+msgstr "WooCommerce German Market"
+
+#. translators: plugin header field 'Description'
+#: WooCommerce-German-Market.php:0
+#@ WooCommerce-German-Market
+msgid "Woocommerce Plugin für Features und Rechtssicherheit für den deutschsprachigen Raum"
+msgstr "WooCommerce Plugin for features and legal compliance for the german speaking market."
+
+#. translators: plugin header field 'Author'
+#: WooCommerce-German-Market.php:0
+#@ WooCommerce-German-Market
+msgid "Inpsyde GmbH"
+msgstr "Inpsyde GmbH"
+
+#. translators: plugin header field 'AuthorURI'
+#: WooCommerce-German-Market.php:0
+#@ WooCommerce-German-Market
+msgid "http://inpsyde.com"
+msgstr "http://inpsyde.com"
+
+#: inc/WGM_Settings.php:372
+#@ WooCommerce-German-Market
+msgid "Versandkosten und Widerrufsrecht Hinweis im Warenkorb anzeigen"
+msgstr "Show shipping costs and cancellation policy hint on the cart page"
+
+#: inc/WGM_Settings.php:373
+#: inc/WGM_Settings.php:374
+#@ WooCommerce-German-Market
+msgid "Anzeige des Hinweises in der Warenkorb Tabelle"
+msgstr "Show hint in the cart table"
+
+#: inc/WGM_Settings.php:386
+#@ WooCommerce-German-Market
+msgid "Hinweis zur Steuer- und Versandkostenschätzung im Warenkorb anzeigen"
+msgstr "Show guess for tax- and shipping costs on the cart page"
+
+#: templates/woocommerce/cart/cart-totals.php:16
+#@ woocommerce
+msgid "Cart Totals"
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2-shipping-methods.php:65
+#@ woocommerce
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2.php:249
+#@ woocommerce
+msgid "Subtotal"
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2.php:269
+#@ woocommerce
+msgid "Tax"
+msgstr ""
+
+#: templates/woocommerce/cart/cart-totals.php:85
+#, php-format
+#@ woocommerce
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2.php:133
+#@ WooCommerce-German-Market
+msgid "Hinweis"
+msgstr "Hint"
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:79
+#@ woocommerce
+msgid "Enable Cash on Delivery"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:95
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:101
+#@ woocommerce
+msgid "Pay with cash upon delivery."
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:111
+#@ woocommerce
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:116
+#@ woocommerce
+msgid "If COD is only available for certain methods, set it up here. Leave blank to enable for all methods."
+msgstr ""
+
+#: inc/WGM_Template.php:1464
+#@ WooCommerce-German-Market
+msgid "Zahlungsart"
+msgstr "Payment Method"
+
+#: templates/woocommerce/cart/cart.php:33
+#: templates/woocommerce-german-market/second-checkout2.php:179
+#@ woocommerce
+msgid "Total"
+msgstr ""
+
+#: templates/woocommerce/cart/cart-totals.php:82
+#, php-format
+#@ woocommerce
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: inc/WGM_Shipping.php:100
+#: templates/woocommerce-german-market/second-checkout2-shipping-methods.php:32
+#@ woocommerce
+msgid "Free"
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2.php:43
+#@ woocommerce
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: inc/WGM_Template.php:1252
+#@ WooCommerce-German-Market
+msgid "MwSt. entfällt"
+msgstr "VAT not applicable"
+
+#: inc/WGM_Settings.php:32
+#@ WooCommerce-German-Market
+msgctxt "Admin menu name"
+msgid "Lieferzeiten"
+msgstr "Delivery Times"
+
+#: inc/WGM_Settings.php:33
+#@ WooCommerce-German-Market
+msgid "Lieferzeiten durchsuchen"
+msgstr "Search Delivery Times"
+
+#: inc/WGM_Settings.php:34
+#@ WooCommerce-German-Market
+msgid "Alle Lieferzeiten"
+msgstr "All Delivery Times"
+
+#: inc/WGM_Settings.php:35
+#@ WooCommerce-German-Market
+msgid "Übergeordnete Lieferzeit"
+msgstr "Parent Delivery Time"
+
+#: inc/WGM_Settings.php:36
+#@ WooCommerce-German-Market
+msgid "Übergeordnete Lieferzeit:"
+msgstr "Parent Delivery Time:"
+
+#: inc/WGM_Settings.php:37
+#@ WooCommerce-German-Market
+msgid "Lieferzeit bearbeiten"
+msgstr "Edit Delivery Time"
+
+#: inc/WGM_Settings.php:38
+#@ WooCommerce-German-Market
+msgid "Lieferzeit aktualisieren"
+msgstr "Update Delivery Time"
+
+#: inc/WGM_Settings.php:39
+#@ WooCommerce-German-Market
+msgid "Lieferzeit hinzufügen"
+msgstr "Add New Delivery Time"
+
+#: inc/WGM_Settings.php:40
+#@ WooCommerce-German-Market
+msgid "Lieferzeitname hinzufügen"
+msgstr "New Delivery Time Name"
+
+#: inc/WGM_Settings.php:344
+#@ WooCommerce-German-Market
+msgid "Zusatzkostenhinweise für nicht EU Ausland anzeigen"
+msgstr "Show extra costs hint for shipping to Non-EU countries"
+
+#: inc/WGM_Settings.php:345
+#: inc/WGM_Settings.php:346
+#@ WooCommerce-German-Market
+msgid "Zeige einen Zusatzkostenhinweis für Versand in nicht EU Länder unter jedem Produkt"
+msgstr "Show extra costs hint for shipping to Non-EU countries in the product description"
+
+#: inc/WGM_Settings.php:387
+#: inc/WGM_Settings.php:388
+#@ WooCommerce-German-Market
+msgid "Anzeige unter dem Gesamtwert und über dem \"Weiter\" Button im Warenkorb"
+msgstr "Display underneath the total value and above the \"next\" Button on the cart page"
+
+#: inc/WGM_Template.php:237
+#: inc/WGM_Template.php:279
+#: inc/WGM_Template.php:477
+#: inc/WGM_Template.php:561
+#@ WooCommerce-German-Market
+msgid "versandkostenfrei"
+msgstr "Free Shipping"
+
+#: inc/WGM_Settings.php:288
+#@ WooCommerce-German-Market
+msgid "Versandkostenfrei"
+msgstr "Free Shipping"
+
+#: inc/WGM_Settings.php:289
+#: inc/WGM_Settings.php:290
+#@ WooCommerce-German-Market
+msgid "Zeige \"versandkostenfrei\" anstelle von \"zzgl. Versand\""
+msgstr "Show 'Free Shipping' instead of 'plus VAT'"
+
+#: inc/WGM_Settings.php:302
+#@ WooCommerce-German-Market
+msgid "Produktkurzbeschreibungen anzeigen"
+msgstr "Show short description"
+
+#: inc/WGM_Settings.php:303
+#: inc/WGM_Settings.php:304
+#@ WooCommerce-German-Market
+msgid "Anzeige der Produktkurzbeschreibung im Checkout und Bestellübersicht"
+msgstr "Display of short description within checkout and cart"
+
+#: templates/woocommerce-german-market/second-checkout2.php:32
+#@ WooCommerce-German-Market
+msgid "Bitte prüfen Sie alle Daten. Schließen Sie den Vorgang dann ab."
+msgstr "Please verify all data and proceed."
+
+#: inc/WGM_Settings.php:232
+#@ WooCommerce-German-Market
+msgid "Standardlieferzeit für neue Produkte"
+msgstr "Default delivery time for new products"
+
+#: inc/WGM_Defaults.php:160
+#@ WooCommerce-German-Market
+msgid "Rücktrittsbelehrung Österreich"
+msgstr "Resignation indoctrination austria"
+
+#: inc/WGM_Settings.php:244
+#: inc/WGM_Settings.php:251
+#@ WooCommerce-German-Market
+msgid "Kleinunternehmerregelung"
+msgstr "Small-business regulation"
+
+#: inc/WGM_Settings.php:252
+#: inc/WGM_Settings.php:253
+#@ WooCommerce-German-Market
+msgid "Kleinunternehmerregelung gemäß § 19 UStG"
+msgstr "small-business regulation of the USTG Section 19"
+
+#: inc/WGM_Template.php:1214
+#: inc/WGM_Template.php:1682
+#: inc/WGM_Template.php:1699
+#: inc/WGM_Template.php:1714
+#@ WooCommerce-German-Market
+msgid "Umsatzsteuerbefreit nach §19 UstG"
+msgstr "Empted from VAT according to the USTG Section 19"
+
+#: inc/WGM_Template.php:1386
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Einzelheiten zum %1$s"
+msgstr "Details to %1$s"
+
+#: inc/WGM_Defaults.php:159
+#@ WooCommerce-German-Market
+msgid "AGB Österreich"
+msgstr "Terms austria"
+
+#: templates/woocommerce-german-market/second-checkout2.php:88
+#@ WooCommerce-German-Market
+msgid "Notizen/Kommentare"
+msgstr "Notes/Comments"
+
+#: inc/WGM_Defaults.php:309
+#: inc/WGM_Defaults.php:310
+#: inc/WGM_Template.php:785
+#: inc/WGM_Template.php:1098
+#@ WooCommerce-German-Market
+msgid "Nutze den Standard"
+msgstr "Use the default"
+
+#: inc/WGM_Defaults.php:267
+#@ WooCommerce-German-Market
+msgid "ca. 24 Stunden"
+msgstr "approx. 24 hours"
+
+#: inc/WGM_Defaults.php:268
+#@ WooCommerce-German-Market
+msgid "ca. 48 Stunden"
+msgstr "approx. 48 hours"
+
+#: inc/WGM_Defaults.php:269
+#@ WooCommerce-German-Market
+msgid "ca. 2-3 Werktage"
+msgstr "approx. 2-3 workdays"
+
+#: inc/WGM_Defaults.php:270
+#@ WooCommerce-German-Market
+msgid "ca. 3-4 Werktage"
+msgstr "approx. 3-4 workdays"
+
+#: inc/WGM_Defaults.php:271
+#@ WooCommerce-German-Market
+msgid "ca. 10 Werktage"
+msgstr "approx. 10 workdays"
+
+#: inc/WGM_Defaults.php:272
+#@ WooCommerce-German-Market
+msgid "ca. 14 Werktage"
+msgstr "approx. 14 workdays"
+
+#: inc/WGM_Defaults.php:273
+#@ WooCommerce-German-Market
+msgid "ca. 30 Werktage"
+msgstr "approx. 30 workdays"
+
+#: templates/woocommerce-german-market/deliverytimes_upgrade_notice.php:4
+#@ WooCommerce-German-Market
+msgid "Wichtig! Änderung der Lieferzeiten in Woocommerce German Market"
+msgstr "Important notice! Alterations made to delivery times within Woocommerce German Market"
+
+#: templates/woocommerce-german-market/deliverytimes_upgrade_notice.php:19
+#@ WooCommerce-German-Market
+msgid " Diese Meldung ausblenden"
+msgstr "Hide this message"
+
+#: templates/woocommerce-german-market/deliverytimes_upgrade_notice.php:9
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Bislang wurde vor jede Lieferzeit automatisch der Zusatz <i>'ca.'</i> gesetzt. Dies ist nun nichtmehr der Fall. Damit du deinen Onlineshop nach wie vor rechtssicher betreiben kannst, empfehlen wir dir, dies selbst in den Lieferzeiten zu ergänzen. Die Änderungen kannst du im <a href=\"%s\">Lieferzeiteneditor</a> vornehmen."
+msgstr "Since now, every delivery time got prepended with the addition <i>'approx.'</i>. We removed that. To remain legal with your shop please add this prefix at the <a href=\"%s\">delivery time editor</a>."
+
+#: inc/WGM_Settings.php:316
+#@ WooCommerce-German-Market
+msgid "Preis pro Einheit in der Übersicht anzeigen"
+msgstr "Show price per unit in product overview"
+
+#: inc/WGM_Settings.php:317
+#: inc/WGM_Settings.php:318
+#@ WooCommerce-German-Market
+msgid "Globale Einstellung zur Anzeige der Preise pro Einheit in der Übersicht"
+msgstr "Global Setting for price per unit display on products overview pages"
+
+#: inc/WGM_Template.php:1094
+#@ WooCommerce-German-Market
+msgid "Keine Angabe"
+msgstr "not specified"
+
+#: templates/woocommerce-german-market/second-checkout2.php:330
+#@ WooCommerce-German-Market
+msgid "Kaufen"
+msgstr "Buy"
+
+#: inc/WGM_Defaults.php:274
+#@ WooCommerce-German-Market
+msgid "Derzeit nicht lieferbar"
+msgstr "Currently not available"
+
+#: inc/WGM_Template.php:375
+#: templates/woocommerce/cart/cart.php:157
+#@ woocommerce
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: templates/woocommerce/single-product/add-to-cart/variable.php:25
+#@ woocommerce
+msgid "Choose an option"
+msgstr ""
+
+#: templates/woocommerce/single-product/add-to-cart/variable.php:73
+#@ woocommerce
+msgid "Clear selection"
+msgstr ""
+
+#: templates/woocommerce/single-product/add-to-cart/variable.php:107
+#@ woocommerce
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: templates/woocommerce-german-market/second-checkout2.php:329
+#@ WooCommerce-German-Market
+msgid "Zurück"
+msgstr "Back"
+
+#: inc/WGM_Installation.php:59
+#@ WooCommerce-German-Market
+msgid "Das Plugin <strong>WooCommerce</strong> ist nicht aktiv; ist aber notwendig für die Nutzung dieses Plugins."
+msgstr "<strong>WooCommerce</strong> is not active but is required for this plugin to work. "
+
+#: inc/WGM_Installation.php:66
+#@ WooCommerce-German-Market
+msgid "Es wird <strong>WooCommerce 2.1+</strong> ben&ouml;tigt um <strong>German Market 2.3+</strong> verwenden zu k&ouml;nnen."
+msgstr "<strong>WooCommerce 2.1+</strong> is required for <strong German Market 2.3+</strong> to work."
+
+#: inc/WGM_Settings.php:331
+#: inc/WGM_Settings.php:332
+#@ WooCommerce-German-Market
+msgid "Versandkostenpauschale ist wenn aktiviert trotz kostenlosen Versand für den Kunden auswählbar."
+msgstr "If activated fixed rate shipping is for the costumer selectable despite free shipping is available."
+
+#: inc/WGM_Tax.php:63
+#: inc/WGM_Template.php:119
+#: inc/WGM_Template.php:187
+#: templates/woocommerce/cart/cart.php:41
+#@ WooCommerce-German-Market
+msgid "zusätzliche MwSt."
+msgstr "additional VAT"
+
+#: templates/woocommerce/cart/cart-totals.php:27
+#@ woocommerce
+msgid "Coupon:"
+msgstr ""
+
+#: inc/WGM_Settings.php:674
+#@ WooCommerce-German-Market
+msgid "Bitte auswählen"
+msgstr "Select"
+
+#: inc/WGM_Defaults.php:151
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Versandkosten %s Lieferung"
+msgstr "Shipping %s Delivery"
+
+#: inc/WGM_Defaults.php:153
+#: inc/WGM_Email.php:71
+#: inc/WGM_Installation.php:512
+#: inc/WGM_Installation.php:519
+#: inc/WGM_Settings.php:151
+#@ WooCommerce-German-Market
+msgid "Widerruf für digitale Medien"
+msgstr "Revocation policy for digital content"
+
+#: inc/WGM_Email.php:79
+#@ WooCommerce-German-Market
+msgid "Verzichts auf das Widerrufsrecht"
+msgstr "Abandonment for right of revocation"
+
+#: inc/WGM_Email.php:87
+#@ WooCommerce-German-Market
+msgid "Generelle Kundeninformationen zu unserem Shop"
+msgstr "General costumer information for our shop"
+
+#: inc/WGM_Email.php:96
+#: inc/WGM_Settings.php:133
+#@ WooCommerce-German-Market
+msgid "Versandkosten & Lieferung"
+msgstr "Shippingcosts & Delivery"
+
+#: inc/WGM_Settings.php:134
+#@ WooCommerce-German-Market
+msgid "Geben Sie eine Seite für die Versandkosten & Lieferung an"
+msgstr "Enter a site for Shippingcosts & Delivery"
+
+#: inc/WGM_Settings.php:152
+#@ WooCommerce-German-Market
+msgid "Geben Sie eine Seite für das Widerrufsrecht für digitale Medien an"
+msgstr "Enter a site the revocation policy for digital content"
+
+#: inc/WGM_Template.php:918
+#@ WooCommerce-German-Market
+msgid "Die Zustimmung zur Widerrufsbelehrung ist erforderlich"
+msgstr "The acknowledgement for the revocation policy is required"
+
+#: inc/WGM_Template.php:926
+#@ WooCommerce-German-Market
+msgid "Die Zustimmung zur Widerrufsbelehrung für digitale Inhalte ist erfoderlich"
+msgstr "The acknowledgement for the revocation policy for digital content is required"
+
+#: inc/WGM_Template.php:931
+#@ WooCommerce-German-Market
+msgid "Die Zustimmung zur Aufgabe des Widerrufsrechts ist erfoderlich."
+msgstr "The acknowledgement to abandon your revocation rights is required"
+
+#: inc/WGM_Template.php:1023
+#@ WooCommerce-German-Market
+msgid "Widerrufsbelehrung für <span class=\"wgm-virtual-notice\">digitale</span> Inhalte"
+msgstr "Revocation policy for <span class=\"wgm-virtual-notice\">digital</span> content"
+
+#: inc/WGM_Template.php:1031
+#@ WooCommerce-German-Market
+msgid ""
+"Für <span class=\"wgm-virtual-notice\">digitale</span> Inhalte: Ich stimme ausdrücklich zu, dass Sie vor Ablauf der Widerrufsfrist mit der\n"
+"                    Ausführung des Vertrages beginnen. Mir ist bekannt, dass ich durch diese Zustimmung mit Beginn der\n"
+"                    Ausführung des Vertrages mein Widerrufsrecht verliere."
+msgstr "For <span class=\"wgm-virtual-notice\">digital</span> content: I specifically acknowledge that you begin to carry out the contract before the revocation policy expires. I also acknowledge that I loose my revocation rights with this approval."
+
+#: inc/WGM_Template.php:1044
+#@ WooCommerce-German-Market
+msgid "Hinweis: Digitale Inhalte, sind solche, die nicht auf einem körperlichen Datenträger geliefert werden (Softwaredownloads, E-Books, etc.)"
+msgstr "Noitce: Digital content are those who are not delivered on a physical medium (e.g. Softwaredownloads, Ebooks, etc.)"
+
+#: inc/WGM_Template.php:1382
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Informationen zu den %1$s,"
+msgstr "Infomation for %1$s,"
+
+#: inc/WGM_Template.php:1390
+#, php-format
+#@ WooCommerce-German-Market
+msgid "und den %s"
+msgstr "and %s"
+
+#: templates/woocommerce-german-market/install_notice.php:40
+#@ WooCommerce-German-Market
+msgid "description"
+msgstr "Beschreibung"
+
+#: inc/WGM_Settings.php:585
+#: inc/WGM_Settings.php:593
+#: inc/WGM_Settings.php:649
+#@ WooCommerce-German-Market
+msgid "Voraussetzungen"
+msgstr "Prerequisites"
+
+#: inc/WGM_Template.php:1572
+#@ WooCommerce-German-Market
+msgid "Folgende Ausführungen dieses Produkts sind digital:"
+msgstr "Following product configurations are digital:"
+
+#: inc/WGM_Template.php:1611
+#@ WooCommerce-German-Market
+msgid "Für digitale Ausführungen dieses Produkts gelten folgende Voraussetzungen:"
+msgstr "These product configurations have the following requirements:"
+
+#: inc/WGM_Template.php:1640
+#@ WooCommerce-German-Market
+msgid "<small class=\"wgm-extra-costs-eu\">Bei Lieferungen in das Nicht-EU-Ausland fallen zusätzliche Zölle, Steuern und Gebühren an</small>"
+msgstr "<small class=\"wgm-extra-costs-eu\">There may be additional costs (e.g. customs or taxes) for shipping to non EU countries</small>"
+
+#: templates/woocommerce/emails/email-order-items.php:25
+#@ woocommerce
+msgid "Product Image"
+msgstr ""
+
+#: templates/woocommerce/emails/email-order-items.php:47
+#: templates/woocommerce/emails/plain/email-order-items.php:47
+#, php-format
+#@ woocommerce
+msgid "Download %d"
+msgstr ""
+
+#: templates/woocommerce/emails/email-order-items.php:49
+#: templates/woocommerce/emails/plain/email-order-items.php:49
+#@ woocommerce
+msgid "Download"
+msgstr ""
+
+#: templates/woocommerce/emails/plain/email-order-items.php:33
+#, php-format
+#@ woocommerce
+msgid "Quantity: %s"
+msgstr ""
+
+#: templates/woocommerce/emails/plain/email-order-items.php:36
+#, php-format
+#@ woocommerce
+msgid "Cost: %s"
+msgstr ""
+
+#: inc/WGM_Settings.php:205
+#@ WooCommerce-German-Market
+msgid "Geben Sie die Widerrufsfrist in Tagen an"
+msgstr "Enter the cancellation period in days"
+
+#: inc/WGM_Settings.php:206
+#@ WooCommerce-German-Market
+msgid "Geben Sie die Widerrufsfrist in Tagen an. Standard sind 14 Tage"
+msgstr "Enter the cancellation period in days. Default is 14 days."
+
+#: inc/WGM_Settings.php:434
+#@ WooCommerce-German-Market
+msgid "Falls die von der mitgelieferten Widerrufsbelehrung abgewichen werden sollte können Sie mit folgenden Shortcodes auf bestimmte Werte zugreifen: [woocommerce_de_disclaimer_deadline] für die Widerrufsfrist und [woocommerce_de_disclaimer_address_data] für Namen/Firma und ladungsfähige Anschrift des Widerrufsadressaten. (Zusätzlich können angegeben werden Telefaxnummer, E-Mail-Adresse und/oder, wenn der Verbraucher eine Bestätigung seiner Widerrufserklärung an den Unternehmer erhält, auch eine Internetadresse."
+msgstr "If you need to change the cancellation policy, you can do so with following shortcodes: [woocommerce_de_disclaimer_deadline] for changing the cancellation period, [woocommerce_de_disclaimer_address_data] for changing the Name/Company data."
+
+#: inc/WGM_Email.php:80
+#@ WooCommerce-German-Market
+msgid "Sie haben ausdrücklich zugestimmt, dass wir mit der Ausführung des Vertrages vor Ablauf der Widerrufsfrist beginnen. Sie haben durch Ihre Zustimmung ebenfalls erklärt, dass Sie Kenntnis davon haben, dass Sie durch Ihre Zustimmung mit Beginn der Ausführung des Vertrages Ihr Widerrufsrecht verlieren."
+msgstr "You explicitly agreed that we continue with the execution of our contract before expiration of the revocation period. You thereby also declared you are aware of the fact that you lose your right of revocation at the beginning of our execution of the contract."
+
+#: inc/WGM_Template.php:791
+#@ WooCommerce-German-Market
+msgid "Keine Standardlieferzeit gesetzt!"
+msgstr "No default delivery time set!"
+
+#: inc/WGM_Settings.php:416
+#@ WooCommerce-German-Market
+msgid "Hinweistext auf letzter Kassenseite"
+msgstr "Notice on last Checkoutpage"
+
+#: inc/WGM_Settings.php:417
+#: inc/WGM_Settings.php:418
+#@ WooCommerce-German-Market
+msgid "Hier können Sie Ihre Hinweise auf der letzten Kassenseite eintragen wie zum Beispiel eventuell anfallende Kosten durch Zölle oder Nachnahmegebühren."
+msgstr "Here you can write down your notices for the last checkout page. (e.g. customs or cash on delivery fees)"
+
+#: inc/WGM_Shipping.php:149
+#@ woocommerce
+msgid "Free!"
+msgstr ""
+
+#: inc/WGM_Settings.php:330
+#@ WooCommerce-German-Market
+msgid "Versandpauschale und kostenloser Versand gleichzeitig verwendbar"
+msgstr "Use Shipping fee and free shipping simultaneously"
+
+#. translators: plugin header field 'Version'
+#: WooCommerce-German-Market.php:0
+#@ WooCommerce-German-Market
+msgid "2.4.10-beta"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:121
+#@ woocommerce
+msgid "Enable for virtual orders"
+msgstr ""
+
+#: gateways/WGM_Gateway_Cash_on_delivery_v2.php:122
+#@ woocommerce
+msgid "Enable COD if the order is virtual"
+msgstr ""
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:323
+#, php-format
+#@ WooCommerce-German-Market
+msgid "<strong>Hoppla!</strong> Der Lizenzschlüssel, den du eingegeben hast, scheint nicht gültig zu sein. Du kannst deinen Lizenzschlüssel stets auf deiner Downloads-Seite bei %s nachsehen. Automatische Updates sind nicht verfügbar, bis du einen gültigen Lizenzschlüssel eingegeben hast."
+msgstr "<strong>Whoops!</strong> The license key you have entered appears not to be valid. You can always get your valid key from your Downloads page at %s. Automatic updates for this plugin have been disabled until you enter a valid key."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:330
+#, php-format
+#@ WooCommerce-German-Market
+msgid "<strong>Alles ist gut.</strong> Du benutzt einen gültigen Lizenzschlüssel von %s für dieses Plugin. Wenn du einen neuen Lizenzschlüssel eingeben möchtest, überschreibe den jetzigen einfach und speichere."
+msgstr "<strong>All is fine.</strong> You are using a valid license key from %s for this plugin. If you need to enter a new key, just override the current one and save."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:354
+#@ WooCommerce-German-Market
+msgid "<strong>Hoppla!</strong> Der Lizenzschlüssel, den du eingegeben hast, scheint nicht gültig zu sein. Automatische Updates sind nicht verfügbar, bis du einen gültigen Lizenzschlüssel eingegeben hast."
+msgstr "<strong>Whoops!</strong> The license key you have entered appears not to be valid. Automatic updates for this plugin have been disabled until you enter a valid key."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:550
+#@ WooCommerce-German-Market
+msgid "Lizenzschlüssel wurde gelöscht."
+msgstr "License key has been deleted."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:556
+#@ WooCommerce-German-Market
+msgid "Lizenz erfolgreich aktiviert."
+msgstr "License activated successfully."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:562
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:569
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:578
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:587
+#@ WooCommerce-German-Market
+msgid "Lizenz kann nicht aktiviert werden."
+msgstr "License cannot be activated."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:563
+#@ WooCommerce-German-Market
+msgid "Der Lizenzschlüssel, den du eingegeben hast, ist nicht korrekt."
+msgstr "The license key you have entered is not correct."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:570
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Du hast das URL-Limit für deinen Lizenzschlüssel erreicht. Bitte aktualisiere deine Lizenz bei %s."
+msgstr "You have reached the limit of URLs included in your license. Please update your license at %s."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:579
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Etwas ist schief gelaufen. Bitte versuche es später noch einmal und kontaktiere den Support bei %s."
+msgstr "Something went wrong. Please try again later or contact the support staff at %s."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:588
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Deine Lizenz scheint nicht gültig zu sein. Bitte aktualisiere deine Lizenz bei %s."
+msgstr "Your license does not appear to be valid for this plugin. Please update your license at %s."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:313
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:543
+#@ WooCommerce-German-Market
+msgctxt "MarketPress URL part, should be .de for German languages"
+msgid "marketpress.de"
+msgstr "marketpress.com"
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:343
+#, php-format
+#@ WooCommerce-German-Market
+msgid "Gib einen gültigen Lizenzschlüssel von %s ein."
+msgstr "Enter a valid license key from %s below."
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:348
+#@ WooCommerce-German-Market
+msgid "Hilfe! Ich muss meinen Lizenzschlüssel nachsehen."
+msgstr ""
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:359
+#, php-format
+#@ WooCommerce-German-Market
+msgid "<strong>Alles ist gut.</strong> Du benutzt einen gültigen Lizenzschlüssel von %s für dieses Plugin. Wenn du einen neuen Lizenzschlüssel eingeben möchtest, überschreibe den jetzigen einfach und speichere. Oder <a href=\"%s\">lösche ihn einfach</a>."
+msgstr ""
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:370
+#@ WooCommerce-German-Market
+msgid "Lizenzschlüssel"
+msgstr "License Key"
+
+#: pro/class-Woocommerce_German_Market_Auto_Update.php:372
+#@ WooCommerce-German-Market
+msgid "Aktivieren"
+msgstr "Activate"
+
+#: templates/woocommerce-german-market/second-checkout2.php:192
+#@ woocommerce
+msgid "Shipping"
+msgstr ""
+

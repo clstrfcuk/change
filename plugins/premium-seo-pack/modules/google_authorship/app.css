@@ -1,0 +1,14 @@
+#psp-user-authorship .psp-dashboard-box {
+	box-shadow: none !important;
+	background: none !important;
+	margin: 0px 0px 0px 0px;
+}
+#psp-user-authorship .psp-tab-container {
+	margin: 0px;
+	width: 100%;
+} 
+	#psp-user-authorship .psp-grid_4 {
+		margin: 0px 0px 0px 0px;
+		background: none;
+		width: 100%;
+	}

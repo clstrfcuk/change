@@ -1,0 +1,102 @@
+*** LMS - Responsive Learning Management Theme Change log ***
+
+
+2015.01.07 - Version 2.0
+ * Supports s2Member Pro v151218
+ * Option to customize all s2member user levels from buddha panel
+ * Option to have one or more s2Member supported payment types
+ * Supports sensei addons like Sensei Certificates, Sensei Course Participants, Sensei Course Progress, Sensei Media Attachments, Sensei Share Your Grade
+ * Admin can manully assign course(s) to student
+ * Option to change the course, lesson and course type slug
+ * Updated membership page with membership template
+ * Option to remove placeholder images from blog, portfolio, courses, etc,
+ * Not able to have more than one WooCommerce widget with different settings - Fixed
+ * Theme settings removed when switching the themes - Fixed
+ * Added cart icon along with menu
+ * Added category option in 'dt_sc_events' shortcode
+ * The "Signup" button in mailchimp widget is not translatable - Fixed
+ * Page builder fix for WPML
+ * Able to download certificates without logging in - Fixed
+ * Users able to upload assignments without logging in - Fixed
+ * Option to set default sidebar for all posts, pages, courses, etc...,
+ * Enhanced dummy data installation
+ * Updated Documentation
+ * Packed with Layer Slider 5.6.2 and Revolution Slider 5.1.4
+ * BuddyPress 2.4.3 compatible
+ * s2Member Framework 151218 compatible
+ * Woothemes Sensei 1.8.8 compatible
+ * The Events Calendar 4.0.4 compatible
+ * WooCommerce 2.4.12 compatible
+ * Updated fontawesome icons and tgm plugin activation scripts
+ * Demo URL have been changed to http://wedesignthemes.com/themes/lms/, http://wedesignthemes.com/themes/lms/sensei/
+
+
+2015.11.12 - Version 1.9
+ * Updated documentation
+
+2015.06.16 - Version 1.8
+ * Updated PrettyPhoto Script to latest version
+
+2015.06.15 - Version 1.7
+ * WPML Compatible
+
+2015.04.30 - Version 1.6
+ * Wordpress 4.2.1 compatible
+ * Bug Fixes
+
+2015.04.24 - Version 1.5
+ * XSS vulnerability issues fixed
+ * Wordpress 4.2 compatible
+ * WooCommerce 2.3.8 compatible
+ * The Events Calendar 3.9.3 compatible
+
+2015.04.10 - version 1.4
+ * Now with the help of s2Member, we can provide open subscription to all courses based on following time periods day, month, year and lifetime.
+ * Added grouping option for courses in default lessons custom post
+ * Menu comes in two line when having only four menus issue fixed
+ * Fixed search of portfolio items doesn't show its image issue
+ * New user able to register as administrator issue fixed
+ * Fixed alignment issue in menus, when menu links are disabled
+ * The Events Calendar 3.9.1 compatible
+ * WooCommerce 2.3.7 compatible
+ * s2Member Framework 150311 compatible
+ * s2Member configuration in documentation
+
+2015.01.14 - version 1.3
+ * Wordpress 4.1 compatible
+ * Now course page can have media attachments.
+ * Quiz pages for courses with auto and manual evaluation 
+ * Options to have following type of questions Multiple Choice, Multiple Correct, True / False, Gap Fill, Single Line and Multi Line
+ * Certificates and Badges option for courses
+ * Options to add assignemnts and include in course evaluation.
+ * Payments for teachers can be feeded manually.
+ * Simple and graphical analysis of courses, course subscriptions, course completion, etc,
+ * Updated Dashboard.
+ * Retina and RTL support.
+ * Image Optimization.
+ * Updated dummy content file.
+ * Updated documentation.
+ * Added demo slider zip files for both Layer Slider and Revolution Slider.
+ * Option to disable placeholder images.
+ * Theme and plugin languages files updated
+ * The Events Calendar and The Events Calendar PRO 3.9 compatible
+ * Woocommerce 2.2.10 and BuddyPress 2.1.1 compatible
+ * Option to update footer logo in buddha panel
+ * Now dt_sc_recent_post shortcode can have categories attribute
+ * Option to have own server video in course and lessons page
+ * Fixed menus comes in two line issue
+
+
+2014.09.15 - version 1.2
+ * Wordpress 4.0 compatible
+ * Woocommerce 2.2.2 compatible
+
+
+
+2014.09.10 - version 1.1
+ * Included updated version of revolution slider
+ 
+ * Now white skins are also available (Added 20 more skins)
+
+2014.08.14 - version 1.0
+ * First release!

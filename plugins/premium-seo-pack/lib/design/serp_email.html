@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<style type="text/css">
+		table.psp-table{width:100%;margin:0;clear:both}table.psp-table tr td,table.psp-table tr th{vertical-align:top}table.psp-table thead tr{background:#eee url(../images/default-header.png) repeat-x left top}table.psp-table tr th{padding:11px 20px;border-bottom:1px solid #cacaca;border-right:1px solid #cacaca;-moz-box-shadow:inset 1px 0 0 0 #f8f8f8;-webkit-box-shadow:inset 1px 0 0 0 #f8f8f8;-khtml-box-shadow:inset 1px 0 0 0 #f8f8f8;box-shadow:inset 1px 0 0 0 #f8f8f8}table.psp-table thead tr{-moz-box-shadow:inset 0 1px 0 0 #fff;-webkit-box-shadow:inset 0 1px 0 0 #fff;-khtml-box-shadow:inset 0 1px 0 0 #fff;box-shadow:inset 0 1px 0 0 #fff}table.psp-table tr th:last-child{border-right:0}table.psp-table tr td{border-bottom:1px solid #dcdcdc;border-right:1px solid #e0e0e0;padding:7px 20px}table.psp-table tr td:last-child{border-right:0}table.psp-table tr:last-child td{border-bottom:0}table.psp-table tr td.psp-icon-column{text-align:center;width:80px}table.psp-table tr td.psp-icon-column img{margin:0 2px}table.psp-table tr.odd{background-color:#f4f4f4}table.psp-table tr.even{background-color:#fcfcfc}@media only screen and (max-width:480px){table.psp-table thead th{overflow:hidden;padding:8px;text-overflow:ellipsis;white-space:nowrap}.dataTables_wrapper .dataTables_length,.dataTables_wrapper .dataTables_filter,.dataTables_wrapper .dataTables_info,.dataTables_wrapper .dataTables_paginate{display:block;text-align:center;float:none;padding:6px}.psp-panel:not(.scrollable) table.psp-table{table-layout:fixed}}
+		#psp-list-table-posts{border: 1px solid #dadada;border-radius: 3px 3px 0 0;overflow: hidden;float: left;width: 100%;margin: 10px 0px 0px 0px;padding-bottom: 5px;}#psp-list-table-posts table{border-collapse: collapse;border-spacing: 0;margin: 0px 0px 6px 0px;}#psp-list-table-posts tr th{padding: 8px 10px;}#psp-list-table-posts table td{text-align: center;padding: 6px 10px;vertical-align: middle;}#psp-list-table-posts table td a{font-weight: bold;text-decoration: none;}#psp-list-table-posts table td a span.item-state{color: #333333;}
+	</style>
+	<body style="padding:0; margin:0;background-color:#dfdfdf;">
+
+		<table width="100%" bgcolor="#dfdfdf" style="float:left;background-color:#dfdfdf;font-family:Arial, sans serif;margin-top: 20px;">
+
+			<tr>
+				<td align="center">
+				<table cellspacing="0" cellpadding="0" border="0">
+
+					<tr>
+
+						<td width="800" class="hh-table"><!-- header-content table -->
+						<table width="800" class="hh-table hc-table" cellspacing="0" cellpadding="0" border="0">
+
+							<tr class="nl-img-row">
+								<td bgcolor="#2e3639" height="60" valign="middle" style="padding-left: 20px;padding-right: 20px;">
+									<font style="color:#fff; font-weight: bold;">{serp_email_title}</font>
+								</td>
+							</tr>
+
+						</table><!-- content -table -->
+						<table width="800" class="content-table" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+							<tr>
+								<td height="10"></td>
+							</tr>
+
+							<!-- top gap -->
+							<tr class="sep-row">
+								<td height="18"></td>
+							</tr>
+							<!-- entry content cell -->
+							<tr>
+								<td>
+								<table width="100%" cellspacing="0" cellpadding="0">
+									<tr>
+
+										<td width="30" class="gap-cell"></td>
+
+										<td class="post-cell" valign="top" style="color:#333333; font-size:14px; line-height:20px;font-family:Arial, sans serif;">
+										<table style="border: none; border-collapse: collapse; margin: 0 auto; padding: 0 " bgcolor="#FFFFFF" width="700" align="center" border="0" cellpadding="0" cellspacing="0">
+											<tr>
+												<td>
+												<table style="border: none; border-collapse: collapse; margin: 0 auto; padding: 0 " bgcolor="#FFFFFF" width="630" align="center" border="0" cellpadding="0" cellspacing="0">
+													<tr>
+														<td valign="top" style="padding-top: 0px; padding-bottom: 0px; ">
+														<p style="color:#484848; font-weight: bold;font-size: 1.4em;">{table_title}</font></p>
+														
+
+										<!-- email content -->
+										<div id="psp-list-table-posts">
+											<table class="psp-table" style="border: none;border-bottom: 1px solid #dadada;">
+												<thead>
+													<tr>
+														<th width="150" align="left">{Focus Keyword}</th>
+														<th width="150" align="left">{URL}</th>
+														<th width="200" align="center">
+															{Google Rank}
+									    					<table style="border-top: 1px solid #dadada; margin: 6px -10px -9px -10px; width: 300px; font-weight: normal;">
+									    						<thead>
+									    							<tr>
+									    								<th>{Current Rank}</th>
+									    								<th>{Previous Rank}</th>
+									    							</tr>
+									    						</thead>
+									    					</table>
+														</th>
+														<th width="130" align="left">{Start Date}</th>
+														<th width="30" align="left">{Visits}</th>
+													</tr>
+												</thead>
+							
+												<tbody>
+												{table_content}
+												</tbody>
+											</table>
+										</div>
+										<!-- end email content -->			
+			
+													</tr>
+
+												</table></td>
+											</tr>
+										</table></td>
+
+										<td width="30" class="gap-cell"></td>
+
+									</tr>
+								</table></td>
+							</tr>
+
+							<!-- bottom gap -->
+
+							<!-- bottom gap -->
+							<tr class="mid-row">
+								<td height="35"></td>
+							</tr>
+
+						</table><!-- end of content table --></td>
+
+					</tr>
+						
+				</table></td><!-- main inner cell -->
+			</tr>
+			<tr>
+				<td style="padding-top: 20px;padding-bottom: 20px;"><p align="center" style="color:#666; font-size:12px;font-family:Arial, sans serif;"><a href="{website_address}" style="color:#DD4D42; text-decoration:none; font-weight:bold;" target="_blank">{website_name} - {plugin_name}</a></p></td>
+			</tr>
+
+		</table>
+	</body>
+</html>
